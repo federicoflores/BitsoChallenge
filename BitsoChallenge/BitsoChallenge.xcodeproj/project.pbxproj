@@ -21,6 +21,11 @@
 		8081E6C92B71AAED00767EB5 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6C82B71AAED00767EB5 /* HomeRouter.swift */; };
 		8081E6CC2B71ABBC00767EB5 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6CB2B71ABBC00767EB5 /* UIViewController+Extensions.swift */; };
 		8081E6CF2B71ABE100767EB5 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6CE2B71ABE100767EB5 /* Loader.swift */; };
+		8081E6D12B71ACDD00767EB5 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6D02B71ACDD00767EB5 /* NetworkProvider.swift */; };
+		8081E6D42B71AE3800767EB5 /* HomeArtPieceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6D32B71AE3800767EB5 /* HomeArtPieceCollectionViewCell.swift */; };
+		8081E6D72B71B23100767EB5 /* ArtworksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6D62B71B23100767EB5 /* ArtworksResponse.swift */; };
+		80EAB3672B73162D0064C11F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3662B73162D0064C11F /* UIColor+Extensions.swift */; };
+		80EAB3692B732BBE0064C11F /* ArtworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3682B732BBE0064C11F /* ArtworkViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		8081E6C82B71AAED00767EB5 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		8081E6CB2B71ABBC00767EB5 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		8081E6CE2B71ABE100767EB5 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		8081E6D02B71ACDD00767EB5 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		8081E6D32B71AE3800767EB5 /* HomeArtPieceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeArtPieceCollectionViewCell.swift; sourceTree = "<group>"; };
+		8081E6D62B71B23100767EB5 /* ArtworksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworksResponse.swift; sourceTree = "<group>"; };
+		80EAB3662B73162D0064C11F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		80EAB3682B732BBE0064C11F /* ArtworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +168,7 @@
 		8081E6B82B71AA6A00767EB5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8081E6D62B71B23100767EB5 /* ArtworksResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,6 +185,7 @@
 		8081E6BA2B71AA7100767EB5 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
+				8081E6D02B71ACDD00767EB5 /* NetworkProvider.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -194,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				8081E6C22B71AAD000767EB5 /* HomeViewController.swift */,
+				8081E6D22B71AE0300767EB5 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				8081E6CB2B71ABBC00767EB5 /* UIViewController+Extensions.swift */,
+				80EAB3662B73162D0064C11F /* UIColor+Extensions.swift */,
 			);
 			path = "Utils+Extensions";
 			sourceTree = "<group>";
@@ -236,6 +250,23 @@
 				8081E6CE2B71ABE100767EB5 /* Loader.swift */,
 			);
 			path = Loader;
+			sourceTree = "<group>";
+		};
+		8081E6D22B71AE0300767EB5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8081E6D32B71AE3800767EB5 /* HomeArtPieceCollectionViewCell.swift */,
+				8081E6D52B71AE3E00767EB5 /* ViewModel */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8081E6D52B71AE3E00767EB5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				80EAB3682B732BBE0064C11F /* ArtworkViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,12 +402,17 @@
 				8081E6C12B71AAB300767EB5 /* HomeModuleBuilder.swift in Sources */,
 				8081E6872B71A9EA00767EB5 /* AppDelegate.swift in Sources */,
 				8081E6C92B71AAED00767EB5 /* HomeRouter.swift in Sources */,
+				80EAB3692B732BBE0064C11F /* ArtworkViewModel.swift in Sources */,
+				80EAB3672B73162D0064C11F /* UIColor+Extensions.swift in Sources */,
 				8081E6892B71A9EA00767EB5 /* SceneDelegate.swift in Sources */,
 				8081E6CC2B71ABBC00767EB5 /* UIViewController+Extensions.swift in Sources */,
 				8081E6C72B71AAE500767EB5 /* HomeInteractor.swift in Sources */,
+				8081E6D72B71B23100767EB5 /* ArtworksResponse.swift in Sources */,
 				8081E6C52B71AADE00767EB5 /* HomePresenter.swift in Sources */,
+				8081E6D42B71AE3800767EB5 /* HomeArtPieceCollectionViewCell.swift in Sources */,
 				8081E6C32B71AAD000767EB5 /* HomeViewController.swift in Sources */,
 				8081E6CF2B71ABE100767EB5 /* Loader.swift in Sources */,
+				8081E6D12B71ACDD00767EB5 /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
