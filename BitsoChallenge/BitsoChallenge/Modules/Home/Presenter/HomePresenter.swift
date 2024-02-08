@@ -9,7 +9,7 @@ import Foundation
 
 protocol HomePresenterProtocols: AnyObject {
     func onViewDidLoad(page: Int)
-    func onFetchPiecesOfArtSuccess(response: ArtworksResponse)
+    func onFetchPiecesOfArtSuccess(response: ArtworkListResponse)
     func onFetchPiecesOfArtFail(error: String)
     func numberOfItemsInSection(section: Int) -> Int
     func getArtworkViewModel(row: Int) -> ArtworkViewModel?
@@ -19,7 +19,7 @@ protocol HomePresenterProtocols: AnyObject {
 
 class HomePresenter: HomePresenterProtocols {
     
-    var artworkResponse: ArtworksResponse = ArtworksResponse(results: [])
+    var artworkResponse: ArtworkListResponse = ArtworkListResponse(results: [])
     
     weak var homeView: HomeViewProtocols?
     var homeInteractor: HomeInteractorProtocols?
@@ -30,15 +30,16 @@ class HomePresenter: HomePresenterProtocols {
         homeInteractor?.retrieveArtworks(page: page)
     }
     
-    func onFetchPiecesOfArtSuccess(response: ArtworksResponse) {
+    func onFetchPiecesOfArtSuccess(response: ArtworkListResponse) {
         homeView?.hideLoadingView()
+        homeView?.handleErrorViewVisibility(isHidden: true)
         artworkResponse.results.append(contentsOf: response.results)
         homeView?.reloadCollectionView()
     }
     
     func onFetchPiecesOfArtFail(error: String) {
         homeView?.hideLoadingView()
-        homeView?.showError(error: error)
+        homeView?.handleErrorViewVisibility(isHidden: false)
     }
     
     func numberOfItemsInSection(section: Int) -> Int {
@@ -46,8 +47,8 @@ class HomePresenter: HomePresenterProtocols {
     }
     
     func getArtworkViewModel(row: Int) -> ArtworkViewModel? {
-        guard let title = artworkResponse.results[row].title, let artistDisplay = artworkResponse.results[row].artistDisplay, let dateDisplay = artworkResponse.results[row].dateDisplay else { return nil }
-        return ArtworkViewModel(title: title, artistDisplay: artistDisplay)
+        guard let title = artworkResponse.results[row].title, let artists = artworkResponse.results[row].artistTitles else { return nil }
+        return ArtworkViewModel(title: title, artists: artists.reduce("", {$0 + " - " + $1}))
     }
     
     func didScrollToBottom(row: Int) -> Bool {
@@ -55,7 +56,11 @@ class HomePresenter: HomePresenterProtocols {
     }
     
     func didSelectRow(row: Int) {
-        print("Selected")
+        guard let id = artworkResponse.results[row].id else {
+            homeView?.showError(error: "There's been a problem. Try again later")
+            return
+        }
+        homeRouter?.goToDetail(networkProvider: homeInteractor?.provider ?? NetworkProvider(), id: id)
     }
     
 }

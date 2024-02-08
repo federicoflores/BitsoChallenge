@@ -9,5 +9,5 @@ import Foundation
 
 struct ArtworkViewModel {
     let title: String
-    let artistDisplay: String
+    let artists: String
 }

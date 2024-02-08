@@ -37,7 +37,7 @@ fileprivate enum Constant {
 
 public class Loader: UIView {
     
-    private var progressView: ProgressView?
+    private var progressView: CustomProgressView?
     static var sharedLoader: Loader = Loader()
     var frontWindow: UIWindow?
     
@@ -57,7 +57,7 @@ public class Loader: UIView {
         backgroundColor = .clear
         backgroundColor = .white
         alpha = Constant.alpha
-        progressView  = ProgressView(frame: CGRect(x: (frame.width/2) - Constant.progressViewMargin, y: (frame.height/2) - Constant.progressViewMargin, width: Constant.progressViewWidth, height: Constant.progressViewHeight))
+        progressView  = CustomProgressView(frame: CGRect(x: (frame.width/2) - Constant.progressViewMargin, y: (frame.height/2) - Constant.progressViewMargin, width: Constant.progressViewWidth, height: Constant.progressViewHeight))
         if let progressView = progressView {
             addSubview(progressView)
         }
@@ -90,7 +90,7 @@ extension Loader: CAAnimationDelegate {
 }
 
 
-class ProgressView: UIView, CAAnimationDelegate {
+class CustomProgressView: UIView, CAAnimationDelegate {
     
     let circularLayer = CAShapeLayer()
     let strokeAnimationGroup = CAAnimationGroup()

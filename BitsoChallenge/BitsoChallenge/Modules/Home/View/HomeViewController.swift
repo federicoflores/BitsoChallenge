@@ -6,18 +6,20 @@
 //
 
 import UIKit
+import SwiftUI
 
 protocol HomeViewProtocols: AnyObject {
     func reloadCollectionView()
     func showError(error: String)
     func showLoadingView()
     func hideLoadingView()
+    func handleErrorViewVisibility(isHidden: Bool) 
 }
 
 class HomeViewController: UIViewController {
     
     fileprivate enum Constant {
-        static let titleLabelFont: CGFloat = 28
+        static let titleLabelFont: CGFloat = 30
         static let collectionViewTopAnchor: CGFloat = 32
         static let cellCornerRadius: CGFloat = 12
         static let collectionViewLayoutSpacing: CGFloat = 10
@@ -43,6 +45,8 @@ class HomeViewController: UIViewController {
     
     fileprivate let titleLabel: UILabel = UILabel()
     
+    fileprivate var errorView: UIHostingController<SwiftUIErrorView>?
+    
     var currentPage = 1
 
     override func viewDidLoad() {
@@ -53,17 +57,25 @@ class HomeViewController: UIViewController {
     }
     
     fileprivate func setupViews() {
+        errorView = UIHostingController(rootView: SwiftUIErrorView(action: retrieveData))
+        guard let errorView = errorView  else { return }
+            addChild(errorView)
+            errorView.view.frame = view.frame
         
         setNavigationControllerBackgroundLayer()
         
         view.addSubview(titleLabel)
         view.addSubview(collectionView)
+        view.addSubview(errorView.view)
+        errorView.didMove(toParent: self)
+        errorView.view.isHidden = true
         
         //Title Label
         
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
         titleLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: view.bounds.width * Constant.collectionViewPaddingMultiplier / 2).isActive = true
+        titleLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -view.bounds.width * Constant.collectionViewPaddingMultiplier / 2).isActive = true
         
         titleLabel.text = Wording.titlelabelText
         titleLabel.font = .boldSystemFont(ofSize: Constant.titleLabelFont)
@@ -79,8 +91,6 @@ class HomeViewController: UIViewController {
         collectionView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
         collectionView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         collectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
-        
-
     }
     
     private func setNavigationControllerBackgroundLayer() {
@@ -105,6 +115,9 @@ class HomeViewController: UIViewController {
         navigationController.navigationBar.scrollEdgeAppearance = appearance
     }
     
+    private func retrieveData() {
+        homePresenter?.onViewDidLoad(page: currentPage)
+    }
     
     private func setupCollectionView() {
         collectionView.delegate = self
@@ -117,7 +130,6 @@ class HomeViewController: UIViewController {
         homePresenter?.onViewDidLoad(page: currentPage)
         currentPage += 1
     }
-
     
 }
 
@@ -155,6 +167,12 @@ extension HomeViewController: HomeViewProtocols {
         let alert = UIAlertController(title: "", message: error, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: Wording.alertViewTitle, style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
+    }
+    
+    func handleErrorViewVisibility(isHidden: Bool) {
+        if let errorView = errorView {
+            errorView.view.isHidden = isHidden
+        }
     }
 }
 

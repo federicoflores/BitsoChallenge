@@ -91,7 +91,7 @@ class HomeArtPieceCollectionViewCell: UICollectionViewCell {
     func bind(with artworkViewModel: ArtworkViewModel?) {
         guard let viewModel = artworkViewModel else { return }
         titleLabel.text = viewModel.title
-        subtitleLabel.text = viewModel.artistDisplay
+        subtitleLabel.text = viewModel.artists
     }
     
     override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
