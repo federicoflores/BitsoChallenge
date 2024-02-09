@@ -8,7 +8,7 @@
 import Foundation
 
 protocol HomePresenterProtocols: AnyObject {
-    func onViewDidLoad(page: Int)
+    func fetchArtworks(page: Int)
     func onFetchPiecesOfArtSuccess(response: ArtworkListResponse)
     func onFetchPiecesOfArtFail(error: String)
     func numberOfItemsInSection(section: Int) -> Int
@@ -25,7 +25,7 @@ class HomePresenter: HomePresenterProtocols {
     var homeInteractor: HomeInteractorProtocols?
     var homeRouter: HomeRouterProtocols?
     
-    func onViewDidLoad(page: Int) {
+    func fetchArtworks(page: Int) {
         homeView?.showLoadingView()
         homeInteractor?.retrieveArtworks(page: page)
     }
@@ -35,11 +35,13 @@ class HomePresenter: HomePresenterProtocols {
         homeView?.handleErrorViewVisibility(isHidden: true)
         artworkResponse.results.append(contentsOf: response.results)
         homeView?.reloadCollectionView()
+        homeView?.updateCurrentPage()
     }
     
     func onFetchPiecesOfArtFail(error: String) {
         homeView?.hideLoadingView()
         homeView?.handleErrorViewVisibility(isHidden: false)
+        homeView?.setErrorMessage(error: error)
     }
     
     func numberOfItemsInSection(section: Int) -> Int {
@@ -57,7 +59,7 @@ class HomePresenter: HomePresenterProtocols {
     
     func didSelectRow(row: Int) {
         guard let id = artworkResponse.results[row].id else {
-            homeView?.showError(error: "There's been a problem. Try again later")
+            homeView?.showErrorAlertView(error: "There's been a problem. Try again later")
             return
         }
         homeRouter?.goToDetail(networkProvider: homeInteractor?.provider ?? NetworkProvider(), id: id)

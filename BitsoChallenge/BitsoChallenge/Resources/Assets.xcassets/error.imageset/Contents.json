@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "error-icon-25266.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

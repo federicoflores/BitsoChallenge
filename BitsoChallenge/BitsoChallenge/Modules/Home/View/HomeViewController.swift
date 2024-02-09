@@ -10,10 +10,12 @@ import SwiftUI
 
 protocol HomeViewProtocols: AnyObject {
     func reloadCollectionView()
-    func showError(error: String)
+    func showErrorAlertView(error: String)
     func showLoadingView()
     func hideLoadingView()
-    func handleErrorViewVisibility(isHidden: Bool) 
+    func handleErrorViewVisibility(isHidden: Bool)
+    func setErrorMessage(error: String)
+    func updateCurrentPage()
 }
 
 class HomeViewController: UIViewController {
@@ -22,7 +24,7 @@ class HomeViewController: UIViewController {
         static let titleLabelFont: CGFloat = 30
         static let collectionViewTopAnchor: CGFloat = 32
         static let cellCornerRadius: CGFloat = 12
-        static let collectionViewLayoutSpacing: CGFloat = 10
+        static let collectionViewLayoutSpacing: CGFloat = 12
         static let collectionViewPaddingMultiplier: CGFloat = 0.1
     }
     
@@ -45,7 +47,7 @@ class HomeViewController: UIViewController {
     
     fileprivate let titleLabel: UILabel = UILabel()
     
-    fileprivate var errorView: UIHostingController<SwiftUIErrorView>?
+    fileprivate var errorView: UIHostingController<ErrorView>?
     
     var currentPage = 1
 
@@ -53,11 +55,11 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         setupViews()
         setupCollectionView()
-        homePresenter?.onViewDidLoad(page: currentPage)
+        homePresenter?.fetchArtworks(page: currentPage)
     }
     
     fileprivate func setupViews() {
-        errorView = UIHostingController(rootView: SwiftUIErrorView(action: retrieveData))
+        errorView = UIHostingController(rootView: ErrorView(action: retrieveData))
         guard let errorView = errorView  else { return }
             addChild(errorView)
             errorView.view.frame = view.frame
@@ -116,7 +118,7 @@ class HomeViewController: UIViewController {
     }
     
     private func retrieveData() {
-        homePresenter?.onViewDidLoad(page: currentPage)
+        homePresenter?.fetchArtworks(page: currentPage)
     }
     
     private func setupCollectionView() {
@@ -126,9 +128,7 @@ class HomeViewController: UIViewController {
     }
     
     func loadData() {
-        //TODO:: change name
-        homePresenter?.onViewDidLoad(page: currentPage)
-        currentPage += 1
+        homePresenter?.fetchArtworks(page: currentPage)
     }
     
 }
@@ -163,7 +163,11 @@ extension HomeViewController: HomeViewProtocols {
         collectionView.reloadData()
     }
     
-    func showError(error: String) {
+    func setErrorMessage(error: String) {
+        errorView?.rootView.subtitle = error
+    }
+    
+    func showErrorAlertView(error: String) {
         let alert = UIAlertController(title: "", message: error, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: Wording.alertViewTitle, style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
@@ -173,6 +177,9 @@ extension HomeViewController: HomeViewProtocols {
         if let errorView = errorView {
             errorView.view.isHidden = isHidden
         }
+    }
+    func updateCurrentPage() {
+        currentPage += 1
     }
 }
 

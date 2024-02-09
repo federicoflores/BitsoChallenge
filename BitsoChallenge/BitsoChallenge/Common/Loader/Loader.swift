@@ -54,14 +54,11 @@ public class Loader: UIView {
     }
     
     private func customizeUI() {
-        backgroundColor = .clear
-        backgroundColor = .white
         alpha = Constant.alpha
         progressView  = CustomProgressView(frame: CGRect(x: (frame.width/2) - Constant.progressViewMargin, y: (frame.height/2) - Constant.progressViewMargin, width: Constant.progressViewWidth, height: Constant.progressViewHeight))
         if let progressView = progressView {
             addSubview(progressView)
-        }
-        
+        }        
     }
     
      func show() {
@@ -85,7 +82,7 @@ extension Loader: CAAnimationDelegate {
         isHidden = false
         frontWindow?.endEditing(true)
         frontWindow?.addSubview(self)
-        progressView?.startAnimation(withColor: UIColor.blue.cgColor)
+        progressView?.startAnimation(withColor: UIColor.white.cgColor)
     }
 }
 

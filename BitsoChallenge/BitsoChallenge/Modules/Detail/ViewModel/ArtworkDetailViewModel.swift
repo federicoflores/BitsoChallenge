@@ -13,7 +13,7 @@ class ArtworkDetailViewModel: ObservableObject {
     enum ArtworkDetailState {
         case loading
         case success
-        case error
+        case error(error: String)
     }
     
     var artwork: ArtoworkDetailResponse? {
@@ -32,16 +32,16 @@ class ArtworkDetailViewModel: ObservableObject {
     init(provider: NetworkProvider, id: Int) {
         self.provider = provider
         self.id = id
-        retrieveData(id: id)
+        retrieveArtoworkDetail(id: id)
     }
     
-    func retrieveData(id: Int) {
+    func retrieveArtoworkDetail(id: Int) {
         provider.getDecodable(path: .detailArtwork(artoworkID: "\(id)"), query: .detailArtworks) { [weak self] (result: Result<ArtoworkDetailResponse, Error>) in
             switch result {
             case .success(let artwork):
                 self?.artwork = artwork
             case .failure(let error):
-                self?.artworkDetailState = .error
+                self?.artworkDetailState = .error(error: error.localizedDescription)
             }
         }
     }
@@ -51,13 +51,14 @@ class ArtworkDetailViewModel: ObservableObject {
             artworkDetailState = .success
             return
         }
+        
         provider.getData(path: .image(imageID: imageID)) { [weak self] (result:Result<Data, Error>) in
             switch result {
             case .success(let data):
                 self?.image = UIImage(data: data)
                 self?.artworkDetailState = .success
             case .failure(let error):
-                self?.artworkDetailState = .error
+                self?.artworkDetailState = .error(error: error.localizedDescription)
             }
         }
     }

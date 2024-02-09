@@ -15,66 +15,39 @@ struct ArtworkDetailView: View {
         switch viewModel.artworkDetailState {
         case .loading:
             loadingView
-        case .error:
-            SwiftUIErrorView(action: retrieveData)
+        case .error(let error):
+            ErrorView(action: retrieveData, subtitle: error)
         case .success:
             successView
         }
     }
     
     private func retrieveData() {
-        viewModel.retrieveData(id: viewModel.id)
+        viewModel.retrieveArtoworkDetail(id: viewModel.id)
+        viewModel.artworkDetailState = .loading
     }
     
     fileprivate var successView: some View {
         ZStack {
             Color.black.opacity(0.9)
                 .ignoresSafeArea()
-        ScrollView {
+            ScrollView {
                 VStack {
-                    Text(viewModel.artwork?.result.title ?? "")
-                        .foregroundColor(.white)
-                        .padding(20)
-                        .multilineTextAlignment(.center)
-                        .font(.title).bold()
-                    if let image = viewModel.image {
-                        Image(uiImage: image)
-                            .resizable()
-                            .colorMultiply(.white)
-                            .scaledToFit()
-                            .frame(width: 300, height: 300)
+                    title
+                    subtitle
+                    if let UIImage = viewModel.image {
+                        image(UIImage: UIImage)
                     }
-                    Text(viewModel.artwork?.result.artistDisplay ?? "")
-                        .foregroundColor(.gray)
-                        .padding(20)
-                        .multilineTextAlignment(.center)
-                        .font(.headline)
-                    HStack {
-                        Text("Date display: ")
-                        Text(viewModel.artwork?.result.dateDisplay ?? "")
-                    }
-                    .foregroundColor(.white)
-                    .padding(10)
-                    HStack {
-                        Text("Place of origin: ")
-                        Text(viewModel.artwork?.result.placeOfOrigin ?? "")
-                    }
-                    .foregroundColor(.white)
-                    .padding(10)
-                    HStack {
-                        Text("Dimensions: ")
-                        Text(viewModel.artwork?.result.dimensions ?? "")
-                    }
-                    .foregroundColor(.white)
-                    .padding(10)
-                    HStack {
-                        Text("Medium display: ")
-                        Text(viewModel.artwork?.result.mediumDisplay ?? "")
-                    }
-                    .foregroundColor(.white)
-                    .padding(10)
-                    Text(viewModel.artwork?.result.provenanceText ?? "")
-                        .foregroundColor(.white)
+                    artistDisplay
+                    
+                    ArtworkDetailDataRow(keyText: "Date: ", content: Text(viewModel.artwork?.result.dateDisplay ?? ""))
+                    
+                    ArtworkDetailDataRow(keyText: "Place of origin: ", content: Text(viewModel.artwork?.result.placeOfOrigin ?? ""))
+                    
+                    ArtworkDetailDataRow(keyText: "Dimensions: ", content: Text(viewModel.artwork?.result.dimensions ?? ""))
+                    
+                    ArtworkDetailDataRow(keyText: "", content: Text(viewModel.artwork?.result.provenanceText ?? ""))
+                        .foregroundColor(.gray).opacity(0.7)
                 }
             }
         }
@@ -82,11 +55,59 @@ struct ArtworkDetailView: View {
     
     fileprivate var loadingView: some View {
         ZStack {
-            Color.black
+            Color.black.ignoresSafeArea()
             ProgressView()
                 .controlSize(.extraLarge)
                 .progressViewStyle(CircularProgressViewStyle(tint: Color.white))
         }
+    }
+    
+    fileprivate var title: some View {
+        Text(viewModel.artwork?.result.title ?? "")
+            .foregroundColor(.white)
+            .padding(.top, 20)
+            .padding(.bottom, 2)
+            .multilineTextAlignment(.center)
+            .font(.largeTitle).bold()
+    }
+    
+    fileprivate var subtitle: some View {
+        Text(viewModel.artwork?.result.mediumDisplay ?? "")
+            .foregroundColor(.white)
+    }
+    
+    fileprivate var artistDisplay: some View {
+        Text(viewModel.artwork?.result.artistDisplay ?? "")
+            .foregroundColor(.gray)
+            .padding(.bottom, 20)
+            .multilineTextAlignment(.center)
+            .font(.headline)
+    }
+    
+    fileprivate func image(UIImage: UIImage) -> some View {
+        Image(uiImage: UIImage)
+            .resizable()
+            .colorMultiply(.white)
+            .frame(width: 300, height: 300)
+    }
+}
+
+fileprivate struct ArtworkDetailDataRow<Content: View>: View
+{
+    
+    let keyText: String
+    let content: Content
+    
+    var body: some View {
+        HStack {
+            if keyText != "" {
+                Text(keyText)
+            }
+            content
+            Spacer()
+        }
+        .foregroundColor(.white)
+        .padding(10)
     }
     
 }

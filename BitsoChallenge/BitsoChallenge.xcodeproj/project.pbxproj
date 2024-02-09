@@ -26,12 +26,12 @@
 		8081E6D72B71B23100767EB5 /* ArtworkListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6D62B71B23100767EB5 /* ArtworkListResponse.swift */; };
 		80EAB3672B73162D0064C11F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3662B73162D0064C11F /* UIColor+Extensions.swift */; };
 		80EAB3692B732BBE0064C11F /* ArtworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3682B732BBE0064C11F /* ArtworkViewModel.swift */; };
-		80EAB36C2B73FE7D0064C11F /* EmptyStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB36B2B73FE7D0064C11F /* EmptyStateViewController.swift */; };
 		80EAB3722B741A440064C11F /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3712B741A440064C11F /* ArtworkDetailView.swift */; };
 		80EAB37F2B7479810064C11F /* ArtworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB37E2B7479810064C11F /* ArtworkDetailViewModel.swift */; };
 		80EAB3812B747A160064C11F /* ArtworkDetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3802B747A160064C11F /* ArtworkDetailModuleBuilder.swift */; };
-		80EAB3842B74D2960064C11F /* SwiftUIErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3832B74D2960064C11F /* SwiftUIErrorView.swift */; };
-		80EAB3862B74EA810064C11F /* UIKitErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3852B74EA810064C11F /* UIKitErrorView.swift */; };
+		80EAB3842B74D2960064C11F /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3832B74D2960064C11F /* ErrorView.swift */; };
+		80EAB3942B7593C50064C11F /* AppConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3932B7593C50064C11F /* AppConfigurationManager.swift */; };
+		80EAB3972B7666C90064C11F /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB3962B7666C90064C11F /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,12 +75,13 @@
 		8081E6D62B71B23100767EB5 /* ArtworkListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkListResponse.swift; sourceTree = "<group>"; };
 		80EAB3662B73162D0064C11F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		80EAB3682B732BBE0064C11F /* ArtworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewModel.swift; sourceTree = "<group>"; };
-		80EAB36B2B73FE7D0064C11F /* EmptyStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateViewController.swift; sourceTree = "<group>"; };
 		80EAB3712B741A440064C11F /* ArtworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
 		80EAB37E2B7479810064C11F /* ArtworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailViewModel.swift; sourceTree = "<group>"; };
 		80EAB3802B747A160064C11F /* ArtworkDetailModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailModuleBuilder.swift; sourceTree = "<group>"; };
-		80EAB3832B74D2960064C11F /* SwiftUIErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIErrorView.swift; sourceTree = "<group>"; };
-		80EAB3852B74EA810064C11F /* UIKitErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitErrorView.swift; sourceTree = "<group>"; };
+		80EAB3832B74D2960064C11F /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		80EAB3912B7592AB0064C11F /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		80EAB3932B7593C50064C11F /* AppConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurationManager.swift; sourceTree = "<group>"; };
+		80EAB3962B7666C90064C11F /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,7 @@
 		8081E67A2B71A9EA00767EB5 = {
 			isa = PBXGroup;
 			children = (
+				80EAB3912B7592AB0064C11F /* Secrets.xcconfig */,
 				8081E6852B71A9EA00767EB5 /* BitsoChallenge */,
 				8081E69C2B71A9EF00767EB5 /* BitsoChallengeTests */,
 				8081E6A62B71A9EF00767EB5 /* BitsoChallengeUITests */,
@@ -189,8 +191,9 @@
 		8081E6B92B71AA6E00767EB5 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				80EAB3952B7666B80064C11F /* CacheManager */,
+				80EAB3922B7593B60064C11F /* AppConfigurationManager */,
 				80EAB3822B74D28C0064C11F /* ErrorView */,
-				80EAB36A2B73FE610064C11F /* EmptyStateView */,
 				8081E6CD2B71ABD800767EB5 /* Loader */,
 				8081E6CA2B71ABAA00767EB5 /* Utils+Extensions */,
 			);
@@ -284,14 +287,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		80EAB36A2B73FE610064C11F /* EmptyStateView */ = {
-			isa = PBXGroup;
-			children = (
-				80EAB36B2B73FE7D0064C11F /* EmptyStateViewController.swift */,
-			);
-			path = EmptyStateView;
-			sourceTree = "<group>";
-		};
 		80EAB36D2B7405390064C11F /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,10 +316,25 @@
 		80EAB3822B74D28C0064C11F /* ErrorView */ = {
 			isa = PBXGroup;
 			children = (
-				80EAB3832B74D2960064C11F /* SwiftUIErrorView.swift */,
-				80EAB3852B74EA810064C11F /* UIKitErrorView.swift */,
+				80EAB3832B74D2960064C11F /* ErrorView.swift */,
 			);
 			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		80EAB3922B7593B60064C11F /* AppConfigurationManager */ = {
+			isa = PBXGroup;
+			children = (
+				80EAB3932B7593C50064C11F /* AppConfigurationManager.swift */,
+			);
+			path = AppConfigurationManager;
+			sourceTree = "<group>";
+		};
+		80EAB3952B7666B80064C11F /* CacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				80EAB3962B7666C90064C11F /* CacheManager.swift */,
+			);
+			path = CacheManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,8 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8081E6C12B71AAB300767EB5 /* HomeModuleBuilder.swift in Sources */,
-				80EAB36C2B73FE7D0064C11F /* EmptyStateViewController.swift in Sources */,
-				80EAB3842B74D2960064C11F /* SwiftUIErrorView.swift in Sources */,
+				80EAB3842B74D2960064C11F /* ErrorView.swift in Sources */,
 				8081E6872B71A9EA00767EB5 /* AppDelegate.swift in Sources */,
 				8081E6C92B71AAED00767EB5 /* HomeRouter.swift in Sources */,
 				80EAB3692B732BBE0064C11F /* ArtworkViewModel.swift in Sources */,
@@ -472,10 +481,11 @@
 				8081E6C52B71AADE00767EB5 /* HomePresenter.swift in Sources */,
 				80EAB3812B747A160064C11F /* ArtworkDetailModuleBuilder.swift in Sources */,
 				8081E6D42B71AE3800767EB5 /* HomeArtPieceCollectionViewCell.swift in Sources */,
+				80EAB3942B7593C50064C11F /* AppConfigurationManager.swift in Sources */,
 				80EAB37F2B7479810064C11F /* ArtworkDetailViewModel.swift in Sources */,
+				80EAB3972B7666C90064C11F /* CacheManager.swift in Sources */,
 				8081E6C32B71AAD000767EB5 /* HomeViewController.swift in Sources */,
 				8081E6CF2B71ABE100767EB5 /* Loader.swift in Sources */,
-				80EAB3862B74EA810064C11F /* UIKitErrorView.swift in Sources */,
 				8081E6D12B71ACDD00767EB5 /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +536,7 @@
 /* Begin XCBuildConfiguration section */
 		8081E6AB2B71A9EF00767EB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EAB3912B7592AB0064C11F /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -589,6 +600,7 @@
 		};
 		8081E6AC2B71A9EF00767EB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EAB3912B7592AB0064C11F /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
