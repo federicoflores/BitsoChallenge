@@ -7,11 +7,13 @@
 
 import Foundation
 
-struct ArtworkListResponse: Decodable {
+struct ArtworkListResponse: Codable {
     var results: [Artwork] = []
+    var pagination: Pagination?
     
     enum CodingKeys: String, CodingKey {
         case results = "data"
+        case pagination = "pagination"
     }
 }
 
@@ -24,7 +26,7 @@ struct ArtoworkDetailResponse: Decodable {
     }
 }
 
-struct Artwork: Decodable {
+struct Artwork: Codable {
     let id: Int?
     let title: String?
     let artistDisplay: String?
@@ -49,3 +51,11 @@ struct Artwork: Decodable {
 }
 
 
+struct Pagination: Codable {
+    let currentPage: Int?
+    
+    enum CodingKeys: String, CodingKey {
+        case currentPage = "current_page"
+    }
+    
+}

@@ -24,7 +24,7 @@ class HomeViewController: UIViewController {
         static let titleLabelFont: CGFloat = 30
         static let collectionViewTopAnchor: CGFloat = 32
         static let cellCornerRadius: CGFloat = 12
-        static let collectionViewLayoutSpacing: CGFloat = 12
+        static let collectionViewLayoutSpacing: CGFloat = 10
         static let collectionViewPaddingMultiplier: CGFloat = 0.1
     }
     
@@ -59,7 +59,7 @@ class HomeViewController: UIViewController {
     }
     
     fileprivate func setupViews() {
-        errorView = UIHostingController(rootView: ErrorView(action: retrieveData))
+        errorView = UIHostingController(rootView: ErrorView(action: loadData))
         guard let errorView = errorView  else { return }
             addChild(errorView)
             errorView.view.frame = view.frame
@@ -117,9 +117,6 @@ class HomeViewController: UIViewController {
         navigationController.navigationBar.scrollEdgeAppearance = appearance
     }
     
-    private func retrieveData() {
-        homePresenter?.fetchArtworks(page: currentPage)
-    }
     
     private func setupCollectionView() {
         collectionView.delegate = self
@@ -127,10 +124,9 @@ class HomeViewController: UIViewController {
         collectionView.register(HomeArtPieceCollectionViewCell.self, forCellWithReuseIdentifier: String(describing: HomeArtPieceCollectionViewCell.self))
     }
     
-    func loadData() {
+    private func loadData() {
         homePresenter?.fetchArtworks(page: currentPage)
     }
-    
 }
 
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -151,10 +147,12 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        if let didScrollToBottom = homePresenter?.didScrollToBottom(row: indexPath.row), didScrollToBottom {
-            loadData()
+        if let didScrollToBottom = homePresenter?.didScrollToBottom(row: indexPath.row), didScrollToBottom, let isFetchingData = homePresenter?.isFetchingData, !isFetchingData {
+            homePresenter?.userDidScroll(page: currentPage)
         }
     }
+    
+    
 }
 
 

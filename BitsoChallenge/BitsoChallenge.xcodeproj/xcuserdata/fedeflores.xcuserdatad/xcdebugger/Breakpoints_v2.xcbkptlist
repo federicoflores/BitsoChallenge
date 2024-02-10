@@ -3,4 +3,212 @@
    uuid = "C2EF433A-3EC9-4411-B197-131E8FCF489E"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF30A67A-D552-4017-BBF0-A80646A143F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BitsoChallenge/Modules/Home/Interactor/HomeInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46">
+            <Locations>
+               <Location
+                  uuid = "CF30A67A-D552-4017-BBF0-A80646A143F3 - 45b6b5ab33bc7063"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;BitsoChallenge.ArtworkListResponse, Swift.Error&gt;) -&gt; () in BitsoChallenge.HomeInteractor.retrieveArtworks(page: Swift.Int) -&gt; ()"
+                  moduleName = "BitsoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Interactor/HomeInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "257">
+               </Location>
+               <Location
+                  uuid = "CF30A67A-D552-4017-BBF0-A80646A143F3 - 45b6b5ab33bc7000"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;BitsoChallenge.ArtworkListResponse, Swift.Error&gt;) -&gt; () in BitsoChallenge.HomeInteractor.retrieveArtworks(page: Swift.Int) -&gt; ()"
+                  moduleName = "BitsoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Interactor/HomeInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "566">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "661183C0-E49F-4B73-9103-7B71D0588F11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "onFetchPiecesOfArtFail(error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "661183C0-E49F-4B73-9103-7B71D0588F11 - c6d762b73a0a0b81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BitsoChallenge.HomePresenter.onFetchPiecesOfArtFail(error: Swift.String) -&gt; ()"
+                  moduleName = "BitsoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  uuid = "661183C0-E49F-4B73-9103-7B71D0588F11 - c6d762b73a0a0b62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BitsoChallenge.HomePresenter.onFetchPiecesOfArtFail(error: Swift.String) -&gt; ()"
+                  moduleName = "BitsoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "111">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D78F7207-8030-43FF-B2AC-22267088CA0E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BitsoChallenge/Modules/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "showErrorAlertView(error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D78F7207-8030-43FF-B2AC-22267088CA0E - d6e62f3684630771"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BitsoChallenge.HomeViewController.performBatchUpdates(at: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "BitsoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "179">
+               </Location>
+               <Location
+                  uuid = "D78F7207-8030-43FF-B2AC-22267088CA0E - cb820a96cb92b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in BitsoChallenge.HomeViewController.performBatchUpdates(at: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "BitsoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13482BCF-51E9-4161-AF31-F04E2BD16435"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "userDidScroll(page:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D4D6F8A-6704-402C-9C76-142733BF9721"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "userDidScroll(page:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9D4D6F8A-6704-402C-9C76-142733BF9721 - 946c40a155ea0b54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BitsoChallenge.HomePresenter.userDidScroll(page: Swift.Int) -&gt; ()"
+                  moduleName = "BitsoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "737">
+               </Location>
+               <Location
+                  uuid = "9D4D6F8A-6704-402C-9C76-142733BF9721 - 946c40a155ea0b54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BitsoChallenge.HomePresenter.userDidScroll(page: Swift.Int) -&gt; ()"
+                  moduleName = "BitsoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1395">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

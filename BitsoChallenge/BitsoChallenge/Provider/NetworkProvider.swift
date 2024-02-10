@@ -123,7 +123,6 @@ class NetworkProvider {
                 case .finished:
                     return
                 case .failure(let error):
-                    self.cancelAllDownloads()
                     completion(.failure(error))
                 }
             } receiveValue: { value in
@@ -132,10 +131,4 @@ class NetworkProvider {
             }
             .store(in: &cancellable)
     }
-    
-    func cancelAllDownloads() {
-        cancellable.removeAll()
-    }
-
-    
 }
