@@ -14,13 +14,13 @@ final class HomeInteractorTests: XCTestCase {
     var sut: HomeInteractor?
     
     override func setUpWithError() throws {
-        sut = HomeInteractor(provider: NetworkProviderMock())
+        sut = HomeInteractor(provider: NetworkProviderStub())
         presenter = HomePresenterMocks()
         
         sut?.homePresenter = presenter
     }
     
-    //Flag for succed is been set as page == 1 on Network provider mock
+    //Flag for succeed has been set as page == 1 on Network provider mock
     func testOnRetrieveArtworksSuccess() {
         sut?.retrieveArtworks(page: 1)
         
@@ -28,7 +28,7 @@ final class HomeInteractorTests: XCTestCase {
         XCTAssertNotEqual(presenter?.numberOfTimesOnFetchPiecesOfArtSuccessCalled, 0)
     }
     
-    //Flag for succed is been set as page == 0 on Network provider mock
+    //Flag for succeed has been set as page == 0 on Network provider mock
     func testOnRetrieveArtworksFails() {
         sut?.retrieveArtworks(page: 0)
         

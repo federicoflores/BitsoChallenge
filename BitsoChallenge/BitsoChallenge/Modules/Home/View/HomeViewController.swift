@@ -23,7 +23,7 @@ class HomeViewController: UIViewController {
         static let titleLabelFont: CGFloat = 30
         static let collectionViewTopAnchor: CGFloat = 32
         static let cellCornerRadius: CGFloat = 12
-        static let collectionViewLayoutSpacing: CGFloat = 10
+        static let collectionViewLayoutSpacing: CGFloat = 4
         static let collectionViewPaddingMultiplier: CGFloat = 0.1
     }
     

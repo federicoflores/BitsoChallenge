@@ -1,17 +1,18 @@
 //
-//  HomeModuleBuilder.swift
-//  BitsoChallenge
+//  HomeModuleBuilderStub.swift
+//  BitsoChallengeTests
 //
-//  Created by Fede Flores on 06/02/2024.
+//  Created by Fede Flores on 11/02/2024.
 //
 
 import UIKit
+@testable import BitsoChallenge
 
-class HomeModuleBuilder {
+class HomeModuleBuilderStub {
     static func build() -> UIViewController {
         let view: HomeViewController = HomeViewController()
         let presenter: HomePresenter = HomePresenter()
-        let interactor: HomeInteractor = HomeInteractor(provider: NetworkProvider())
+        let interactor: HomeInteractor = HomeInteractor(provider: NetworkProviderStub())
         let router: HomeRouter = HomeRouter()
         
         view.homePresenter = presenter
@@ -27,3 +28,4 @@ class HomeModuleBuilder {
         return view
     }
 }
+

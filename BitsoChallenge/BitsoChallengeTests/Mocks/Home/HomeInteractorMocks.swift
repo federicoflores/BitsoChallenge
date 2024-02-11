@@ -11,7 +11,7 @@ import Foundation
 class HomeInteractorMocks: HomeInteractorProtocols {
     var numberOfTimesRetrieveArtworksCalled: Int = 0
     
-    var provider: BitsoChallenge.NetworkProviderProtocol = NetworkProviderMock()
+    var provider: BitsoChallenge.NetworkProviderProtocol = NetworkProviderStub()
     
     func retrieveArtworks(page: Int) {
         numberOfTimesRetrieveArtworksCalled += 1

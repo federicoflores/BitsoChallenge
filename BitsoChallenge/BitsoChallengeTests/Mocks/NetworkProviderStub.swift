@@ -8,7 +8,7 @@
 import Foundation
 @testable import BitsoChallenge
 
-class NetworkProviderMock: NetworkProviderProtocol {
+class NetworkProviderStub: NetworkProviderProtocol {
     
     func getDecodable<T>(path: BitsoChallenge.NetworkProvider.Path, query: BitsoChallenge.NetworkProvider.QueryFields, page: Int?, completion: @escaping (Result<T, Error>) -> Void) where T : Decodable {
         

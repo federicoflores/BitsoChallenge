@@ -9,6 +9,18 @@ import SwiftUI
 
 struct ArtworkDetailView: View {
     
+    fileprivate enum Constant {
+        static let backgroundColorOpacity: CGFloat = 0.9
+        static let dateInfoKey: String = "Date: "
+        static let placeOfOriginInfoKey: String = "Place of origin: "
+        static let dimensionInfoKey: String = "Dimensions: "
+        static let titleTopPadding: CGFloat = 20
+        static let titleBottomPadding: CGFloat = 2
+        static let artistDisplayBottomPadding: CGFloat = 20
+        static let imageSize: CGFloat = 200
+        static let infoTextForegroundColorOpacity: CGFloat = 0.7
+    }
+    
     @ObservedObject var viewModel: ArtworkDetailViewModel
     
     var body: some View {
@@ -29,7 +41,7 @@ struct ArtworkDetailView: View {
     
     fileprivate var successView: some View {
         ZStack {
-            Color.black.opacity(0.9)
+            Color.black.opacity(Constant.backgroundColorOpacity)
                 .ignoresSafeArea()
             ScrollView {
                 VStack {
@@ -40,14 +52,14 @@ struct ArtworkDetailView: View {
                     }
                     artistDisplay
                     
-                    ArtworkDetailInfoView(keyText: "Date: ", content: Text(viewModel.artwork?.result.dateDisplay ?? ""))
+                    ArtworkDetailInfoView(keyText: Constant.dateInfoKey, content: Text(viewModel.artwork?.result.dateDisplay ?? ""))
                     
-                    ArtworkDetailInfoView(keyText: "Place of origin: ", content: Text(viewModel.artwork?.result.placeOfOrigin ?? ""))
+                    ArtworkDetailInfoView(keyText: Constant.placeOfOriginInfoKey, content: Text(viewModel.artwork?.result.placeOfOrigin ?? ""))
                     
-                    ArtworkDetailInfoView(keyText: "Dimensions: ", content: Text(viewModel.artwork?.result.dimensions ?? ""))
+                    ArtworkDetailInfoView(keyText: Constant.dimensionInfoKey, content: Text(viewModel.artwork?.result.dimensions ?? ""))
                     
                     ArtworkDetailInfoView(keyText: "", content: Text(viewModel.artwork?.result.provenanceText ?? ""))
-                        .foregroundColor(.gray).opacity(0.7)
+                        .foregroundColor(.gray).opacity(Constant.infoTextForegroundColorOpacity)
                 }
             }
         }
@@ -65,8 +77,8 @@ struct ArtworkDetailView: View {
     fileprivate var title: some View {
         Text(viewModel.artwork?.result.title ?? "")
             .foregroundColor(.white)
-            .padding(.top, 20)
-            .padding(.bottom, 2)
+            .padding(.top, Constant.titleTopPadding)
+            .padding(.bottom, Constant.titleBottomPadding)
             .multilineTextAlignment(.center)
             .font(.largeTitle).bold()
     }
@@ -79,7 +91,7 @@ struct ArtworkDetailView: View {
     fileprivate var artistDisplay: some View {
         Text(viewModel.artwork?.result.artistDisplay ?? "")
             .foregroundColor(.gray)
-            .padding(.bottom, 20)
+            .padding(.bottom, Constant.artistDisplayBottomPadding)
             .multilineTextAlignment(.center)
             .font(.headline)
     }
@@ -88,7 +100,7 @@ struct ArtworkDetailView: View {
         Image(uiImage: UIImage)
             .resizable()
             .colorMultiply(.white)
-            .frame(width: 300, height: 300)
+            .frame(width: Constant.imageSize, height: Constant.imageSize)
     }
 }
 

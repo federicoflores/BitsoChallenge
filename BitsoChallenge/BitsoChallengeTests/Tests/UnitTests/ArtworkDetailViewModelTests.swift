@@ -14,8 +14,8 @@ final class ArtworkDetailViewModelTests: XCTestCase {
     
 
     override func setUpWithError() throws {
-        provider = NetworkProviderMock()
-        sut = ArtworkDetailViewModel(provider: provider ?? NetworkProviderMock(), id: 1)
+        provider = NetworkProviderStub()
+        sut = ArtworkDetailViewModel(provider: provider ?? NetworkProviderStub(), id: 1)
     }
     
     func testRetrieveArtoworkDetail() {
