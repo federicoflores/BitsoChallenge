@@ -60,8 +60,8 @@ class HomeViewController: UIViewController {
     fileprivate func setupViews() {
         errorView = UIHostingController(rootView: ErrorView(action: loadData))
         guard let errorView = errorView  else { return }
-            addChild(errorView)
-            errorView.view.frame = view.frame
+        addChild(errorView)
+        errorView.view.frame = view.frame
         
         setNavigationControllerBackgroundLayer()
         
@@ -130,7 +130,7 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        homePresenter?.numberOfItemsInSection(section: section) ?? 0
+        homePresenter?.numberOfItemsInSection() ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -156,6 +156,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
 
 
 extension HomeViewController: HomeViewProtocols {
+    
     func reloadCollectionView() {
         collectionView.reloadData()
     }

@@ -5,6 +5,9 @@ The project was created in UIKIT as well as the Home Module. The architecture fo
 The SwIftUI architecture is MVVM as it responds very well to the reactive approach of the framework.
 The selected architures responds to a simulation situation where an existing UIKIT app is introducing SwiftUI.
 
+## Layout
+All UI is done programatically in both UIKit and SwiftUI. CollectionView layout is set in order to dynamically calculate it's own dimensions according to the dynamic content coming from the API. 
+
 ##Network request:
 Combine was used for Network Api calls. This was chosen as combine reactive approach works very well along with SwiftUI and UIKIT.
 
@@ -34,7 +37,7 @@ In case of the home, the presenter and the interactor logics were tested.
 In case of the Detail, the viewModel was tested.
 
 ##Snapshot testing:
-Snapshot tests were added for both screens. SnapshotTesting third party dependency was added for this. 
+Snapshot tests were added for both screens. SnapshotTesting third party dependency was added for this. Snapshot images were recorded on iPhone 15 Simulator. 
 
 ##Dependency manager:
 SwiftPackageManager was chosen as a dependency manager. Nevertheless the only library used on this project was for snapshot testing. 

@@ -79,7 +79,7 @@ final class HomePresenterTests: XCTestCase {
         XCTAssertEqual(sut?.responseState, .onSucceed)
         XCTAssertEqual(sut?.isFetchingData, false)
         
-        XCTAssertEqual(view?.numberOfTimesReloadCollectionViewCalled, 1)
+        XCTAssertEqual(view?.numberOfTimesReloadCollectionViewCalled, 0)
         XCTAssertNotEqual(view?.numberOfTimesReloadCollectionViewCalled, 2)
     }
     

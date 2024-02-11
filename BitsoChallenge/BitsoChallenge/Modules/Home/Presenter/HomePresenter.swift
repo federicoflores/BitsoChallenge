@@ -14,7 +14,7 @@ protocol HomePresenterProtocols: AnyObject {
     func fetchArtworks()
     func onFetchPiecesOfArtSuccess(response: ArtworkListResponse)
     func onFetchPiecesOfArtFail(error: String)
-    func numberOfItemsInSection(section: Int) -> Int
+    func numberOfItemsInSection() -> Int
     func getArtworkViewModel(row: Int) -> ArtworkViewModel?
     func didScrollToBottom(row: Int) -> Bool
     func didSelectRow(row: Int)
@@ -70,11 +70,14 @@ class HomePresenter: HomePresenterProtocols {
         responseState = .onSucceed
         isFetchingData = false
         currentPage += 1
+        if response.pagination?.currentPage == 1 {
+            homeInteractor?.retrieveArtworks(page: currentPage)
+        }
     }
     
     func userDidScroll() {
         isFetchingData = true
-        if responseState == .onSucceed {
+        if responseState == .onSucceed, !auxResponse.results.isEmpty {
             showLoadingViewWhileScrolling()
             artworkResponse.results.append(contentsOf: auxResponse.results)
             auxResponse.results = []
@@ -102,7 +105,7 @@ class HomePresenter: HomePresenterProtocols {
         responseState = .onError
     }
     
-    func numberOfItemsInSection(section: Int) -> Int {
+    func numberOfItemsInSection() -> Int {
         artworkResponse.results.count
     }
     

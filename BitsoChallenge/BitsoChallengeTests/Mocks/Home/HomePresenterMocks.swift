@@ -34,7 +34,7 @@ class HomePresenterMocks: HomePresenterProtocols {
         numberOfTimesOnFetchPiecesOfArtFailCalled += 1
     }
     
-    func numberOfItemsInSection(section: Int) -> Int {
+    func numberOfItemsInSection() -> Int {
         1
     }
     
