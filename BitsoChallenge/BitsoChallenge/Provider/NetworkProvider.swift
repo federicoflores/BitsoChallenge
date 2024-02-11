@@ -8,7 +8,12 @@
 import UIKit
 import Combine
 
-class NetworkProvider {
+protocol NetworkProviderProtocol {
+    func getDecodable<T: Decodable>(path: NetworkProvider.Path, query: NetworkProvider.QueryFields, page: Int?, completion: @escaping (Result<T, Error>) -> Void)
+    func getData(path: NetworkProvider.Path, completion: @escaping (Result<Data, Error>) -> Void)
+}
+
+class NetworkProvider: NetworkProviderProtocol {
     
     fileprivate enum Constant {
         static let sesionConfigTimeIntervals: CGFloat = 20.0
@@ -59,9 +64,9 @@ class NetworkProvider {
     let sessionConfig = URLSessionConfiguration.default
     let cacheManager = CacheManager.shared.cache
     
-    func getDecodable<T: Decodable>(path: Path, query: QueryFields, page: Int = 1, completion: @escaping (Result<T, Error>) -> Void) {
+    func getDecodable<T: Decodable>(path: Path, query: QueryFields, page: Int? = 1, completion: @escaping (Result<T, Error>) -> Void) {
         
-        let queryItems = query.setQuery(page: page)
+        let queryItems = query.setQuery(page: page ?? 1)
         
         var components = URLComponents()
         components.scheme = Constant.scheme

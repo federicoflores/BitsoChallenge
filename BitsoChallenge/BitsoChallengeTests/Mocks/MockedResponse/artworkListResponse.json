@@ -1,0 +1,2704 @@
+{
+   "pagination":{
+      "total":124004,
+      "limit":12,
+      "offset":12,
+      "total_pages":10334,
+      "current_page":2,
+      "prev_url":"https:\/\/api.artic.edu\/api\/v1\/artworks?page=1",
+      "next_url":"https:\/\/api.artic.edu\/api\/v1\/artworks?page=3"
+   },
+   "data":[
+      {
+         "id":25809,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/25809",
+         "is_boosted":false,
+         "title":"Maquette for Richard J. Daley Center Sculpture",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBAAFAPQAAG9SQ3FSRHFWSnpfU3VlXXxpX4FgUYxwX4x5cJaBeIqMjIuMja2qqq+urr+1ssSxqMCzrMW7t9fV1Nzc3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoFIQC3MAjZQgUyQEkDMYTwgAOw==",
+            "width":5484,
+            "height":7320,
+            "alt_text":"Thin, flat metal shapes form a loosely symmetrical sculpture atop a wide base. Near the top, radiating spindles form an open, cone-like shape."
+         },
+         "main_reference_number":"1966.379",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1964,
+         "date_end":1964,
+         "date_display":"1964",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"Pablo Picasso\nSpanish, active France, 1881\u20131973",
+         "place_of_origin":"Spain",
+         "description":"<p>Chicago\u2019s collection of public art was initiated on August 15, 1967, when Mayor Richard J. Daley dedicated an untitled sculpture commonly known as &quot;The Picasso&quot; in Chicago\u2019s new Civic Center (now the Richard J. Daley Center). Just four years earlier, architect William Hartmann of Skidmore, Owings &amp; Merrill had approached Pablo Picasso with the commission. The artist accepted and crafted two steel maquettes; he kept one in his studio and gave the other to the architect to use in planning. The sculpture\u2019s presence inspired private and public investment in more works for the cityscape over the years, including recent additions in nearby Millennium Park.<\/p>\n",
+         "short_description":null,
+         "dimensions":"104.8 \u00d7 69.9 \u00d7 48.3 cm (41 1\/4 \u00d7 27 1\/2 \u00d7 19 in.)",
+         "dimensions_detail":[
+            {
+               "depth":48,
+               "width":69,
+               "height":104,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Simulated and oxidized welded steel",
+         "inscriptions":null,
+         "credit_line":"Gift of Pablo Picasso",
+         "catalogue_display":null,
+         "publication_history":"\"The Chicago Picasso,\" Progressive Architecture (November 1966), p. 66 (ill.).\n\nMahroni Sharp Young, \"Letter from U.S.A.  From Wildenstein to Wilderness,\" Apollo 84 (December 1966), p. 504\u20135, fig. 8.\n\nThe Art Institute of Chicago, Annual Report (1966\u20131967), pp. 26\u201327 (ill.).\n\nChicago Picasso Dedication program (August 15, 1967) (ill.).\n\nLael Wertenbaker, The World of Picasso (New York: Time-Life Books, 1967), p. 153 (ill.).\n\n\u201cA Picasso Statue for Chicago,\u201d The Burlington Magazine 109:766 (January 1967), pp. 34\u201336, figs. 68 and 70.\n\nBurton Wasserman, \u201cPicasso: The Touch of Magic,\u201d Art Education 21:4 (April 1968), p. 29 (ill.).\n\nWerner Spies, Pablo Picasso: Das plastiche Werk (Stuttgart: Gerd Hatje, 1971), pp. 297 and 315, no. 643 (ill.).\n\nClarence Page, \u201cGiant Iron Sculpture: Picasso Leaves His Mark on the City,\u201d Chicago Tribune (April 9, 1973), section 1, p. 6.\n\nRoberto Otero, Forever Picasso: An Intimate Look at his Last Years (New York: Harry N. Abrams, 1974), pp. 46, 50, 52\u201355 (ill.).\n\nRoberto Otero, \u201cIt\u2019s more charming this way: How the master made us a gift,\u201d Chicago Guide, vol. 23, no. 10 (October 1974), pp. 86\u201387.\n\nMarilyn McCully, A Picasso Anthology: Documents, Criticism, Reminiscences (London: Arts Council of Great Britain, 1981), pp. 266\u2013267 (ill.).\n\nSally Fairweather, Picasso\u2019s Concrete Sculptures (New York: Hudson Hills Press, 1982), p. 85.\n\nPatricia Balton Stratton, \u201cChicago Picasso,\u201d MA thesis, Northwestern University, Evanston, Ill., 1982, fig. 4.\n\nMilwaukee Art Museum, Controversial Public Art: From Rodin to di Suvero, exh. cat. (Milwaukee, Wis.:  Milwaukee Art Museum, 1983), p. 40, cat. 32.\n\nSylvie Forestier, Pablo Picasso, La Guerre et la Paix (Paris: R\u00e9union des mus\u00e9es nationaux, 1991), pp. 83\u201384, fig. 66.\n\nCarsten-Peter Warncke, Pablo Picasso 1881\u20131973 II (Cologne: Benedikt Taschen, 1992), p. 579 (ill.).\n\nWerner Spies, Picasso: Das Plastiche Werk (Stuttgart: Gerd Hatje, 1998), pp. 370 and 403, no. 643.2b (ill.).\n\nThe Picasso Project, Picasso\u2019s Paintings, Watercolors, Drawings, and Sculpture: A Comprehensive Illustrated Catalogue 1885\u20131973, The Sixties II 1964\u20131967 (San Francisco: Alan Wofsy Fine Arts, 2002), p. 133, no. 64\u2013373 (ill.).\n\nLa epoca de Picasso: donaciones a los museos americanos (Santander: Fundaci\u00f3n Marcelino Bot\u00edn, 2004), pp. 43 and 247.\n\nMichael Fitzgerald, Picasso and American Art, Exh. cat. (Yale University Press, 2006), p. 258, ill. 260, pl. 133. \n\nStephanie D\u2019Alessandro and Ren\u00e9e DeVoe Mertz, The Age of Picasso and Matisse: Modern Art at the Art Institute of Chicago (Chicago: The Art Institute of Chicago, 2014), 13, fig. 5 (color ill.).\n\nCarmen Gim\u00e9nez, ed., with essays by Carmen Gim\u00e9nez, Diana Widmaier-Ruiz Picasso, and Pepe Karmel, Picasso Sculptor: Matter and Body, exh. cat. (Madrid: La F\u00e1brica, 2023), 17, fig. 11 (ill.), 46, 47, 133 (color ill.), 141 (color ill.). \n\nMarko Daniel, Emmanuel Guigon, Margarida Cortadella, Elena Llorens, Teresa Montaner, S\u00f2nia Villegas, Christopher Green, et. al., Mir\u00f3\u2013Picasso, exh. cat. (Barcelona: Fundaci\u00f3 Museu Picasso de Barcelona, Fundaci\u00f3 Joan Mir\u00f3, 2023), 250 (color ill.), 251, 320.",
+         "exhibition_history":"London, Tate Gallery, Picasso Sculpture, Ceramics, Graphic Work, June 9\u2013Aug. 13, 1967, p. 108, cat. 203 (ill.).\n\nNew York, Museum of Modern Art, The Sculpture of Picasso, Oct. 9, 1967\u2013Jan. 7, 1968, pp. 206 and 225, cat. 204 (ill.).\n\nArt Institute of Chicago, Picasso in Chicago, Feb. 3\u2013Mar. 31, 1968, hors cat..\n\nNew York, Museum of Modern Art, Picasso Retrospective, May 1\u2013Sept. 16, 1980, p. 442 (ill.).\n\nMilwaukee Art Museum, Controversial Public Art: From Rodin to di Suvero, Oct. 21, 1983\u2013Jan. 15, 1984, p. 40, cat. 32.\n\nNew York, Whitney Museum of American Art, Picasso and American Art, Sept. 28, 2006\u2013Jan. 28, 2007, pp. 254, 258, 260, pl. 133, and 387; San Francisco Museum of Modern Art, Feb. 25\u2013May 28 2007; Minneapolis, Walker Art Center, June 17\u2013Sept. 9, 2007.\n\nNew York, Museum of Modern Art, Picasso Sculpture, Sept. 14, 2015\u2013Feb. 7, 2016; Paris, Mus\u00e9e Picasso, Mar. 8-Aug. 28, 2016.\n\nMalaga, Museo Picasso Malaga, Picasso Sculptor: Matter and Body, May 8\u2013Sept. 10, 2023, no cat. no.; Bilbao, Museo Guggenheim, Sept. 29, 2023\u2013Jan. 14, 2024 (Malaga only).\n\nBarcelona, simultaneously held at Fundaci\u00f3 Joan Mir\u00f3 and Mus\u00e9e Picasso, Mir\u00f3\u2013Picasso, Oct. 20, 2023\u2013Feb. 25, 2024; no cat. no; Paris, Mus\u00e9e national Picasso-Paris, Mar. 28\u2013July 28, 2024 [Fundaci\u00f3 Joan Mir\u00f3 only].",
+         "provenance_text":"The artist; given to the Art Institute, 1966.",
+         "edition":null,
+         "publishing_verification_level":"Web Cataloged",
+         "internal_department_id":246,
+         "fiscal_year":1967,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":false,
+         "is_zoomable":true,
+         "max_zoom_window_size":1280,
+         "copyright_notice":"\u00a9 2018 Estate of Pablo Picasso \/ Artists Rights Society (ARS), New York",
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":29.7175,
+         "color":{
+            "h":200,
+            "l":73,
+            "s":1,
+            "percentage":0.03226571767497034,
+            "population":306
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan to Fundaci\u00f3 Joan Mir\u00f3 (Barcelona, Spain) in Barcelona for <i>Mir\u00f3\u2013Picasso<\/i><\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Sculpture",
+         "artwork_type_id":3,
+         "department_title":"Modern Art",
+         "department_id":"PC-11",
+         "artist_id":36198,
+         "artist_title":"Pablo Picasso",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            36198
+         ],
+         "artist_titles":[
+            "Pablo Picasso"
+         ],
+         "category_ids":[
+            "PC-11"
+         ],
+         "category_titles":[
+            "Modern Art"
+         ],
+         "term_titles":[
+            "sculpture",
+            "Cubism",
+            "abstract figures",
+            "modern and contemporary art",
+            "geometric",
+            "eyes"
+         ],
+         "style_id":"TM-7539",
+         "style_title":"Cubism",
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            "TM-7539"
+         ],
+         "style_titles":[
+            "Cubism"
+         ],
+         "classification_id":"TM-13",
+         "classification_title":"sculpture",
+         "alt_classification_ids":[
+            "TM-155"
+         ],
+         "classification_ids":[
+            "TM-13",
+            "TM-155"
+         ],
+         "classification_titles":[
+            "sculpture",
+            "modern and contemporary art"
+         ],
+         "subject_id":"TM-12688",
+         "alt_subject_ids":[
+            "TM-9124",
+            "TM-12103"
+         ],
+         "subject_ids":[
+            "TM-12688",
+            "TM-9124",
+            "TM-12103"
+         ],
+         "subject_titles":[
+            "abstract figures",
+            "geometric",
+            "eyes"
+         ],
+         "material_id":null,
+         "alt_material_ids":[
+            
+         ],
+         "material_ids":[
+            
+         ],
+         "material_titles":[
+            
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            
+         ],
+         "image_id":"6d377b31-7429-8d65-b6c4-51b6345e878a",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1966.379"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "Maquette for Richard J. Daley Center Sculpture"
+               ],
+               "weight":5710,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:40-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":30732,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/30732",
+         "is_boosted":false,
+         "title":"The Shoe Shop",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBAAFAPQAACUiIjAlIEAzL0U4NU06MEhAOUpCP1VENFBHP1tJPVpKRndlVXZoXXdpX39uWnhpXXtsZHhwZ4l4apSIfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIONIh7I8yQBNjGBESAEERAgAOw==",
+            "width":10055,
+            "height":11890,
+            "alt_text":"A work made of oil on canvas."
+         },
+         "main_reference_number":"1939.393",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1911,
+         "date_end":1911,
+         "date_display":"c. 1911",
+         "date_qualifier_title":"c.",
+         "date_qualifier_id":60,
+         "artist_display":"Elizabeth Sparhawk-Jones\nAmerican, 1885\u20131968",
+         "place_of_origin":"United States",
+         "description":"<p>In 1911 the department store was a relatively new and important urban institution, and <em>The Shoe Shop<\/em> depicts the activities of female employees and their customers. Elizabeth Sparhawk-Jones rendered this modern subject in a rapid, painterly style, paying particular attention to effects of light and atmosphere. Her early work often represented women in the modern city: nursemaids at home, women strolling in the park, shoppers, and store clerks. Strongly influenced by artist William Merritt Chase, Sparhawk-Jones\u2019s painting constitutes a highly personal vision that drew from both Realism and Impressionism.<\/p>\n",
+         "short_description":null,
+         "dimensions":"99 \u00d7 84.2 cm (38 15\/16 \u00d7 33 1\/8 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":84,
+               "height":99,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Oil on canvas",
+         "inscriptions":"Signed recto, bottom-right, in brown pigment: \"Elizabeth Sparhawk-Jones\". No markings verso.",
+         "credit_line":"The William Owen Goodman and Erna Sawyer Goodman Collection",
+         "catalogue_display":null,
+         "publication_history":"Judith A. Barter et al., The Age of American Impressionism: Masterpieces from the Art Institute of Chicago (Chicago: Art Institute of Chicago, 2011), no. 78.\n\nAnna O. Marley, \"Von Cassatt zu O'Keeffe \u2013 Der Aufstieg professionaller K\u00fcnstlerinnen in den USA,\" in Es war einmal in Amerika \u2013 300 Jahre US-amerikanische Kunst [Once Upon a Time in America: Three Centuries of American Art], eds. Barbara Schaefer and Anita Hachmann (Cologne: Wallraf-Richartz-Museum & Fondation Corboud\/Wienand Verlag, 2018), 132, fig. 14 (ill.).",
+         "exhibition_history":"Art Institute of Chicago, The Twenty\u2013Fourth Annual Exhibition of American Paintings and Sculpture, Nov. 14\u2013Dec. 27, 1911, cat. 343.\n\nPennsylvania Academy of the Fine Arts, Annual Exhibition of the Pennsylvania Academy of the Fine Arts, Feb. 4\u2013Mar. 24, 1912, cat. 125.\n\nChicago, Charles A. Stevens Store, Mar. 27\u2013May 27, 1956.\n\nArt Institute of Chicago, <a href=\"https:\/\/www.artic.edu\/exhibitions\/4071\/two-centuries-of-american-art-1750-1950\"><em>Two Centuries of American Art, 1750-1950<\/em><\/a>, Oct. 1, 1959\u2013Jan. 10, 1960, no cat. [downloadable checklist available].\n\nShanghai Museum, Pathways to Modernism: American Art, 1865\u20131945, Sept. 28, 2018\u2013Jan. 6, 2019, cat. 43.",
+         "provenance_text":"Elizabeth Sparhawk-Jones (1885\u20131968), c. 1911; to William Owen Goodman (1848\u20131936), Chicago, by Feb. 1912; given to the Art Institute of Chicago, 1939.",
+         "edition":null,
+         "publishing_verification_level":"Web Cataloged",
+         "internal_department_id":21,
+         "fiscal_year":1939,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":false,
+         "is_zoomable":true,
+         "max_zoom_window_size":-1,
+         "copyright_notice":null,
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":0,
+         "color":{
+            "h":40,
+            "l":49,
+            "s":35,
+            "percentage":1.0037309515913109e-5,
+            "population":12
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":null,
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Painting",
+         "artwork_type_id":1,
+         "department_title":"Arts of the Americas",
+         "department_id":"PC-3",
+         "artist_id":24597,
+         "artist_title":"Elizabeth Sparhawk-Jones",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            24597
+         ],
+         "artist_titles":[
+            "Elizabeth Sparhawk-Jones"
+         ],
+         "category_ids":[
+            "PC-825",
+            "PC-3"
+         ],
+         "category_titles":[
+            "Women artists",
+            "Arts of the Americas"
+         ],
+         "term_titles":[
+            "painting",
+            "oil paint (paint)",
+            "Impressionism",
+            "fashion",
+            "canvas",
+            "modern and contemporary art",
+            "people",
+            "portraits",
+            "Modernism"
+         ],
+         "style_id":"TM-7543",
+         "style_title":"Impressionism",
+         "alt_style_ids":[
+            "TM-5981"
+         ],
+         "style_ids":[
+            "TM-7543",
+            "TM-5981"
+         ],
+         "style_titles":[
+            "Impressionism",
+            "Modernism"
+         ],
+         "classification_id":"TM-9",
+         "classification_title":"painting",
+         "alt_classification_ids":[
+            "TM-155"
+         ],
+         "classification_ids":[
+            "TM-9",
+            "TM-155"
+         ],
+         "classification_titles":[
+            "painting",
+            "modern and contemporary art"
+         ],
+         "subject_id":"TM-8663",
+         "alt_subject_ids":[
+            "TM-8810",
+            "TM-8658"
+         ],
+         "subject_ids":[
+            "TM-8663",
+            "TM-8810",
+            "TM-8658"
+         ],
+         "subject_titles":[
+            "fashion",
+            "people",
+            "portraits"
+         ],
+         "material_id":"TM-2451",
+         "alt_material_ids":[
+            "TM-3124"
+         ],
+         "material_ids":[
+            "TM-2451",
+            "TM-3124"
+         ],
+         "material_titles":[
+            "oil paint (paint)",
+            "canvas"
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            "Women artists"
+         ],
+         "image_id":"96b2d860-a0f9-7965-9f90-f0a7c16aa427",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1939.393"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "The Shoe Shop"
+               ],
+               "weight":8148,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:39-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":27987,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/27987",
+         "is_boosted":true,
+         "title":"Jacques and Berthe Lipchitz",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhAwAFAPMAADAmJDEpJjYsKjcyMUg1KE5FPVxDNlNGPllDOFJORldNRVNRSkxTU2hPQWpkWQAAACH5BAAAAAAALAAAAAADAAUAAAQLsDlWVhqBAIPEUREAOw==",
+            "width":9289,
+            "height":13930,
+            "alt_text":"Large painting, standing man blue turtleneck, sitting woman with white collar."
+         },
+         "main_reference_number":"1926.221",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1916,
+         "date_end":1916,
+         "date_display":"1916",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"Amedeo Modigliani\nItalian, 1884\u20131920",
+         "place_of_origin":"Italy",
+         "description":"<p>After receiving his artistic training in Italy, the sculptor and painter Amedeo Modigliani moved to Paris in 1906. Three years later, he helped pioneer a general migration of artists to the neighborhood of Montparnasse, which remained the center of avant-gard activity in the city until World War II. Scores of artists lived there, and many of them shared a Jewish heritage\u2014including Modigliani and his friend the Lithuanian-born sculptor Jacques Lipchitz.<\/p>\n<p>Lipchitz commissioned Modigliani to paint this portrait on the occasion of his marriage to the Russian poet Berthe Kitrosser, as a way of helping his troubled friend financially. The double portrait is one of only three in the artist\u2019s oeuvre and, according to Lipchitz, took two days to paint. Modigliani made about twenty drawings on the first day; the next day, he declared the picture finished. At the modest price of what Lipchitz remembered as \u201cten francs per sitting and a little alcohol,\u201d however, he persuaded Modigliani to work on the portrait for another two weeks in an effort to provide more financial assistance to his friend. Despite Modigliani\u2019s exceptional talent, his work found a market only after his death in 1920, which was hastened by tuberculosis and his legendary bohemian lifestyle.<\/p>\n",
+         "short_description":"Amedeo Modigliani created his finest paintings between 1914 and his premature death in 1920. Focusing on a limited range of subjects, mainly portraits and nudes, he developed a highly distinctive style of sensitively elongated forms. Sculptor Jacques Lipchitz commissioned Modigliani to paint this portrait on the occasion of his marriage to the poet Berthe Kitrosser as a way of helping his troubled friend financially.",
+         "dimensions":"81.3 \u00d7 54.3 cm (32 \u00d7 21 3\/8 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":54,
+               "height":81,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Oil on canvas",
+         "inscriptions":"Signed upper right:  modigliani\ninscribed upper center: LIPCHITZ",
+         "credit_line":"Helen Birch Bartlett Memorial Collection",
+         "catalogue_display":null,
+         "publication_history":"Galerie Montaigne, Exposition r\u00e9trospective des oeuvres de Modigliani exh. cat. (Paris: Galerie Montaigne, 1920), n.p., cat. 14, as Portrait du sculpteur L. et de sa femme.\n\nArt Institute of Chicago, A Guide to Paintings in the Permanent Collection (Chicago: Art Institute, 1925), p. 169, cat. 2294, as Double Portrait.\n\nF., \u201cThe Birch-Bartlett Loan Collection,\u201d Bulletin of the Art Institute of Chicago, XIX, no. 7 (October 1925), p. 82.\n\nArt Institute of Chicago, Modern Paintings in the Helen Birch Bartlett Memorial from the Birch-Bartlett Collection, (Chicago: Art Institute, 1926), pp. 44. 45 (ill.), 59, as Double Portrait.\n\nZabel, Morton Dauwen, \u201cAn American Gallery of Modern Painting,\u201d Art and Archaeology 26, no. 6 (December 1928), p. 235, as Double Portrait.\n\nSherwood, Walter J., \u201cThe Famous Birsh Bartlett Collection,\u201d The Chicago Visitor (October, 1932), p. 40, as Double Portrait.\n\nArt Institute of Chicago, A Century of Progress: Exhibition of Paintings and Sculpture Lent from American Collections (Chicago: Art Institute, 1933), p. 79, cat.  702, as Double Portrait (Jacques Lipchitz and his Wife).\n\nArt Institute of Chicago, A Century of Progress: Exhibition of Paintings and Sculpture (Chicago: Art Institute, 1934), p. 53, cat. 356, as Double Portrait (Jacques Lipchitz and his Wife).\n\nWheeler, Monroe, Twentieth-Century Portraits exh. cat. (New York: Museum of Modern Art, 1942), pp. 16, 140, pl. 66 (ill.), as Double Portrait (M. and Mme. Jacques Lipchitz), 1916\u201317.\n\nArt Institute of Chicago, Modern Paintings in the Helen Birch Bartlett Memorial, from the Birch Bartlett Collection (Chicago: Art Institute, 1946), pp. 36, 37 (ill.), 58, as Double Portrait (Jacques Lipchitz and His Wife).\n\nSoby, James Thrall and Alfred H. Barr, Jr.,  Twentieth-Century Italian Art exh. cat. (New York: Museum of Modern Art, 1949), pp. 24, pl. 52 (ill.), as Jacques Lipchitz and His Wife.\n\nLipchitz, Jacques, \u201cI Remember Modigliani,\u201d Art News 49 (February 1951), pp. 27 (ill.), 28\u201329, 64\u201365.\n\nSixth Quadrennial National Art Exhibition of Rome [VI Quadriennale nazionale d\u2019arte di Roma] (Rome: Palazzo delle Exposizioni, 1951), p. 175, cat. 9, as Jacques Lipchitz e sua moglie, 1917.\n\nSoby, James Thrall, and Alfred H. Barr, Jr., Modigliani: Paintings, Drawings, Sculpture exh. cat. (New York: Museum of Modern Art, 1951), p. 51, as Jacques Lipchitz and his Wife, 1916\u201317.\n\nBucci, Anselmo, \u201cModigliani\u2014Nach Dem Leben,\u201d Das Kunstwerk 6, no. 5 (1952), p. 28 (ill.), as Jacques Lipchitz und seine Frau.\n\nCarli, Enzo, Amedeo Modigliani (Rome: De Luca Editore, 1952), pp. 21-22, 30\u201331, pl. 8 (ill.), cat. 8, as Jacques Lipchitz e sua moglie.\n\nLombardo, Joseph Vincent, \u201c20th Century Italian Art,\u201d Art Education 5, no. 6 (December, 1952), p. 2 (ill.), 7, as Jacques Lipchitz and Wife.\n\nTate Gallery, Twentieth-Century Masterpieces: An Exhibition of Paintings and Sculpture exh. cat. (London: Tate Gallery, 1952), p. 14, cat. 66, pl. III (ill.), as Portrait of Jacques Lipchitz and His Wife, 1917.\n\nLipchitz, Jacques, Amedeo Modigliani 1884-1920 (New York: Harry N. Abrams, 1954), n.p., pl. 45 (ill.), pl. 46 (ill.), as Jacques Lipchitz and his Wife, 1916\u201317.\n\nTaillander, Yvon, \u201cModigliani,\u201d Connaissance des arts 38 (April 15, 1955), p. 65 (ill.), as Le sculpteur Lipchitz et sa femme.\n\nFels, Florent, L\u2019Art vivant de 1900 \u00e1 nos jours (Geneva: 1956), pl. 8 (ill.).\n\nPfannstiel, Arthur, Modigliani et son ouevre (Paris: La Biblioth\u00e8que des Arts, 1956), p. 90, cat. 115, as Jacques Lipchitz et sa femme.\n\nLipchitz, Jacques, Modigliani (London: Beaverbrook Newspapers Ltd., 1958), pp. 4\u20135, 6 (ill.).\n\nModigliani, Jeanne, Modigliani: Man and Myth, translated by Esther Rowland Clifford (New York: Orion Press, 1958), p. 81.\n\nRussoli, Franco, Modigliani, translated by Isabel Quigly (London: Thames and Hudson, 1959), n.p., pl. 13 (ill.), as Jacques Lipchitz and his Wife, 1916.\n\nSchulze, Franz, \u201cChicago: Portraiture at the Institute,\u201d Art News 57, no. 9 (January 1959), p. 49 (ill.), as M. and Mme. Lipchitz.\n\nArt Institute of Chicago, Paintings in The Art Institute of Chicago: A Catalogue of the Picture Collection (Chicago: Art Institute, 1961), p. 315\u201316, as Jacques Lipchitz and His Wife, 1916.\n\nPatai, Irene, Encounters: The Life of Jacques Lipchitz (New York: Funk & Wagnalls Company, 1961), pp. 165\u2013166.\n\nCeroni, Ambrogio, Amedeo Modigliani, dessins et sculptures (Milan: Edizioni del milione, 1965), p. 44, pl. 189 (ill.), as Le sculpteur Jacques Lipchitz et sa femme, 1917.\n\nPavolini, Corrado, Modigliani (New York: UNESCO, 1966), p. 10 (ill.)\n\nWerner, Alfred, Amedeo Modigliani (New York: Harry N. Abrahams, 1966), pp. 108, 109 (ill.), as Portrait of Jacques Lipchitz and his Wife, 1916\u201317.\n\nEl Mundo de los Museos, Instituto de arte de Chicago (Madrid: Editorial Codex, 1967), pp. 13 (ill.), 67 (ill.), fig. 5, as Jacques Lipchitz y su esposo.\n\nSichel, Pierre, Modigliani: A Biography of Amedeo Modigliani (New York: E. P. Dutton & Co., Inc., 1967), p. 336\u2013337, 368\u2013369.\n\nGindertael, R. V., Modigliani e Montparnasse (Milan: Fratelli Fabbri Editori, 1969), p. 15, 43 (ill.), pl. XVII, as Jacques Lipchitz e sua moglie, 1916.\n\nCeroni, Ambrogio, and Leone Piccioni, I dipinti di Modigliani, Classici dell\u2019arte 40 (Milan: Rizzoli, 1970), p. 96 (ill.), cat. 161, pl. XXXI, as Jacques Lipchitz e la moglie, 1917.\n\nLanthemann, J, Modigliani 1884-1920: Catalogue raisonn\u00e9 (Barcelona: Gr\u00e1ficas Condal, 1970), p. 115, 189 (ill.), cat. 116, as Portrait du couple Jacques Lipchitz, 1916.\n\nLipchitz, Jacques, with H. H. Arnason, My Life in Sculpture (New York: The Viking Press, 1972), pp. 28 (ill.), 30, fig. 21, as Portrait of Jacques Lipchitz and His Wife, 1916.\n\nFifield, William, Modigliani (New York: William Morrow and Company, 1976), pp. 199, n.p. (ill.), as Jacques Lipchitz and his Wife, 1916.\n\nWarnod, Jeanne, La Ruche & Montparnasse (Geneva: Weber, 1978), p. 121 (ill.), as Jacques Lipchitz et sa femme, 1917.\n\nHall, Douglas, Modigliani (Oxford: Phaidon, 1979), pp. 16, pl. 29 (ill.), as The Sculptor Lipchitz and his Wife, 1916\n\nMann, Carol, Modigliani (London: Thames and Hudson, 1980), pp. 104, 106, 107 (ill.), 212, fig. 73, as Jacques and Bertha Lipchitz, 1917.\n\nMus\u00e9e Saint-Georges, Modigliani exh. cat. (Liege, Belgium, 1980), p. 36 (ill.), fig. 26, as Portrait Jacques Lipchitz et sa femme, 1917 (cat. only).\n\nSpeyer, A. James, and Courtney Graham Donnell, Twentieth-Century European Paintings (Chicago, 1980), p. 57, cat. 3A1, as Jacques Lipchitz and His Wife, 1916.\n\nZurcher, Bernard, Modigliani (Paris: Fernand Hazan, 1980), p. 17, as Lipchitz.\n\nPelayo, Antonio, \u201c\u2019Modigliani sin leyenda,\u2019 en Par\u00eds,\u201d Ya (Madrid), (April 12, 1981), Culture section (ill.), as Jacques Lipchitz y su esposa.\n\nModigliani, Jeanne, Raconnta Modigliani (Livorno: Edizioni Graphis Arte, 1984), p. 119, n.p. (ill.), as Jacques Lipchitz e la moglie, 1917.\n\nRoy, Claude, Modigliani, trans. by James Emmons and Stuart Gilbert (New York: Skira, 1985), pp. 39, 68\u201369 (ill.), 156, as Jacques Lipchitz and His Wife, 1916.\n\nSilver, Kenneth E., and Romy Golan, The Circle of Montparnasse: Jewish Artists in Paris 1905\u20131945 (New York: The Jewish Museum, 1985), pp. 22\u201323, 24 (ill.), fig. 14, as Portrait of Jacques Lipchitz and His Wife, 1916\u201317.\n\nBenezra, Neal, \u201cA Study in Irony: Modigliani\u2019s Jacques and Berthe Lipchitz,\u201d Museum Studies 12, no, 2 (Art Institute of Chicago: 1986), pp. 188 (ill.), 189-99, 223.\n\nWood, James N., \u201cPreface,\u201d Museum Studies 12, no. 2 (Chicago: Art Institute, 1986), pp.82, 83, 223, cat. 18, as Jacques and Berthe Lipchitz, 1916.\n\nCastieau-Barreille, Th\u00e9r\u00e8se, La Vie et l\u2019oeuvre de Amedeo Modigliani (Paris: Vilo, ACR \u00c9dition, 1987), pp. 166, 167 (ill.), as Jacques Lipchitz et sa femme, 1917.\n\nWood, James, N., and Katharine C. Lee, Master Paintings in the Art Institute of Chicago (Chicago: Art Institute, 1988), p. 123 (ill.), as Jacques and Berthe Lipchitz, 1916\n\nGalleria d\u2019Arte Moderna e Contemporanea, Modigliani a Montparnasse (Milan: Arnoldo Mondadori Editore, 1988), p. 21 (ill.) as Jacques Lipchitz e la moglie, 1917.\n\nParisot, Christian, Modigliani (Livorno: Edizioni Graphis Arte, 1988), pp., 138\u2013139 (ill.), as Lipchitz e la moglie, 1917.\n\nBuisson, Sylvie, La Scuola di Parigi e Modigliani (Livorno: Cassa di Risparmi di Livorno\/Graphis Arte, 1989), pp. 104, 105 (ill.), as Lipchitz e la moglie, 1917\n\nSzabo, George, \u201cA Study in Jealousy: A Drawing by Amedeo Modigliani,\u201d Drawing 10, no. 5 (January\u2013February 1989), pp. 105 (ill.), 106, fig. 1, as Jacques and Berthe Lipchitz, 1916.\n\nParisot, Christian, Modigliani: Catalogue raisonn\u00e9: Dessins, aquarelles, 1 (Livorno: Edizioni Graphis Arte, 1990), pp. 138, 139 (ill.), as Jacques Lipchitz et sa femme, 1917.\n\nRose, June, Modigliani: The Pure Bohemian (London: Constable, 1990), pp. 7, 33, as Jacques and Berthe Lipchitz, 1917.\n\nParisot, Christian, Modigliani: Catalogue raisonn\u00e9: Peintures, dessins, aquarelles, 2 (Livorno: Edizioni Graphis Arte, 1991), pp. 163 (ill.), 310, 311, cat. 27\/1917, as Jacques Lipchitz et sa femme, 1917.\n\nPatani, Osvaldo, Amedeo Modigliani: Catalogo generale, dipinti, 1 (Milan: Leonardo Editore, 1991), p. 181 (ill.), as Jacques Lipchitz e la moglie, 1917.\n\nSchmalenbach, Werner, Amedeo Modigliani: Malerei, Skulpturen, Zeichnungen exh. cat. (Munich: Prestel Verlag, 1991), pp. 39 (ill.), 95 (ill.), pl. 45, cat. 49, as Jacques Lipchitz und seine Frau, 1917\n\nButler, Stephen, Modigliani (London: Studio Editions, 1994), pp. 80, 81 (ill.), 143, cat. 81, as Jacques and Bertha Lipchitz, 1916\u201317.\n\nShiff, Bennett, \u201cA Line as Clear and Tensile as a Lightning Flash,\u201d Smithsonian 24, no. 10 (January 1994), pp. 68 (ill.), 70, 72.\n\nWood, James N., and Teri J. Edelstein, The Art Institute of Chicago: Twentieth-Century Painting and Sculpture (Chicago: The Art Institute, 1996), p. 38 (ill.), as Jacques and Berthe Lipchitz, 1916.\n\nKruszynski, Anette, Amedeo Modigliani: Portraits and Nudes (Munich: Prestel, 1996), pp., 60\u201361 (ill.), 119, as Jacques and Bertha Lipchitz, 1917.\n\nKrystof, Doris, Amedeo Modigliani 1884\u20131920: The Poetry of Seeing (New York: Taschen, 1996), pp. 46 (ill.), 47, as Jacques and Berthe Lipchitz, 1916\n\nSotheby\u2019s, Impressionist and Modern Art Part I (November 9, 2000), p. 124 (ill.), 126, fig. 1, as Jacques et Berthe Lipchitz, 1917.\n\nWayne, Kenneth, Modigliani and the Artists of Montparnasse exh. cat. (New York\/Buffalo: Harry H. Abrams\/Albright-Knox Art Gallery, 2002), pp. 32, 86 (ill., cat. 9), as Jacques and Berthe Lipchitz, 1916.\n\nKlein, Mason, ed., Modigliani: Beyond the Myth exh. cat. (Jewish Museum\/Yale University Press, 2004), pp. 11, fig 10 (color ill.); 79.\n\nChiappini, Rudi, ed., Modigliani (Milan: Skira, 2006), pp. 24, 25 (ill.), fig. 4, as Jacques Lipchitz e la moglie, 1917.\n\nStephanie D'Alessandro, with contributions from Ren\u00e9e Devoe Mertz, The Age of Picasso and Matisse: Modern Masters from the Art Institute of Chicago, exh. cat. (Art Institute of Chicago\/Kimball Art Museum, 2013), p. 69 (color ill.).\n\nStephanie D'Alessandro, with contributions from Ren\u00e9e Devoe Mertz, The Age of Picasso and Matisse: Modern Art at the Art Institute of Chicago (Art Institute of Chicago, 2014), p. 69 (color ill.).\n\nBiusson, Silvi, \u201cRussian artists in Paris,\u201d in Modigliani, exh. cat. (Moscow: Red Square Publishing, 2007), pp. 54 (cat. 30), 55 (ill.), 90, as Portrait of Jacques and Berthe Lipchitz, 1917.\n\nC\u00e9cile Girardeau, Peter Kropmanns, Nathalie Lachmann, Christiane Lange, Victoria Noel-Johnson, Beate S\u00f6ntgen, and Ortrud Westheider, Modigliani: Modern Gazes, exh. cat. (Munich: Prestel, 2024), 166, 167 (color ill.), 280.",
+         "exhibition_history":"Paris, Galerie Montaigne, Exposition r\u00e9trospective des oeuvres de Modigliani, December 11\u201329, 1920, n.p., cat. 14, as Portrait du sculpteur L. et de sa femme.\n\nArt Institute of Chicago, Birch-Bartlett Collection of Modern European Paintings, September 8\u2013October 8, 1925.\n\nBoston, Art Club, Birch Bartlett Collection of Modern French Painting, December 9\u201326, 1925, cat. 40, as Double Portrait.\n\nArt Institute of Chicago, A Century of Progress: Exhibition of Paintings and Sculpture, June 1\u2013November 1, 1933, p. 79, cat.  702, as Double Portrait (Jacques Lipchitz and his Wife).\n\nArt Institute of Chicago, A Century of Progress Exhibition of Paintings and Sculpture, June 1\u2013November 1, 1934, p. 53, cat. 356, as Double Portrait (Jacques Lipchitz and his Wife).\n\nNew York, Museum of Modern Art, Twentieth-Century Portraits, December 9, 1942\u2013January 24, 1943, pp. 16, 140, pl. 66 (ill.), as Double Portrait (M. and Mme. Jacques Lipchitz), 1916\u201317; traveled to Baltimore Museum of Art, February 12\u2013March 7, 1943; Worchester Art Museum, March 24\u2013April 18, 1943.\n\nNew York, Museum of Modern Art, Twentieth-Century Italian Art, June 28\u2013September 12, 1949, pp. 24, pl. 52 (ill.), as Jacques Lipchitz and His Wife.\n\nCleveland Museum of Art, Modigliani: Paintings, Drawings, Sculpture, January 30\u2013March 18, 1951, p. 51, as Jacques Lipchitz and his Wife, 1916\u201317; traveled to New York, Museum of Modern Art, April 11\u2013June 10, 1951.\n\nRome, Palazzo delle Exposizioni, Sixth Quadrennial National Art Exhibition of Rome [VI Quadriennale nazionale d\u2019arte di Roma], December 15, 1951\u2013April 1952, p. 175, cat. 9, as Jacques Lipchitz e sua moglie, 1917.\n\nParis, Mus\u00e9e national d\u2019arte moderne, May\u2013June 1952, cat. 72; traveled to London, Tate Gallery, Arts Council of Great Britain, Twentieth-Century Masterpieces: An Exhibition of Paintings and Sculpture, July 15\u2013August 17, 1952, p. 14, cat. 66, pl. III (ill.), as Portrait of Jacques Lipchitz and His Wife, 1917.\n\nArt Institute of Chicago, The Artist Looks at People, November 13, 1958\u2013January 11, 1959, no cat.\n\nDusseldorf, Kunstsammlung Nordrhein-Westfahlen, Amedeo Modigliani: Malerei, Skulpturen, Zeichnungen, January 19\u2013April 1, 1991, pp. 39 (ill.), 95 (ill.), pl. 45, cat. 49, as Jacques Lipchitz und seine Frau, 1917; traveled to Z\u00fcrich, Kunsthaus, April 19\u2013July 7, 1991.\n\nBuffalo, Albright-Knox Art Gallery, Modigliani and the Artists of Montparnasse, October 19, 2002\u2013January 12, 2003; pp. 32, 86 (ill., cat. 9), as Jacques and Berthe Lipchitz, 1916; traveled to Fort Worth, Kimbell Art Museum, February 9\u2013May 25, 2003; and Los Angeles County Museum of Art, June 29\u2013September 28, 2003.\n\nMoscow, Pushkin State Museum of Fine Arts, Modigliani March 21\u2013June 17, 2007, pp. 54, 55 (ill.), 90, as Portrait of Jacques and Berthe Lipchitz, 1917.   \n\nFort Worth, Kimball Art Museum, The Age of Picasso and Matisse: Modern Masters from the Art Institute of Chicago, Oct. 6, 2013\u2013Feb. 16, 2014, no cat. no.\n\nLondon, Tate Modern, Modigliani, Nov. 23, 2017\u2013Apr. 2, 2018, no cat.\n\nStuttgart, Germany, Staatsgalerie Stuttgart, Modigliani: Modern Gazes, Nov. 24, 2023\u2013Mar. 17, 2024, cat. 40; Potsdam, Museum Barberini, Apr. 27\u2013Aug. 18, 2024.",
+         "provenance_text":"Jacques Lipchitz, Paris, acquired directly from the artist, 1916 [Paris 1920; Lipchitz 1972]; by exchange to L\u00e9once Rosenberg, Paris, c. 1921 [Paris 1920; Lipchitz 1972; Benezra 1986]; sold to Frederick C. and Helen Birch Bartlett, Chicago, 1922 [Benezra 1986]; given to the Art Institute of Chicago, 1926.",
+         "edition":null,
+         "publishing_verification_level":"Web Cataloged",
+         "internal_department_id":246,
+         "fiscal_year":1926,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":true,
+         "is_zoomable":true,
+         "max_zoom_window_size":-1,
+         "copyright_notice":null,
+         "has_multimedia_resources":true,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":23.4946,
+         "color":{
+            "h":66,
+            "l":45,
+            "s":4,
+            "percentage":0.00034545178717975094,
+            "population":447
+         },
+         "latitude":41.8804132028912,
+         "longitude":-87.6218598905297,
+         "latlon":"41.880413202891,41.880413202891",
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan to Staatsgalerie Stuttgart in Stuttgart for <i>Modigliani<\/i><\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Painting",
+         "artwork_type_id":1,
+         "department_title":"Modern Art",
+         "department_id":"PC-11",
+         "artist_id":35801,
+         "artist_title":"Amedeo Modigliani",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            35801
+         ],
+         "artist_titles":[
+            "Amedeo Modigliani"
+         ],
+         "category_ids":[
+            "PC-11",
+            "PC-831"
+         ],
+         "category_titles":[
+            "Modern Art",
+            "Essentials"
+         ],
+         "term_titles":[
+            "painting",
+            "oil painting",
+            "oil paint (paint)",
+            "Century of Progress",
+            "Modernism",
+            "painting (image making)",
+            "canvas",
+            "modern and contemporary art",
+            "world's fairs",
+            "Chicago World's Fairs",
+            "suits",
+            "interiors",
+            "couples",
+            "portraits"
+         ],
+         "style_id":"TM-5981",
+         "style_title":"Modernism",
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            "TM-5981"
+         ],
+         "style_titles":[
+            "Modernism"
+         ],
+         "classification_id":"TM-9",
+         "classification_title":"painting",
+         "alt_classification_ids":[
+            "TM-155"
+         ],
+         "classification_ids":[
+            "TM-9",
+            "TM-155"
+         ],
+         "classification_titles":[
+            "painting",
+            "modern and contemporary art"
+         ],
+         "subject_id":"TM-12169",
+         "alt_subject_ids":[
+            "TM-11299",
+            "TM-12176",
+            "TM-12649",
+            "TM-12285",
+            "TM-9130",
+            "TM-8658"
+         ],
+         "subject_ids":[
+            "TM-12169",
+            "TM-11299",
+            "TM-12176",
+            "TM-12649",
+            "TM-12285",
+            "TM-9130",
+            "TM-8658"
+         ],
+         "subject_titles":[
+            "Century of Progress",
+            "world's fairs",
+            "Chicago World's Fairs",
+            "suits",
+            "interiors",
+            "couples",
+            "portraits"
+         ],
+         "material_id":"TM-2451",
+         "alt_material_ids":[
+            "TM-3124"
+         ],
+         "material_ids":[
+            "TM-2451",
+            "TM-3124"
+         ],
+         "material_titles":[
+            "oil paint (paint)",
+            "canvas"
+         ],
+         "technique_id":"TM-4273",
+         "alt_technique_ids":[
+            "TM-3891"
+         ],
+         "technique_ids":[
+            "TM-4273",
+            "TM-3891"
+         ],
+         "technique_titles":[
+            "oil painting",
+            "painting (image making)"
+         ],
+         "theme_titles":[
+            "Essentials"
+         ],
+         "image_id":"7e649536-b186-c3f5-3e6d-0d22d5d798ef",
+         "alt_image_ids":[
+            "ea11274d-3d26-fcd7-d112-d24154cb7b76"
+         ],
+         "document_ids":[
+            "db2154f5-380a-fce0-dab1-59e6d3c46d16"
+         ],
+         "sound_ids":[
+            "db2154f5-380a-fce0-dab1-59e6d3c46d16"
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_boosted":"Jacques and Berthe Lipchitz",
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1926.221"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "Jacques and Berthe Lipchitz"
+               ],
+               "weight":9219,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:39-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":32587,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/32587",
+         "is_boosted":false,
+         "title":"Toy",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBAAFAPQAAD46NkFJIlxBInl+bd\/IDePTWuHOZqmhorS0sOHSgsrFuMnHvcfGxcnJxOHi5ujn5+3r4PDu6unq8fLz\/QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIHM0zyIASDQEylQQkJQYTggAOw==",
+            "width":5327,
+            "height":6941,
+            "alt_text":"A work made of steel, paint, and plastic."
+         },
+         "main_reference_number":"1969.809",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1961,
+         "date_end":1961,
+         "date_display":"1961",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"John Chamberlain\nAmerican, 1927\u20132011",
+         "place_of_origin":"United States",
+         "description":"<p>John Chamberlain began to make abstract sculptures\u2014 both wall-mounted and freestanding\u2014of painted, compressed automotive parts in the 1950s. Skillfully combining the vigorous gestures of Abstract Expressionism with the playful use of found materials and compositions of Dada and Surrealism, the artist took previously cast-off pieces of sheet metal and then crimped, bent, and cut the usually unyielding material into an imposing form. <em>Toy<\/em> is atypical in its incorporation of a Slip n\u2019 Slide (a plastic waterslide first introduced in 1961); the work slyly suggests a classical relief and the motif of drapery.<\/p>\n",
+         "short_description":null,
+         "dimensions":"136 \u00d7 98 \u00d7 77.5 cm (53 1\/2 \u00d7 38 1\/2 \u00d7 30 1\/2 in.)",
+         "dimensions_detail":[
+            {
+               "depth":77,
+               "width":98,
+               "height":136,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Steel, paint, and plastic",
+         "inscriptions":null,
+         "credit_line":"Gift of William Hokin",
+         "catalogue_display":null,
+         "publication_history":null,
+         "exhibition_history":null,
+         "provenance_text":null,
+         "edition":null,
+         "publishing_verification_level":"Web Basic",
+         "internal_department_id":246,
+         "fiscal_year":null,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":false,
+         "is_zoomable":true,
+         "max_zoom_window_size":1280,
+         "copyright_notice":"\u00a9 2018 Fairweather \/ Artists Rights Society (ARS), New York",
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":88.096,
+         "color":{
+            "h":52,
+            "l":46,
+            "s":94,
+            "percentage":0.12326952703826866,
+            "population":1141
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan to Aspen Art Museum in Aspen for <i>John Chamberlain<\/i><\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Sculpture",
+         "artwork_type_id":3,
+         "department_title":"Contemporary Art",
+         "department_id":"PC-8",
+         "artist_id":33912,
+         "artist_title":"John Angus Chamberlain",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            33912
+         ],
+         "artist_titles":[
+            "John Angus Chamberlain"
+         ],
+         "category_ids":[
+            "PC-8",
+            "PC-827"
+         ],
+         "category_titles":[
+            "Contemporary Art",
+            "SAIC Alumni and Faculty"
+         ],
+         "term_titles":[
+            "sculpture",
+            "abstract shapes",
+            "modern and contemporary art",
+            "green (color)",
+            "blue (color)",
+            "red (color)",
+            "yellow (color)"
+         ],
+         "style_id":null,
+         "style_title":null,
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            
+         ],
+         "style_titles":[
+            
+         ],
+         "classification_id":"TM-13",
+         "classification_title":"sculpture",
+         "alt_classification_ids":[
+            "TM-155"
+         ],
+         "classification_ids":[
+            "TM-13",
+            "TM-155"
+         ],
+         "classification_titles":[
+            "sculpture",
+            "modern and contemporary art"
+         ],
+         "subject_id":"TM-12708",
+         "alt_subject_ids":[
+            "TM-11849",
+            "TM-11843",
+            "TM-11851",
+            "TM-11842"
+         ],
+         "subject_ids":[
+            "TM-12708",
+            "TM-11849",
+            "TM-11843",
+            "TM-11851",
+            "TM-11842"
+         ],
+         "subject_titles":[
+            "abstract shapes",
+            "green (color)",
+            "blue (color)",
+            "red (color)",
+            "yellow (color)"
+         ],
+         "material_id":null,
+         "alt_material_ids":[
+            
+         ],
+         "material_ids":[
+            
+         ],
+         "material_titles":[
+            
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            "SAIC Alumni and Faculty"
+         ],
+         "image_id":"1f3811eb-2b6a-1a7e-3404-0c19b76e5df1",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1969.809"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "Toy"
+               ],
+               "weight":3641,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:38-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":32349,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/32349",
+         "is_boosted":false,
+         "title":"City",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBAAFAPQAAD93iTx2ijx5jD16jTGOqzKSrzCRsDeWtjmXsziatzqatj6ZtTyYtjybuD2cuT+cuD6fvEaZp0CcuUCfuwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIDAIweI0zANNEqIkB2EUUQgAOw==",
+            "width":4437,
+            "height":5039,
+            "alt_text":"A blue canvas with the word \"City\" written at the center with the viscous quality of water. The background darkens along a gradient towards the top. The lower right corner is green."
+         },
+         "main_reference_number":"1969.722",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1968,
+         "date_end":1968,
+         "date_display":"1968",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"Ed Ruscha\nAmerican, born 1937",
+         "place_of_origin":"United States",
+         "description":"<p>From his earliest experiences as a sign painter, Ed Ruscha retained an interest in the visual and conceptual tensions between text and image. By the late 1960s, the artist began using pointed, single words\u2014 chosen as much for their evocative power as for their phonetic qualities\u2014as visual subjects in a variety of media. Between 1966 and 1969, Ruscha made a series of \u201cliquid\u201d or \u201cwet\u201d word paintings, in which the linguistic effect is made more palpable by the trompe l\u2019oeil renderings of the words, which suggest that they have been created from water, oil, syrup, or another fluid.<\/p>\n",
+         "short_description":null,
+         "dimensions":"139.7 \u00d7 121.9 cm (55 \u00d7 48 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":121,
+               "height":139,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Oil on canvas",
+         "inscriptions":null,
+         "credit_line":"Twentieth-Century Purchase Fund",
+         "catalogue_display":null,
+         "publication_history":null,
+         "exhibition_history":null,
+         "provenance_text":null,
+         "edition":null,
+         "publishing_verification_level":"Web Basic",
+         "internal_department_id":246,
+         "fiscal_year":null,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":false,
+         "is_zoomable":true,
+         "max_zoom_window_size":1280,
+         "copyright_notice":"\u00a9 1968 Ed Ruscha.",
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":51.5774,
+         "color":{
+            "h":194,
+            "l":48,
+            "s":51,
+            "percentage":0.5143248915490908,
+            "population":4171
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan<\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Painting",
+         "artwork_type_id":1,
+         "department_title":"Contemporary Art",
+         "department_id":"PC-8",
+         "artist_id":40791,
+         "artist_title":"Ed Ruscha",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            40791
+         ],
+         "artist_titles":[
+            "Ed Ruscha"
+         ],
+         "category_ids":[
+            "PC-8"
+         ],
+         "category_titles":[
+            "Contemporary Art"
+         ],
+         "term_titles":[
+            "painting",
+            "text",
+            "modern and contemporary art",
+            "green (color)",
+            "blue (color)"
+         ],
+         "style_id":null,
+         "style_title":null,
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            
+         ],
+         "style_titles":[
+            
+         ],
+         "classification_id":"TM-9",
+         "classification_title":"painting",
+         "alt_classification_ids":[
+            "TM-155"
+         ],
+         "classification_ids":[
+            "TM-9",
+            "TM-155"
+         ],
+         "classification_titles":[
+            "painting",
+            "modern and contemporary art"
+         ],
+         "subject_id":"TM-12260",
+         "alt_subject_ids":[
+            "TM-11849",
+            "TM-11843"
+         ],
+         "subject_ids":[
+            "TM-12260",
+            "TM-11849",
+            "TM-11843"
+         ],
+         "subject_titles":[
+            "text",
+            "green (color)",
+            "blue (color)"
+         ],
+         "material_id":null,
+         "alt_material_ids":[
+            
+         ],
+         "material_ids":[
+            
+         ],
+         "material_titles":[
+            
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            
+         ],
+         "image_id":"a8fe598b-a83b-1cd4-e4fb-ffc63599f249",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1969.722"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "City"
+               ],
+               "weight":3071,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:38-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":41441,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/41441",
+         "is_boosted":false,
+         "title":"Manhattan Dawn",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBAAFAPQAAL6tq8GysM23ss+7sMi5tsy6uc68ucm+vMrBuc\/AuM3EvdPAvtTEvc+\/wtK8wdbDwtDGwNXGwNLGxNjKxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoCEMieQ8EdQsk3IUDBIARAgAOw==",
+            "width":1803,
+            "height":2250,
+            "alt_text":"A work made of oil on canvas."
+         },
+         "main_reference_number":"1972.1208",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1944,
+         "date_end":1944,
+         "date_display":"1944",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"Lyonel Feininger\nAmerican, worked in Germany, 1871\u20131956",
+         "place_of_origin":"United States",
+         "description":null,
+         "short_description":null,
+         "dimensions":"Without frame: 89.3 \u00d7 71.5 cm (35 3\/16 \u00d7 28 3\/16 in.); 88.9 \u00d7 75.9 cm (35 \u00d7 29 7\/8 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":71,
+               "height":89,
+               "diameter":null,
+               "clarification":"Without frame"
+            },
+            {
+               "depth":null,
+               "width":75,
+               "height":88,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Oil on canvas",
+         "inscriptions":"signed upper right:  Feininger\nsigned, dated and titled on verso stretcher: \nLyonel Feininger, 1944, MANHATTAN DAWN",
+         "credit_line":"Gift of Mr. and Mrs. Andreas Feininger",
+         "catalogue_display":"<p>Unknown 444,<\/p>",
+         "publication_history":"Hans Hess, Lyonel Feininger (New York: Abrams, 1961), p. 149, pl. 21 (color ill.), 153, 291, no. 444.\n\nWelmoed Laanstra, curator, Art in Embassies Exhibition, exh. cat. (Washington D.C.: Art in Embassies, 2020), n.p.(color ill.).\n\nIngrid Pfeiffer, ed., Lyonel Feininger: Retrospective, exh. cat. (Frankfurt\/Munich: Schirn Kunsthalle Frankfurt & Hirmer, 2023), 41, 43, 214 (color ill.), 263.",
+         "exhibition_history":"New York, Museum of Modern Art, Lyonel Feininger\/Marsden Hartley, October 24, 1944\u2013January  14, 1945, p.  47, no cat. no.\n\nNew York, Buchholz Gallery, Lyonel Feininger: Recent Paintings, Watercolors, January 29-February 23, 1946, no. 4, as Manhattan-Dawn.\n\nPossibly New York , Wildenstein and Company, Sixth Annual Exhibition of Paintings and Sculptures by Members of the Federation of Modern Painters and Sculptors, September 18\u2013October 5, 1946, no. 13.\n\nCleveland Museum of Art, The Work of Lyonel Feininger, November 2-December 9, 1951, p. 17, pl. XII, no. 32 (ill.).\n\nNew York, Museum of Modern Art (organizer), Three Modern Painters: Beckmann\u00ad-Feininger-Hartley; traveled to Memphis, Brooks Memorial Art Gallery, November 1955; New Orleans, Tulane University, January 7-28, 1956; Winston-Salem, North Carolina, Public Library of Winston-Salem, February 12-March 4, 1956; Georgetown, Texas, Southwestern  University, March 26-April 6, 1956; Louisville, Kentucky, J. B. Speed Art Museum, May 5-26, 1956; Exeter, New Hampshire, Phillips Exeter Academy, October\n5-26, 1956; Winter Park, Florida, The Morse Gallery of Art, Rollins College, November 15-December 6, 1956; Richmond  Artists Association, January 5-26, 1957; Moorhead, Minnesota, Concordia College, February 8-March 1, 1957; Gainesville, University of Florida, March 15-April 5, 1957; Savannah, Georgia, Telfair Academy  of Arts, April 21-May 12, 1957; Chattanooga, Tennessee, Hunter Gallery of Art, May 26-June 16, 1957.\n\nSan Francisco Museum of Art, Lyonel Feininger Memorial Exhibition, 1959-1961, November 5-December 13, 1959; traveled to Minneapolis Institute of Arts, January 5- February 7, 1960; Cleveland Museum of Art, February 18-March 20, 1960; Buffalo, Albright-Knox Art Gallery, April 8-May 8, 1960; and Boston, Museum of Fine Arts, May 19-June 26, 1960, p. 16, no.  53.\n\nNew York, Willard Gallery, Lyonel Feininger: Architecture, Paris-New York, March 1-31, 1961, cat. 4.\n\nPossibly Philadelphia, Pennsylvania Academy of the Pine Arts, Lyonel Feininger April 18\u2013May 26, 1968, cat. 14. \n\nNew York, Marlborough-Gerson Gallery, Lyonel Feininger, April-May, 1969, p. 13, 75, cat. 58 (color ill.).\n\nMunich, Haus der Kunst, Lyonel Feininger, 1871-1956, March 24-May 13, 1973; traveled to Kunsthaus Zurich, May 25-July 22, 1973, p. 90, cat. 150 (ill.).\n\nLos Angeles County Museum of Art, Exiles and Emigres: The Flight of European Artists from Hitler, February 23-May 11, 1997; traveled to Montreal Museum of Fine Arts, June 19-September  7,  1997; and  Berlin,  Neue  Nationalgalerie,  October  9,  1997-January 4, 1998, pp. 299, 300, fig. 294 (color ill.), p. 403, cat. 51.\n\nMadrid, Museo Nacional  Centro de Art Reina  Sofia, Black Mountain College: Experiment in Art, October 28  2002-January 13, 2003, p. 58, 59 (color i ll.), no cat. no.\n\nShanghai Museum, Pathways to Modernism: American Art, 1965\u20131945, September 28, 2018-January 6, 2019.\n\nBrussels, United States Embassy, Whitlock Hall, Art in Embassies Exhibition, May 15, 2019\u2013Dec 13, 2020, no cat. no.\n\nFrankfurt, Schirn Kunsthalle Frankfurt, Lyonel Feininger Retrospective, Oct. 27, 2023\u2013Feb. 18, 2024, no cat. no.",
+         "provenance_text":"The artist; by descent to his wife Julia Feininger (died 1970), New York, 1956; Pat and Theodore Lux Feininger, Cambridge, MA., by 1959 [San Francisco 1959]; Mr. and Mrs. Andreas Feininger, New York, by 1961 [Hess 1961]; given to the Art Institute of Chicago, Dec. 27, 1972.",
+         "edition":null,
+         "publishing_verification_level":"Web Cataloged",
+         "internal_department_id":246,
+         "fiscal_year":1973,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":false,
+         "is_zoomable":true,
+         "max_zoom_window_size":1280,
+         "copyright_notice":"\u00a9 2018 Artists Rights Society (ARS), New York \/ VG Bild-Kunst, Bonn",
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":20.5306,
+         "color":{
+            "h":38,
+            "l":52,
+            "s":46,
+            "percentage":0.0010148437817138682,
+            "population":9
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan to Schirn Kunsthalle Frankfurt in Frankfurt am Main for <i>Lyonel Feininger Retrospective<\/i><\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Painting",
+         "artwork_type_id":1,
+         "department_title":"Modern Art",
+         "department_id":"PC-11",
+         "artist_id":34470,
+         "artist_title":"Lyonel Feininger",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            34470
+         ],
+         "artist_titles":[
+            "Lyonel Feininger"
+         ],
+         "category_ids":[
+            "PC-11"
+         ],
+         "category_titles":[
+            "Modern Art"
+         ],
+         "term_titles":[
+            "painting",
+            "skyscrapers",
+            "modern and contemporary art",
+            "pink (color)",
+            "water towers",
+            "city scenes",
+            "cities"
+         ],
+         "style_id":null,
+         "style_title":null,
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            
+         ],
+         "style_titles":[
+            
+         ],
+         "classification_id":"TM-9",
+         "classification_title":"painting",
+         "alt_classification_ids":[
+            "TM-155"
+         ],
+         "classification_ids":[
+            "TM-9",
+            "TM-155"
+         ],
+         "classification_titles":[
+            "painting",
+            "modern and contemporary art"
+         ],
+         "subject_id":"TM-12539",
+         "alt_subject_ids":[
+            "TM-11848",
+            "TM-12784",
+            "TM-12608",
+            "TM-12657"
+         ],
+         "subject_ids":[
+            "TM-12539",
+            "TM-11848",
+            "TM-12784",
+            "TM-12608",
+            "TM-12657"
+         ],
+         "subject_titles":[
+            "skyscrapers",
+            "pink (color)",
+            "water towers",
+            "city scenes",
+            "cities"
+         ],
+         "material_id":null,
+         "alt_material_ids":[
+            
+         ],
+         "material_ids":[
+            
+         ],
+         "material_titles":[
+            
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            
+         ],
+         "image_id":"277a3134-d98a-3c5f-488d-4c92ef6fdd9a",
+         "alt_image_ids":[
+            "1a7b931b-a319-f7f2-e3c5-0a65693e920e"
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1972.1208"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "Manhattan Dawn"
+               ],
+               "weight":1191,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:37-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":40351,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/40351",
+         "is_boosted":false,
+         "title":"The Five Foxes",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBAAFAPQAAJ6diaenlKqplauqmLCvnbGwnbGwnrW0ore1o7i3pLu6qL28q7++rL++rcHArcHAsMTDssbFtMvJt8\/OvQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoAQNilAYiNNMEUMEwPEsSQgAOw==",
+            "width":2176,
+            "height":3108,
+            "alt_text":"A work made of engraving on ivory laid paper."
+         },
+         "main_reference_number":"1940.1313",
+         "has_not_been_viewed_much":true,
+         "boost_rank":null,
+         "date_start":1485,
+         "date_end":1495,
+         "date_display":"c. 1490",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"Israhel van Meckenem the Younger\nGerman, c. 1440\/45-1503",
+         "place_of_origin":"Germany",
+         "description":null,
+         "short_description":null,
+         "dimensions":"Plate: 16.8 \u00d7 11.8 cm (6 5\/8 \u00d7 4 11\/16 in.); sheet: 17 \u00d7 12 cm (6 3\/4 \u00d7 4 3\/4 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":11,
+               "height":16,
+               "diameter":null,
+               "clarification":"Plate"
+            },
+            {
+               "depth":null,
+               "width":12,
+               "height":17,
+               "diameter":null,
+               "clarification":"sheet"
+            }
+         ],
+         "medium_display":"Engraving on ivory laid paper",
+         "inscriptions":null,
+         "credit_line":"Clarence Buckingham Collection",
+         "catalogue_display":"<p>Lehrs VI.496<\/p><p>Bartsch IX.276.192<\/p><p>Geisberg 424<\/p><p>Hollstein XXIV.496<\/p>",
+         "publication_history":null,
+         "exhibition_history":null,
+         "provenance_text":null,
+         "edition":null,
+         "publishing_verification_level":"Web Basic",
+         "internal_department_id":3,
+         "fiscal_year":1941,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":true,
+         "is_zoomable":true,
+         "max_zoom_window_size":-1,
+         "copyright_notice":null,
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":8.9664,
+         "color":{
+            "h":55,
+            "l":45,
+            "s":18,
+            "percentage":0.006995266864504636,
+            "population":71
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan to Chazen Museum of Art in Madison for <i>Art of Enterprise: Israhel van Meckenem's 15th-Century Print Workshop<\/i><\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Print",
+         "artwork_type_id":18,
+         "department_title":"Prints and Drawings",
+         "department_id":"PC-13",
+         "artist_id":37116,
+         "artist_title":"Israhel van Meckenem, the younger",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            37116
+         ],
+         "artist_titles":[
+            "Israhel van Meckenem, the younger"
+         ],
+         "category_ids":[
+            "PC-13"
+         ],
+         "category_titles":[
+            "Prints and Drawings"
+         ],
+         "term_titles":[
+            "engraving",
+            "paper (fiber product)",
+            "print",
+            "prints and drawing"
+         ],
+         "style_id":null,
+         "style_title":null,
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            
+         ],
+         "style_titles":[
+            
+         ],
+         "classification_id":"TM-12",
+         "classification_title":"engraving",
+         "alt_classification_ids":[
+            "TM-17",
+            "TM-4"
+         ],
+         "classification_ids":[
+            "TM-12",
+            "TM-17",
+            "TM-4"
+         ],
+         "classification_titles":[
+            "engraving",
+            "print",
+            "prints and drawing"
+         ],
+         "subject_id":null,
+         "alt_subject_ids":[
+            
+         ],
+         "subject_ids":[
+            
+         ],
+         "subject_titles":[
+            
+         ],
+         "material_id":"TM-2982",
+         "alt_material_ids":[
+            
+         ],
+         "material_ids":[
+            "TM-2982"
+         ],
+         "material_titles":[
+            "paper (fiber product)"
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            
+         ],
+         "image_id":"248dbe62-484f-bf62-52ef-f2e999c3728b",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1940.1313"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "The Five Foxes"
+               ],
+               "weight":174,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:37-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":62371,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/62371",
+         "is_boosted":true,
+         "title":"Madame Cezanne in a Yellow Chair",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBAAFAPQAAEk4OVFBQlxAQFtEQltUUlpeU1JZWmhORGtcRmVlX3NhXnFlXXtyXF9lZFNlaFlxc2tzb314YmV8f3F\/fQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4ANNUrEkDiIABjMETXQoRAgAOw==",
+            "width":9801,
+            "height":12413,
+            "alt_text":"Painting of a placid-looking, light-skinned woman in a maroon dress, seated in a chair with yellow upholstery, hands folded."
+         },
+         "main_reference_number":"1948.54",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1893,
+         "date_end":1893,
+         "date_display":"1888-90",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"Paul Cezanne\nFrench, 1839-1906",
+         "place_of_origin":"France",
+         "description":"<p>This portrait is one in a series of four Paul Cezanne made of his wife, Em\u00e9lie-Hortense Fiquet, whom he met when she worked as an artist\u2019s model. They had a son together in 1872 and married in 1886. Technical examination suggests that Cezanne traced this image, the second in the series, from the first portrait, which he made from life. In contrast to her masklike expression, Hortense\u2019s hands are agitated, contorted by crisscrossing brushstrokes and the dark-blue outlines Cezanne used to sketch out the forms, which remain visible in the final work.<\/p>\n",
+         "short_description":null,
+         "dimensions":"80.9 \u00d7 64.9 cm (31 13\/16 \u00d7 25 9\/16 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":64,
+               "height":80,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Oil on canvas",
+         "inscriptions":null,
+         "credit_line":"Wilson L. Mead Fund",
+         "catalogue_display":"<p>Rewald 653<\/p>",
+         "publication_history":"Paul C\u00e9zanne\u2013Mappe (Munich, 1912), pl. 12.\n\nUgo Nebbia, \u201cSul Movimento Pittorico Contemporaneo,\u201d Emporium 38 (December 1913), p. 422 (ill.).\n\nAmbroise Vollard, Paul C\u00e9zanne (Paris, 1914), pl. 46.\n\nJulius Meier-Graefe, C\u00e9zanne und sein Kreis: Ein Beitrag zur Entwicklungsgeschichte (Munich, 1922), p. 200 (ill.)\n\nAndr\u00e9 Salmon, C\u00e9zanne (Paris, 1923), pl. 10.\n\nKurt Pfister, C\u00e9zanne, Gestalt, Werk, Mythos (Potsdam, 1927), pl. 74.\n\nForbes Watson, \u201cRecent Exhibitions,\u201d The Arts 13, 1 (January 1928), pp. 34 (ill.), 35.\n\nForbes Watson, \u201cNew York Exhibitions,\u201d The Arts 13, 2  (February 1928), p. 107.\n\nEugenio d\u2019Ors y Rovira, Paul C\u00e9zanne (Paris, 1930), p. 52 (ill.).\n\nNina Iavorska\u00efa, Paul C\u00e9zanne (Milan, 1935), p. 16.\n\nLionello Venturi, C\u00e9zanne: son art \u2013 son oeuvre (Paris, 1936), vol. 1, no. 572, vol. 2, pl. 183. \n\nJacques Combe, \u201cL\u2019influence de C\u00e9zanne,\u201d La Renaissance 5-6 (May-June 1936), p. 27 (ill.).\n\nRen\u00e9 Huyghe, \u201cC\u00e9zanne et son oeuvre,\u201d L\u2019Amour de l\u2019Art 17 (May 1936), pp. 160-188, fig. 61. \n\nJohn Rewald, \u201cC\u00e9zanne et son oeuvre,\u201d L\u2019Art Sacr\u00e9 (May 1936), p. 8, fig. 18.\n\nAlbert Barnes and Violette de Mazia, The Art of C\u00e9zanne (New York, 1939), no. 135.\n\nRaymond Cogniat, C\u00e9zanne (New York, 1939), pl. 73.\n\nAdrien-Pierre Bagarry, \u201cLe Centenaire de C\u00e9zanne,\u201d La Renaissance 22 (March 1939), p. 7.\n\nThe Art Institute of Chicago, An Illustrated Guide to the Collections of the Art Institute of Chicago (Chicago, 1948), p. 36.\n\nBernard Dorival, C\u00e9zanne (New York, 1948), pp. 57-8, pl. 109.\n\nDaniel Catton Rich, \u201cTwo Great Portraits,\u201d Bulletin of The Art Institute of Chicago 42, 6 (November 15, 1948), pp. 79 (ill.), 81.\n\n\u201cA Great C\u00e9zanne Goes to Chicago,\u201d Art News 47, 7 (November, 1948), pp. 34-35 (ill.).\n\nErle Loran, \u201cC\u00e9zanne in 1952,\u201d The Art Institute of Chicago Quarterly 46, 1 (February 1, 1952), p. 12 (ill.).\n\nMeyer Shapiro, Paul C\u00e9zanne (New York, 1952), p. 15.\n\nThe Art Institute of Chicago, An Illustrated Guide to the Collections of the Art Institute of Chicago (Chicago, 1956), pp. 35 (ill.), 36.\n\nThe Art Institute of Chicago, Paintings in The Art Institute of Chicago: A Catalogue of the Picture Collection (Chicago, 1961), pp. 73, 326 (ill.).\n\nRodolfo Pallucchini, \u201cL\u2019Art Institute of Chicago,\u201dL\u2019Illustrazione del Medico 33, 218 (February 1966), pp. 15-16, fig. 10.\n\nJohn Maxon, \u201cSome Recent Acquisitions,\u201d Apollo 84, 55 (September 1966), p. 216, fig. 6.\n\nAnne H. Van Buren, \u201cMadame C\u00e9zanne\u2019s Fashions and the Dates of her Portraits,\u201d The Art Quarterly 29, 2 (1966), p. 121.\n\nRichard W. Murphy, The World of C\u00e9zanne 1839-1906 (New York, 1968), pp. 104-105 (ill.).\n\nJohn Maxon, The Art Institute of Chicago (London, 1977), p. 102 (ill.).\n\nThe Art Institute of Chicago: 100 Masterpieces (Chicago, 1978), no. 65 (ill.).\n\nMichel Hoog, Catalogue de la collection Jean Walter et Paul Guillaume (Paris: Editions de la R\u00e9union des mus\u00e9es nationaux, 1984), p. 32.\n\nMichael Howard, Cezanne (London, 1990), pp. 126 (ill.), 127.\n\nRichard Verdi, C\u00e9zanne (London, 1992), pp. 131, 132, fig. 111.\n\nJohn Rewald, The Paintings of Paul C\u00e9zanne: A Catalgoue Raisonn\u00e9 (New York, 1996), vol. 1, p. 422, no. 653, vol. 2., p. 220.\n\nTom\u00e0s Llorens Comisario, Forma: El ideal cl\u00e1sico en el arte moderno, exh. cat. (Madrid, Museo Thyssen-Bornemisza, 2001-2), p. 123 (ill.).\n\nThe Age of Impressionism at the Art Institute of Chicago (New Haven and London, 2008), cat. 64, pp. 136, 137 (ill.).\n\nRobert Storr, \"La Famille Cezanne,\" C\u00e9zanne and Beyond, exh. cat ( Philadelphia Museum of Art, 2009), Fig. 2.8, pp. 51-53.\n\nSusan Sidlauskas, C\u00e9zanne's Other. The Portraits of Hortense, Berkeley, Los Angeles and London, University of California Press, 2009, pp. 94, 130-31, 135, 178, plate 14.\n\n\"C\u00e9zanne's Portraiture, The Emotional Brush,\" The Economist, November 11, 2017, 76 (ill.).\n\nDanchev, Alex, et. al., C\u00e9zanne Portraits, Exh. cat. (Mus\u00e9e d'Orsay\/Gallimard, 2018), 148-157, cat. 44.\n\nAchim Borchardt-Hume, Gloria Groom, Caitlin Haskell and Natalia Sidlina, eds., Cezanne, exh. cat. (Chicago: Art Institute of Chicago, 2022), 41-42 fig. 9, 108 cat. 36, 109.\n\nChristiane Lange, Ortrud Westheider, Nathalie Lachmann and Daniel Zamani, Modigliani Moderne Blicke, exh. cat. (Munich: London: New york: Prestel, 2023), 266, 268 cat. 105.",
+         "exhibition_history":"Possibly Paris, Galerie Vollard, C\u00e9zanne, 1895, no cat. [see New York 2006-7, p. 33].\n\nMoscow, La Toison d\u2019Or, 1908, cat. 15.\n\nKunsthalle D\u00fcsseldorf, Sonderbund Ausstellung, May-June 1909, cat 86.\n\nLondon, French Gallery, Great Masters of the French XIXth Century, 1926, cat. 5.\n\nNew York, Paul Rosenberg & Co., Inc. Wildenstein Galleries, Loan Exhibition of Paintings by Paul C\u00e9zanne, 1839-1906, January 1928, cat. 19.\n\nParis, Paul Rosenberg. Exposition d\u2019Oeuvres Importantes de Grands Ma\u00eetres du XIXe siecle, May 18-June 27, 1931, cat. 7 (ill.).\n\nParis, Mus\u00e9e de L\u2019Orangerie, C\u00e9zanne, 1936, cat. 75.\n\nParis, Paul Rosenberg, Exposition C\u00e9zanne (1839 \u2013 1906), organis\u00e9e \u00e0 l\u2019occasion de son centenaire, February 21-April 1, 1939, cat. 26.\n\nLondon, Rosenberg & Helft, Exhibition C\u00e9zanne, April 19-May 20, 1939, cat. 17 (ill.).\n\nMinneapolis Institute of Arts, 1950, no cat. no.\n\nNew York, Metropolitan Museum of Art, C\u00e9zanne: Paintings, Watercolors, and Drawings: A Loan Exhibition, February 7-March 16, 1952, cat. 68 (ill.), traveled to New York, Metropolitan Museum of Art, April 4-May 18, 1952.\n\nPaul Rosenberg and Co., Masterpieces Recalled, a Loan Exhibition of 19th and 20th Century French Paintings fro the Benefit of the League of Emotionally Disturbed Children, February 6-March 2, 1957, cat. 19 (ill.).\n\nWashington, D. C., The Phillips Collection, C\u00e9zanne: An Exhibition in Honor of the Fiftieth Anniversary of the Phillips Collection, February 27-March 28, 1971, cat. 23 (ill.), traveled to The Art Institute of Chicago, April 17-May 16, 1971 and Boston, Museum of Fine Arts, June 1-July 3, 1971.\n\nNew York, Museum of Modern Art, Modern Masterpieces: Manet to Matisse, August 4-September 1, 1975, cat. 19, traveled to Sydney, Art Gallery of New South Wale, April 10-May 11, 1975 and Melbourne, National Gallery of Victoria, May 28-June 22, 1975.\n\nThe Art Institute of Chicago, European Portraits 1600-1900 in The Art Institute of Chicago, July 8-September 11, 1978, cat. 22.\n\nTokyo, Seibu Museum of Art, The Impressionist Tradition: Masterpieces from The Art Institute of Chicago, October 18-December 17, 1986, cat. 48 (ill.), traveled to Fukuoka Art Museum, January 5-February 2, 1986 and Kyoto Municipal Museum of Art, March 4-April 13, 1986.\n\nLeningrad [St. Petersburg], Hermitage Museum, Ot Delakrua do Matissa: shedevry frantsuzsko\u012d zhivopici XIX-nachala XX veka, iz Muieia Metropoliten v Niu-\u012corke i Khudozhestvennogo Instituta v Chikago [From Delacroix to Matisse: Great Paintings From the XIX century to the Beginning of the XXth century From Metropolitan Museum of Art in New York and the Art Institute of Chicago], March 15-May 19, 1988, pl 36; Moscow, Pushkin Museum, June 10-July 30, 1988.\n\nKunsthalle T\u00fcbingen, C\u00e9zanne: Gem\u00e4lde, January 16-May 7, 1993, cat. 42 (ill.).\n\nStockholm, Nationalmuseum, C\u00e9zanne i blickpunkten, October 17, 1997-January 11, 1998, cat. 6 (ill.).\n\nSt. Petersburg, The State Hermitage Museum, C\u00e9zanne and the Russian Avant-Garde of the XX century, August 8-September 24, 1998, cat. 26 (ill); Moscow, The Pushkin State Museum of Fine Arts, October 5-November 15, 1998.\n\nNew York, Metropolitan Museum of Art, C\u00e9zanne to Picasso Ambroise Vollard, Patron of the Avant-Garde, September 13, 2006-January 7, 2007, cat. 46 (ill.); Art Institute of Chicago, February 17-May 13, 2007; Paris, Mus\u00e9e d\u2019Orsay, June 18-Spetember 16, 2007. \n\nFort Worth, Tex., Kimbell Museum of Art, The Impressionists: Master Paintings from the Art Institute of Chicago, June 29\u2013November 2, 2008, cat. 64 (ill.).\n\nParis, Mus\u00e9e Luxembourg, Cezanne et Paris, October 10, 2011-February 27, 2012.\n\nNew York, NY, The Metropolitan Museum of Art, Portraits of Madame C\u00e9zanne, November 17, 2014\u2013March 15, 2015, pl. 20\n\nParis, Mus\u00e9e d'Orsay, C\u00e9zanne Portraits, June 13, 2017 - September 24, 2017, cat. 44; London, National Portrait Gallery, October 26, 2017 - February 11, 2018, traveled to Washington D.C., National Gallery, March 25 - July 1, 2018.\n\nArt Institute of Chicago, Cezanne, May 15-Sep. 5, 2022, cat. 36; London, Tate, Oct. 5, 2022-Mar. 12, 2023.\n\nStaatsgalerie Stuttgart, Modigliani Moderne Blicke, Nov. 24, 2023 - Mar. 17, 2024, cat. 105; Museum Barberini, Potsdam, Apr. 27-Aug. 18, 2024 [Stuttgart only].",
+         "provenance_text":"Ambroise Vollard, Paris, possibly by 1904 [according to Jayne S. Warman in New York 2006-7]; sold to Bernheim-Jeune & Cie, Paris on February 22, 1907 [according to letter from Gilbert Gruet of Bernheim-Jeune & Cie, dated November 29, 1977, copy in curatorial file]; bought by Th\u00e9odore Duret, Paris on April 16, 1907 [according to Jayne S. Warman in New York 2006-7]; sold to Bernheim-Jeune & Cie, Paris, ca. April 1907 [according to Jayne S. Warman in New York 2006-7]; sold to [August?] Deusser, D\u00fcsseldorf on October 15, 1909 [Bernheim-Jeune & Cie\u2019s stock no. 15.758, see Gruet's letter cited above].  Paul Rosenberg, Paris, by 1926 [see London 1926]; sold to Alphonse Kann, St. Germain-en-Laye and London, on October 31, 1929 [according to Jayne S. Warman in New York 2006-7]; sold by him to Paul Rosenberg & Co, New York, in October 1947 [see consular invoice, copy in curatorial file]; sold to the Art Institute on April 22, 1948.",
+         "edition":null,
+         "publishing_verification_level":"Web Cataloged",
+         "internal_department_id":14,
+         "fiscal_year":null,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":true,
+         "is_zoomable":true,
+         "max_zoom_window_size":-1,
+         "copyright_notice":null,
+         "has_multimedia_resources":true,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":0,
+         "color":{
+            "h":185,
+            "l":45,
+            "s":8,
+            "percentage":0.0015165237842343223,
+            "population":1845
+         },
+         "latitude":41.8796633207202,
+         "longitude":-87.6224379065724,
+         "latlon":"41.87966332072,41.87966332072",
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan to Staatsgalerie Stuttgart in Stuttgart for <i>Modigliani<\/i><\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Painting",
+         "artwork_type_id":1,
+         "department_title":"Painting and Sculpture of Europe",
+         "department_id":"PC-10",
+         "artist_id":40482,
+         "artist_title":"Paul Cezanne",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            40482
+         ],
+         "artist_titles":[
+            "Paul Cezanne"
+         ],
+         "category_ids":[
+            "PC-10"
+         ],
+         "category_titles":[
+            "Painting and Sculpture of Europe"
+         ],
+         "term_titles":[
+            "oil on canvas",
+            "Post-Impressionism",
+            "portraits",
+            "oil paint (paint)",
+            "painting",
+            "european painting",
+            "emotions",
+            "women",
+            "families"
+         ],
+         "style_id":"TM-7547",
+         "style_title":"Post-Impressionism",
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            "TM-7547"
+         ],
+         "style_titles":[
+            "Post-Impressionism"
+         ],
+         "classification_id":"TM-66",
+         "classification_title":"oil on canvas",
+         "alt_classification_ids":[
+            "TM-9",
+            "TM-54"
+         ],
+         "classification_ids":[
+            "TM-66",
+            "TM-9",
+            "TM-54"
+         ],
+         "classification_titles":[
+            "oil on canvas",
+            "painting",
+            "european painting"
+         ],
+         "subject_id":"TM-8658",
+         "alt_subject_ids":[
+            "TM-10122",
+            "TM-8735",
+            "TM-10123"
+         ],
+         "subject_ids":[
+            "TM-8658",
+            "TM-10122",
+            "TM-8735",
+            "TM-10123"
+         ],
+         "subject_titles":[
+            "portraits",
+            "emotions",
+            "women",
+            "families"
+         ],
+         "material_id":"TM-2451",
+         "alt_material_ids":[
+            
+         ],
+         "material_ids":[
+            "TM-2451"
+         ],
+         "material_titles":[
+            "oil paint (paint)"
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            
+         ],
+         "image_id":"4822cd01-44ac-041a-36b8-c0542377b750",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            "fe83c0b9-37a5-084a-fed9-b150c56289f8"
+         ],
+         "sound_ids":[
+            "fe83c0b9-37a5-084a-fed9-b150c56289f8"
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_boosted":"Madame Cezanne in a Yellow Chair",
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1948.54"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "Madame Cezanne in a Yellow Chair"
+               ],
+               "weight":13671,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:36-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":61612,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/61612",
+         "is_boosted":false,
+         "title":"Nude with a Pitcher",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBAAFAPQAAFRFOllJPWdPQWhVR2hXR29cTXFaTHdeTXpfTG9eUXZgT35hT3hlUIRpVoVrV45xW4x0XpJ3X5B3YZyAZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIFQMx6IkjmBIT0BEDcBMSAgAOw==",
+            "width":3576,
+            "height":4401,
+            "alt_text":"A work made of oil on canvas."
+         },
+         "main_reference_number":"1981.14",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1906,
+         "date_end":1906,
+         "date_display":"summer 1906",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"Pablo Picasso\nSpanish, active France, 1881\u20131973",
+         "place_of_origin":"Spain",
+         "description":null,
+         "short_description":null,
+         "dimensions":"100.6 \u00d7 81 cm (39 5\/8 \u00d7 31 7\/8 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":81,
+               "height":100,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Oil on canvas",
+         "inscriptions":"Signed, l.r.: \"Picasso\"",
+         "credit_line":"Gift of Mary and Leigh Block",
+         "catalogue_display":null,
+         "publication_history":"Oscar Sch\u00fcrer, Pablo Picasso (Berlin: Klinkhardt & Biermann, 1927), n.p. (ill.), as Hebe.\n\nSt\u00e4delsches Kunstinstitut, Vom Abbild zum Sinnbild: Ausstellung von Meisterwerken Moderner Malerei im St\u00e4delschen Kunstinstitut, exh. cat. (Frankfurt: St\u00e4delsches Kunstinstitut, 1931), 44, cat. 184.\n\nChristian Zervos, Pablo Picasso I  (Paris: Cahiers d\u2019Art, 1932), 154, no. 330 (ill.). \n\nJoan Merli, Picasso (Buenos Aires: Editorial Poseidon, 1948), n.p., fig. 139, as Muchacha Desnuda.Tate Gallery, Picasso, exh. cat. (London: Tate Gallery, 1960), 19, cat. 27, pl. 5i.\n\nPierre Daix and Georges Boudaille, Picasso 1900-1906: catalogue raisonn\u00e9 de l'oeuvre peint (Neuch\u00e2tel: Editions Ides et Calendes, 1966), 100, and 298. no. XV.23 (ill.). \n\nNational Gallery of Art, 100 Paintings and Drawings from the Collection of Mr. and Mrs. Leigh B. Block, exh. cat. (Washington D. C.: National Gallery of Art, 1967), cat. 36 (ill.).\n\nDenys Sutton and Paolo Lecaldano, The Complete Paintings of Picasso: Blue and Rose Periods (New York: Harry N. Abrams, 1968), 113, no. 305 (ill.), as Nude Woman with Water Jug. \n\nThe Art Institute of Chicago, Picasso in Chicago, exh. cat. (Chicago: The Art Institute of Chicago, 1968), 17, cat. 9 (ill.).\n\nFrancine du Plessix, \u201cThe Flawless Eye: Mary and Leigh Block,\u201d in The Collector in America (New York: A Studio Book, 1970), 111 (ill.), as Girl with Pitcher.\n\nArt Institute of Chicago Annual Report 1980\u201381 (1981), cover (ill.).\n\nBulletin of the Art Institute of Chicago 75:4 (Oct.\u2013Dec. 1981), 9 (ill.), as Girl with Pitcher.\n\nAlan Artner, \u201cArt Institute gets four major pieces,\u201d Chicago Tribune (May 1, 1981), 1 (ill.), as Girl With Pitcher.\n\nAlan Artner, \u201cArt Institute\u2019s new \u2018jewels\u2019,\u201d Chicago Tribune (May 1, 1981) section 4, 20, as Girl with Pitcher.\n\nJosep Palau i Fabre, Picasso: Vivent (1881\u20131907) (Barcelona: Ediciones Poligrafa, 1980), 451 and 550, fig. 1254, as Girl with a Pitcher.\n\nMary Matthews Gedo, \u201cA Youthful Genius Confronts His Destiny: Picasso\u2019s Old Guitarist in The Art Institute of Chicago,\u201d Museum Studies 12.:2 (1986), 156\u2013157 and 159, fig. 6.\n\nJames N. Wood and Katherine C. Lee, Master Paintings in The Art Institute of Chicago (Chicago: The Art Institute of Chicago, 1988), 114 (ill.), as Girl with Pitcher.\n\nHermitage Museum, Ot Delakrua do Matissa, exh. cat. (Leningrad: Hermitage Museum, 1988), cat. 48 (ill.).\n\nPatricia Leighten, Re-Ordering the Universe: Picasso and Anarchism, 1897\u20131914 (Princeton, N. J.: Princeton University Press, 1989), 81, fig. 54.\n\nAnatoly Podoksik, Picasso: The Artist\u2019s Works in Soviet Museums, trans. by Vladimir Malakhov (New York: Harry N. Abrams, 1989), p. 56 (ill.), as Girl with Pitcher, Pierre Daix, Picasso (Paris: Ch\u00eane, 1990), 151, fig. 2. \n\nGary Tinterow, Picasso Clasico, exh. cat. (Malaga: Palacio Episcopal, 1992), 68, 87, and 203, cat. 9 (ill.).\n\nJan van Adrichem,\u201cCollectors of Modern Art in Holland: Picasso as Pars pro Toto, 1920-40,\u201d Simiolus: Netherlands Quarterly for the History of Art 22, no. 3 (1993), 153.\n\nElizabeth Cowling and John Golding, Picasso: Sculptor\/Painter (London: Tate Gallery, 1994), 230, fig. 57, as Girl with a Pitcher. \n\nJudith A. Barter, Douglas W. Druick, and Charles F. Stuckey, Masterworks of Modern Art from The Art Institute of Chicago, exh. cat. (Nagaoka, Japan: Niigata Prefectural Museum of Modern Art, 1994), 88\u201389, cat. 22 (ill.).\n\nMarilyn McCully, Picasso: The Early Years, 1892\u20131909, exh. cat. (Washington, D. C.: National Gallery of Art, 1997), 8, 320\u2013321, 364, cat. 152 (ill.), as Girl with a Pitcher.\n\nMarylin McCully, Picasso, Painter and Sculptor in Clay, exh. cat. (London: Royal Academy of Arts, 1998), 29 (ill), fig. 17.\n\nMarilyn McCully, Picasso: scolpire e dipingere, La ceramica, exh. cat. (Ferrara: Ferrara arte, 2000), 34 (ill.), as Regazza con Brocca.\n\nJan van Adrichem, De ontvangst van de moderne kunst in Nederland 1910-2000: Picasso als pars pro toto (Amsterdam: Prometheus, 2001), 200\u2013201 (ill.).\n\nMar\u00eda Dolores Jim\u00e9nez-Blanco, \u201cPicasso cl\u00e1sico,\u201d in Picasso (Madrid: Fundaci\u00f3n Cultural Mapfre Vida, 2002), 79 (ill.).\n\nWashington DC, The National Gallery of Art, Picasso: The Cubist Portraits of Fernande Olivier (Washington DC: The National Gallery of Art, 2003), 7, fig. 2, as Girl with a Pitcher.\n\nStephanie D'Alessandro, Picasso and Chicago: 100 Years, 100 Works (Chicago: The Art Institute of Chicago, 2013), 39, pl. 11.\n\nStephanie D'Alessandro, The Age of Picasso and Matisse: Modern Art at the Art Institute of Chicago (Chicago: The Art Institute of Chicago, 2014), 54 (ill.).\n\nKenneth Brummel, Susan Behrends Frank, Marilyn McCully, Patricia Favero, Eduard Vall\u00e8s, Sandra Webster-Cook, Picasso: Painting the Blue Period, exh. cat. (New York: DelMonico Books; Toronto: Art Gallery of Ontario; Washington D.C.: The Phillips Collection, 2021), 250, 251 (color ill.), 315, 325.",
+         "exhibition_history":"Frankfurt, St\u00e4delsches Kunstinstitut, Vom Abbild zum Sinnbild: Ausstellung von Meisterwerken Moderner Malerei im St\u00e4delschen Kunstinstitut, June 3\u2013July 3, 1931, cat. 184, as M\u00e4dchen mit Krug. \n\nThe Hague, Gemeentemuseum, Hedendaagsche Fransche Kunst, Feb. 15\u2013Mar. 15, 1936, cat. 89, as Hebe, Halffiguur Naakt in Rooden Toon.\n\nLondon, Tate Gallery, Picasso, July 6\u2013Sept. 18, 1960, cat. 27, as Girl with Pitcher.\n\nWashington, National Gallery of Art, 100 Paintings and Drawings from the Collection of Mr. and Mrs. Leigh B. Block, May 4\u2013June 11, 1967, cat. 36, as Girl with a Pitcher; Los Angeles County Museum of Art, Sept. 21\u2013Nov. 2, 1967. \n\nThe Art Institute of Chicago, Picasso in Chicago, Feb. 3\u2013Mar. 31, 1968, cat. 9 (ill.). \n\nThe Art Institute of Chicago, The Art of the Edge: European Frames 1300\u20131900, Oct. 17\u2013Dec. 14, 1986, as Girl With Pitcher.\n\nLeningrad, Hermitage Museum, Ot Delakrua do Matissa, Mar. 15\u2013May 10, 1988, cat. 48; Moscow, Pushkin Museum, June 10\u2013July 30, 1988.\n\nMalaga, Palacio Episcopal, Picasso Clasico, Oct. 10, 1992\u2013Jan. 11, 1993, cat. 9, as Desnudo con jarra.\n\nNagaoka, Japan, Niigata Prefectural Museum of Modern Art, Masterworks of Modern Art from The Art Institute of Chicago, Apr. 20\u2013May 29, 1994, cat. 22; Nagoya, Aichi Prefectural Museum of Art, June 10\u2013July 24, 1994; Yokohama Museum of Art, Aug. 6\u2013Sept. 25, 1994.\n\nWashington, National Gallery of Art, Picasso: The Early Years, 1892\u20131909, Mar. 30\u2013July 27, 1997, cat. 152, as Girl with a Pitcher; traveled to Boston, Museum of Fine Arts, Sept. 10, 1997\u2013Jan. 4, 1998.\n\nChicago, Art Institute of Chicago, Picasso and Chicago, Feb. 20\u2013May 12, 2013, cat. 26.\n\nFort Worth, Kimbell Art Museum,\u00a0The Age of Picasso and Matisse: Modern Masters from the Art Institute of Chicago, Oct.\u00a06, 2013\u2013Feb.\u00a016, 2014, no cat.\u00a0no.\u00a0\n\nToronto, Art Gallery of Ontario, Picasso: Painting the Blue Period, Oct. 9, 2021\u2013Jan. 23, 2022 (extended from Jan. 16th), no. cat. no.; Washington D.C.; The Phillips Collection, Feb. 26\u2013June 12, 2022 (Washington D.C. only).",
+         "provenance_text":"Dr. Gottlieb Friedrich von Reber (1880\u20131959), Lausanne, by 1927 [Sch\u00fcrer 1927]; probably sold to A. E. von Saher, by 1936 [The Hague 1936; van Adrichem 1993, 153]. Alfred Richet (1893\u20131992), Paris, until c. 1960 [Daix and Boudaille 1967, and email from Pierre-Jean Furet, June 15, 2001; copy in curatorial file]. Edward F. W. James (1907\u20131984), London, by 1960 [London 1960]. Mary and Leigh Block, Chicago, by 1967 [Daix and Boudaille 1967]; given to the Art Institute, 1981.",
+         "edition":null,
+         "publishing_verification_level":"Web Cataloged",
+         "internal_department_id":246,
+         "fiscal_year":1981,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":false,
+         "is_zoomable":true,
+         "max_zoom_window_size":1280,
+         "copyright_notice":"\u00a9 2018 Estate of Pablo Picasso \/ Artists Rights Society (ARS), New York",
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":23.0291,
+         "color":{
+            "h":109,
+            "l":7,
+            "s":16,
+            "percentage":0.00011439147737736948,
+            "population":1
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan to Museo Nacional Centro de Arte Reina Sof\u00eda in Madrid for <i>Picasso 1906: The Turning Point<\/i><\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Painting",
+         "artwork_type_id":1,
+         "department_title":"Modern Art",
+         "department_id":"PC-11",
+         "artist_id":36198,
+         "artist_title":"Pablo Picasso",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            36198
+         ],
+         "artist_titles":[
+            "Pablo Picasso"
+         ],
+         "category_ids":[
+            "PC-11"
+         ],
+         "category_titles":[
+            "Modern Art"
+         ],
+         "term_titles":[
+            "painting",
+            "Cubism",
+            "women",
+            "modern and contemporary art",
+            "kitchenware",
+            "nudes"
+         ],
+         "style_id":"TM-7539",
+         "style_title":"Cubism",
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            "TM-7539"
+         ],
+         "style_titles":[
+            "Cubism"
+         ],
+         "classification_id":"TM-9",
+         "classification_title":"painting",
+         "alt_classification_ids":[
+            "TM-155"
+         ],
+         "classification_ids":[
+            "TM-9",
+            "TM-155"
+         ],
+         "classification_titles":[
+            "painting",
+            "modern and contemporary art"
+         ],
+         "subject_id":"TM-8735",
+         "alt_subject_ids":[
+            "TM-12517",
+            "TM-8649"
+         ],
+         "subject_ids":[
+            "TM-8735",
+            "TM-12517",
+            "TM-8649"
+         ],
+         "subject_titles":[
+            "women",
+            "kitchenware",
+            "nudes"
+         ],
+         "material_id":null,
+         "alt_material_ids":[
+            
+         ],
+         "material_ids":[
+            
+         ],
+         "material_titles":[
+            
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            
+         ],
+         "image_id":"aa7ac006-5b63-12aa-3ab7-705cc612aa0a",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1981.14"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "Nude with a Pitcher"
+               ],
+               "weight":7414,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:36-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":65479,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/65479",
+         "is_boosted":false,
+         "title":"Cottages with a Woman Working in the Middle Ground",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBwAFAPUAAHVuUnZuUoF8X4N8X4qHbYeKcpKOcpSPcZGPdpKQcpaSdJuWdZqVdpyWdJ2WdpKTepaVeZuYeZuYepqYe52bf6OdfZ6dgaGghKOkiaaqkK2vk6eznqu0nau2n6+2nam0oKy5pKO+sqe\/sQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQI2Hs+lkLhYMKCT6UAABQgHyQAwEh0XDwahEJJOEwhAEADs=",
+            "width":2983,
+            "height":2250,
+            "alt_text":"A work made of charcoal, reed pen and black ink, blue pastel, and white chalk on blue-gray laid paper."
+         },
+         "main_reference_number":"1949.382",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1890,
+         "date_end":1890,
+         "date_display":"1890",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"Vincent van Gogh\nDutch, 1853-1890",
+         "place_of_origin":"Netherlands",
+         "description":null,
+         "short_description":null,
+         "dimensions":"47 \u00d7 62.1 cm (18 9\/16 \u00d7 24 7\/16 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":62,
+               "height":47,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Charcoal, reed pen and black ink, blue pastel, and white chalk on blue-gray laid paper",
+         "inscriptions":"Inscribed verso, upper right, in graphite: 3 digits (\"5--\"?) under \"Go--\"",
+         "credit_line":"Bequest of Kate L. Brewster",
+         "catalogue_display":null,
+         "publication_history":"J. B. De la Faille, L'Oeuvre de Vincent Van Gogh (Brussels and Paris, 1928), p. 178, no. 1642, pl. CCIX.\n\nJ. B. de la Faille, The Works of Vincent van Gogh: His Paintings and Drawings (Amsterdam, 1970), p. 560, no. 1642 (ill.).\n\nJan Hulsker, The Complete Van Gogh: Paintings, Drawings, Sketches (New York, 1980), no. 1994 (ill.).\n\nJ. E. Hijbroek and E.L. Wouthuysen, Kunst, Kennis en Commercis: De Kunsthandelaar J.H. de Bois, 1878-1946 (Amsterdam, 1993), p. 206.\n\nBelinda Thomson, Van Gogh (Chicago, 2001), pp. 81,  102, and 107, pl. 15.",
+         "exhibition_history":"Haarlem, Van Gogh's Gallery, 1911, as \"Landschap Blauw.\" \n\nHaarlem, Artz en de Bois, 1912, as \"Moestuin.\"\n\nHaarlem, J.H. de Bois, 1916  as \"Moestiun in Arles.\"\n\nHaarlem, J.H. de Bois, 1926, as \"Jardin Potager.\" \n\nLondon, Leicester Galleries \"Vincent Van Gogh,\" 1926, cat. 31.\n\nNew York, Kraushaar Art Galleries, \"Exhibition of Modern French Paintings, Watercolors, and Drawings,\"  October 1-18, 1928, as \"Landscape.\"\n\nChicago, Arts Club, \"Loan Exhibition of Modern Drawings and Sculpture Privately Owned by Chicagoans, January 3\u201317, 1930,\" n.p., cat. 29, as Landscape.\n\nNew York, Wildenstein and Company, \"The Art and Life of Vincent Van Gogh,\" October 6-November 7, 1943, p. 124, cat. 80 (ill.). \n\nNew York, The Metropolitan Museum of Art, \"Van Gogh in Saint Remy and Auvers,\" November 25, 1986-March 22, 1987, p. 256, cat. 76 (ill.), cat. by Ronald Pickvance.\n\nOtterlo, Rijksmuseum Kr\u00f6ller-M\u00fcller, \"Vincent Van Gogh Drawings,\" March 30-July 29, 1990, p. 327, cat. 246 (ill.), cat. by Johannes van der Wolk et al. \n\nThe Art Institute of Chicago, \"The Broad Spectrum: Color on Paper, Past and Present,\" September 12\u2013October 31, 1999, hors. cat.\n\nMartigny, Switzerland, Fondation Pierre Gianada, \"Vincent van Gogh,\" June 21-November 26, 2000, pp. 249 and 282, cat. 87 (ill.).\n\nVienna, Albertina (Museum), \u201cVan Gough Heartfelt Lines,\u201d September 5-December 8, 2008, pp. 406, 407, 409, and 455, cat. #129, cat. by Klaus Albrecht Schr\u00f6der et al\n\nThe Art Institute of Chicago, \"Van Gogh's Bedrooms\", February 14-May 10, 2016.\n\nAmsterdam, Van Gogh Museum, \"Van Gogh in Auvers: His Final Months\", May 12 - September 3, 2023, traveled to Paris, Musee d'Orsay, October 3 2023 - February 4, 2024, p. 96 (ill.), 97, 109 (ill.), 113, 114, cat. 102, cat. by Nienke Bakker, et. al.",
+         "provenance_text":"The artist's brother, Theo van Gogh (1854\u20131891), Paris; by descent to his widow, Johanna Cohen Gosschalk-Bonger (1862\u20131925).  C. M. van Gogh, by January 1911 [Hijbroek and Wouthuysen 1993].  Artz en de Bois, Haarlem, by July 1912 [de la Faille 1928].  J. H. de Bois, Haarlem, by 1916\u20131926 [Hijbroek and Wouthuysen 1993]; sold to The Leicester Gallery (closed 1928), London [de la Faille 1928].   Kraushaar Gallery, New York, by 1928 [New York 1928]; sold to Mrs. Lewis L. Coburn (1856\u20131932), Chicago; sold to Walter S. (1872\u20131954) and Kate L. Brewster (c. 1879\u20131947), Chicago, 1929 [letter from Walter S. Brewster to Lewis L. Coburn dated May 1, 1929 in museum archives]; bequeathed by Kate L. Brewster to the Art Institute, 1949.",
+         "edition":null,
+         "publishing_verification_level":"Web Cataloged",
+         "internal_department_id":3,
+         "fiscal_year":1949,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":true,
+         "is_zoomable":true,
+         "max_zoom_window_size":-1,
+         "copyright_notice":null,
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":21.4916,
+         "color":{
+            "h":51,
+            "l":49,
+            "s":14,
+            "percentage":0.291150950856853,
+            "population":1561
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":null,
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Drawing and Watercolor",
+         "artwork_type_id":14,
+         "department_title":"Prints and Drawings",
+         "department_id":"PC-13",
+         "artist_id":40610,
+         "artist_title":"Vincent van Gogh",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            40610
+         ],
+         "artist_titles":[
+            "Vincent van Gogh"
+         ],
+         "category_ids":[
+            "PC-13"
+         ],
+         "category_titles":[
+            "Prints and Drawings"
+         ],
+         "term_titles":[
+            "charcoal",
+            "paper (fiber product)",
+            "white chalk",
+            "chalk sticks",
+            "pastels (crayons)",
+            "crayons",
+            "black ink",
+            "colored ink",
+            "ink",
+            "coating (material)",
+            "drawings (visual works)",
+            "prints and drawing"
+         ],
+         "style_id":null,
+         "style_title":null,
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            
+         ],
+         "style_titles":[
+            
+         ],
+         "classification_id":"TM-218",
+         "classification_title":"charcoal",
+         "alt_classification_ids":[
+            "TM-5",
+            "TM-4"
+         ],
+         "classification_ids":[
+            "TM-218",
+            "TM-5",
+            "TM-4"
+         ],
+         "classification_titles":[
+            "charcoal",
+            "drawings (visual works)",
+            "prints and drawing"
+         ],
+         "subject_id":null,
+         "alt_subject_ids":[
+            
+         ],
+         "subject_ids":[
+            
+         ],
+         "subject_titles":[
+            
+         ],
+         "material_id":"TM-2982",
+         "alt_material_ids":[
+            "TM-2416",
+            "TM-2413",
+            "TM-2417",
+            "TM-2418",
+            "TM-2465",
+            "TM-2539",
+            "TM-2398",
+            "TM-3238"
+         ],
+         "material_ids":[
+            "TM-2982",
+            "TM-2416",
+            "TM-2413",
+            "TM-2417",
+            "TM-2418",
+            "TM-2465",
+            "TM-2539",
+            "TM-2398",
+            "TM-3238"
+         ],
+         "material_titles":[
+            "paper (fiber product)",
+            "white chalk",
+            "chalk sticks",
+            "pastels (crayons)",
+            "crayons",
+            "black ink",
+            "colored ink",
+            "ink",
+            "coating (material)"
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            
+         ],
+         "image_id":"c60f377f-37e3-a5e5-6a49-2099fb475355",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1949.382"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "Cottages with a Woman Working in the Middle Ground"
+               ],
+               "weight":4504,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:35-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":62450,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/62450",
+         "is_boosted":false,
+         "title":"Still Life with a Basket of Fruit and a Bunch of Asparagus",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBwAFAPUAABoDDxcAEBkCEBsEERwEER4HExwFFB4GFSQNEyMLFSQOFSsKEi8PFz0aGD8dGTghGj0iGjsfIEggHEUqJkgtJlQvIUwzI141JlU8LV9BMGdGLmpANWhKNXpNMW9QM2VQPoBaOoJdQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwIEAECgYDojHpRJhJBSSTYeyIDganAzkM9F4QCELJhMEADs=",
+            "width":3000,
+            "height":2161,
+            "alt_text":"Painting of a woven basket filled with various fruits, including plums and apricots, on a table against a dark background, with asparagus and peapods on the table at front."
+         },
+         "main_reference_number":"1948.78",
+         "has_not_been_viewed_much":false,
+         "boost_rank":null,
+         "date_start":1630,
+         "date_end":1630,
+         "date_display":"1630",
+         "date_qualifier_title":"",
+         "date_qualifier_id":null,
+         "artist_display":"Louise Moillon\nFrench, 1610\u20131696",
+         "place_of_origin":"France",
+         "description":"<p>At a time when still life was emerging as a discrete subject (and not just an element of larger narrative works), this artist depicted fruit and vegetables arrayed on a simple tabletop with elegant clarity and naturalism. Louise Moillon trained first under her father and, from 1620, her stepfather. When she executed this still life at the young age of 20, she was already an accomplished painter.<\/p>\n<p>Women painters were not uncommon within the European tradition of the family workshop, which provided training, studio space, and clients for successive generations of artists. The system was one of few pro- fessional routes for women in a period when they could not legally take up a career.<\/p>\n",
+         "short_description":null,
+         "dimensions":"53.3 \u00d7 71.3 cm (21 \u00d7 28 1\/2 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":71,
+               "height":53,
+               "diameter":null,
+               "clarification":null
+            }
+         ],
+         "medium_display":"Oil on panel",
+         "inscriptions":"Inscribed lower right: Louyse\u2019 Moillon. 1630",
+         "credit_line":"Wirt D. Walker Fund",
+         "catalogue_display":null,
+         "publication_history":"Art Institute of Chicago, Paintings in The Art Institute of Chicago: A Catalogue of the Picture Collection (Chicago, 1961), 316.\n\nMichel Far\u00e9, La Nature morte en France: Son Histoire et son \u00e9volution du XVIIe au XXe si\u00e8cle (Geneva, 1962), vol. 2, fig. 33.\n\nMichel Far\u00e9, Le Grand Si\u00e8cle de la nature morte en France: Le XVIIe Si\u00e8cle (Fribourg and Paris, 1974), 55 (ill.).\n\nJames A. Schinneller, Art: Search and Self-Discovery, 3rd ed. (Worcester, Mass., 1975), 28 (ill.).\n\nAnn Sutherland Harris in Los Angeles County Museum of Art, Women Artists: 1550\u20131950, exh. cat. (1976), 141.\n\nClaude Lesn\u00e9, \"La Peinture fran\u00e7aise du XVIIe si\u00e8cle dans les collections am\u00e9ricaines,\" Le Petit Journal des grandes expositions 116 (1982), n.p. (ill.).\n\nJ. V. Hantz, \"La Peinture fran\u00e7aise du XVIIe si\u00e8cle dans les collections am\u00e9ricaines,\" L\u2019Amateur d\u2019art 35, no. 680 (1982), 19.\n\nErich Schleier, \"La Peinture fran\u00e7aise du XVIIe si\u00e8cle dans les collections am\u00e9ricaines: France in the Golden Age, part 2,\" Kunstchronik 36 (1983), 232.\n\nAndr\u00e9 Chastel, Musica depicta (Milan, 1984), 30, 100\u201301 (ill.).\n\nChristopher Wright, The French Painters of the Seventeenth Century (London, 1985), 233.\n\nBeatrijs Brenninkmeyer-de Rooij in Paris, Galeries nationales du Grand Palais, De Rembrandt \u00e0 Vermeer: Les Peintres hollandais au Mauritshuis de La Haye, exh. cat. (1986), 62, fig. 29.\n\nGerardo Casale, Giovanna Garzoni: \"Insigne minatrice,\" 1600\u20131670 (Milan and Rome, 1991), 28 (ill.).\n\nChristopher Wright, comp., The World's Master Paintings from the Early Renaissance to the Present Day: A Comprehensive Listing of Works by 1,300 Painters and a Complete Guide to Their Locations Worldwide (New York, 1991), vol. 1, p. 246; vol. 2, pp. 62, 427.\n\nCopenhagen, Statens Museum fur Kunst, Fransk Guldalder: Poussin og Claude og maleriet I det 17. \u00c5rhundredes Frankig, exh. cat. by Humphrey Wine and Olaf Koester, (1992), 50, fig. 17, p. 54.\n\nJames Yood, Feasting: A Celebration of Food in Art (New York, 1992), 7, no. 3 (ill.).\n\nAlain M\u00e9rot, La Peinture fran\u00e7aise au XVIIe si\u00e8cle (Paris, 1994), 238\u201339 (ill.).\n\nSusan Wise in Susan Wise and Malcolm Warner, French and British Paintings from 1600 to 1800 in The Art Institute of Chicago: A Catalogue of the Collection (Chicago, 1996), 106\u201309 (ill.).\n\nAndaleeb Badiee Banta and Alexa Greist, eds., Making Her Mark: A History of Women Artists in Europe, 1400-1800, exh. cat. (Fredericton, New Brunswick: Goose Lane Editions, 2023), 8 (detail ill.), 211, 213 cat. 115.",
+         "exhibition_history":"Paris, Galeries Nationales du Grand Palais, La Peinture fran\u00e7aise du XVIIe si\u00e8cle dans les collections am\u00e9ricaines,  Jan. 29 \u2013 Apr. 26, 1982, cat. 73; New York, Metropolitan Museum of Art, May 26 \u2013 Aug. 22, 1982; Art Institute of Chicago,  Sep. 18 \u2013 Nov. 28, 1982.\n\nBaltimore Museum of Art, Making Her Mark: A History of Women Artists in Europe, 1400-1800, Oct. 1, 2023 - Jan. 7, 2024, cat. 115; Toronto, Art Gallery of Ontario, Mar. 1, 2024 - July 1, 2024.",
+         "provenance_text":"Gertrude D. Webster, Mass., probably to 1947 [Kleinberger archives, Metropolitan Museum of Art, New York]. Sold, Plaza Art Galleries, New York, 6\u20138 November 1947, no. 234, as Dutch School, to Kleinberger, New York [annotated sale cat. in Frick Art Reference Library, New York]; sold by Kleinberger to the Art Institute through the Wirt D. Walker Fund, 1948.",
+         "edition":null,
+         "publishing_verification_level":"Web Cataloged",
+         "internal_department_id":14,
+         "fiscal_year":null,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":true,
+         "is_zoomable":true,
+         "max_zoom_window_size":-1,
+         "copyright_notice":null,
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":34.3097,
+         "color":{
+            "h":41,
+            "l":68,
+            "s":75,
+            "percentage":0.008012491669940062,
+            "population":41
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan<\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Painting",
+         "artwork_type_id":1,
+         "department_title":"Painting and Sculpture of Europe",
+         "department_id":"PC-10",
+         "artist_id":17526,
+         "artist_title":"Louise Moillon",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            17526
+         ],
+         "artist_titles":[
+            "Louise Moillon"
+         ],
+         "category_ids":[
+            "PC-10",
+            "PC-833",
+            "PC-825"
+         ],
+         "category_titles":[
+            "Painting and Sculpture of Europe",
+            "Women artists before 1800",
+            "Women artists"
+         ],
+         "term_titles":[
+            "oil on panel",
+            "painting",
+            "european painting"
+         ],
+         "style_id":null,
+         "style_title":null,
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            
+         ],
+         "style_titles":[
+            
+         ],
+         "classification_id":"TM-80",
+         "classification_title":"oil on panel",
+         "alt_classification_ids":[
+            "TM-9",
+            "TM-54"
+         ],
+         "classification_ids":[
+            "TM-80",
+            "TM-9",
+            "TM-54"
+         ],
+         "classification_titles":[
+            "oil on panel",
+            "painting",
+            "european painting"
+         ],
+         "subject_id":null,
+         "alt_subject_ids":[
+            
+         ],
+         "subject_ids":[
+            
+         ],
+         "subject_titles":[
+            
+         ],
+         "material_id":null,
+         "alt_material_ids":[
+            
+         ],
+         "material_ids":[
+            
+         ],
+         "material_titles":[
+            
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            "Women artists before 1800",
+            "Women artists"
+         ],
+         "image_id":"87d426ca-4537-1386-50bf-6c2d5a5d7d17",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1948.78"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "Still Life with a Basket of Fruit and a Bunch of Asparagus"
+               ],
+               "weight":3235,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:35-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      },
+      {
+         "id":73874,
+         "api_model":"artworks",
+         "api_link":"https:\/\/api.artic.edu\/api\/v1\/artworks\/73874",
+         "is_boosted":false,
+         "title":"Figure Study in Colors",
+         "alt_titles":null,
+         "thumbnail":{
+            "lqip":"data:image\/gif;base64,R0lGODlhBAAFAPQAAMXAt9HOxdXQyNbTy9fTy9jVzNrWztrXztvXztrXz9rYz9vYz93a0d3a0t\/d1OLf1+Lg2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURINI0xkEIxRIABZMMivNATQgAOw==",
+            "width":2245,
+            "height":2973,
+            "alt_text":"A work made of transfer lithograph from four stones on ivory wove proofing paper."
+         },
+         "main_reference_number":"1917.628",
+         "has_not_been_viewed_much":true,
+         "boost_rank":null,
+         "date_start":1890,
+         "date_end":1890,
+         "date_display":"1890",
+         "date_qualifier_title":"Made",
+         "date_qualifier_id":4,
+         "artist_display":"James McNeill Whistler\nAmerican, 1834-1903",
+         "place_of_origin":"United States",
+         "description":null,
+         "short_description":null,
+         "dimensions":"Image: 20.4 \u00d7 14 cm (8 1\/16 \u00d7 5 9\/16 in.); With registration marks: 25.9 \u00d7 14 cm (10 1\/4 \u00d7 5 9\/16 in.); Sheet: 35.5 \u00d7 26.6 cm (14 \u00d7 10 1\/2 in.)",
+         "dimensions_detail":[
+            {
+               "depth":null,
+               "width":14,
+               "height":20,
+               "diameter":null,
+               "clarification":"Image"
+            },
+            {
+               "depth":null,
+               "width":14,
+               "height":25,
+               "diameter":null,
+               "clarification":"With registration marks"
+            },
+            {
+               "depth":null,
+               "width":26,
+               "height":35,
+               "diameter":null,
+               "clarification":"Sheet"
+            }
+         ],
+         "medium_display":"Transfer lithograph from four stones on ivory wove proofing paper",
+         "inscriptions":null,
+         "credit_line":"Bequest of Bryan Lathrop",
+         "catalogue_display":"<p>Chicago 39 III\/III<\/p><p>Way 99<\/p><p>Levy 193<\/p>",
+         "publication_history":null,
+         "exhibition_history":null,
+         "provenance_text":null,
+         "edition":null,
+         "publishing_verification_level":"Web Basic",
+         "internal_department_id":3,
+         "fiscal_year":null,
+         "fiscal_year_deaccession":null,
+         "is_public_domain":true,
+         "is_zoomable":true,
+         "max_zoom_window_size":-1,
+         "copyright_notice":null,
+         "has_multimedia_resources":false,
+         "has_educational_resources":false,
+         "has_advanced_imaging":false,
+         "colorfulness":6.2152,
+         "color":{
+            "h":42,
+            "l":50,
+            "s":10,
+            "percentage":0.0018069958375319416,
+            "population":17
+         },
+         "latitude":null,
+         "longitude":null,
+         "latlon":null,
+         "is_on_view":false,
+         "on_loan_display":"<p>On loan to Michael C. Carlos Museum in Atlanta for <i>Recasting Antiquity: Whistler, Tanagra, and the Female Form<\/i><\/p>",
+         "gallery_title":null,
+         "gallery_id":null,
+         "nomisma_id":null,
+         "artwork_type_title":"Print",
+         "artwork_type_id":18,
+         "department_title":"Prints and Drawings",
+         "department_id":"PC-13",
+         "artist_id":37279,
+         "artist_title":"James McNeill Whistler",
+         "alt_artist_ids":[
+            
+         ],
+         "artist_ids":[
+            37279
+         ],
+         "artist_titles":[
+            "James McNeill Whistler"
+         ],
+         "category_ids":[
+            "PC-13"
+         ],
+         "category_titles":[
+            "Prints and Drawings"
+         ],
+         "term_titles":[
+            "transfer lithograph",
+            "paper (fiber product)",
+            "lithograph",
+            "print",
+            "prints and drawing",
+            "paper",
+            "ink",
+            "wove paper"
+         ],
+         "style_id":null,
+         "style_title":null,
+         "alt_style_ids":[
+            
+         ],
+         "style_ids":[
+            
+         ],
+         "style_titles":[
+            
+         ],
+         "classification_id":"TM-2180",
+         "classification_title":"transfer lithograph",
+         "alt_classification_ids":[
+            "TM-71",
+            "TM-17",
+            "TM-4",
+            "TM-145"
+         ],
+         "classification_ids":[
+            "TM-2180",
+            "TM-71",
+            "TM-17",
+            "TM-4",
+            "TM-145"
+         ],
+         "classification_titles":[
+            "transfer lithograph",
+            "lithograph",
+            "print",
+            "prints and drawing",
+            "paper"
+         ],
+         "subject_id":null,
+         "alt_subject_ids":[
+            
+         ],
+         "subject_ids":[
+            
+         ],
+         "subject_titles":[
+            
+         ],
+         "material_id":"TM-2982",
+         "alt_material_ids":[
+            "TM-2398",
+            "TM-3074"
+         ],
+         "material_ids":[
+            "TM-2982",
+            "TM-2398",
+            "TM-3074"
+         ],
+         "material_titles":[
+            "paper (fiber product)",
+            "ink",
+            "wove paper"
+         ],
+         "technique_id":null,
+         "alt_technique_ids":[
+            
+         ],
+         "technique_ids":[
+            
+         ],
+         "technique_titles":[
+            
+         ],
+         "theme_titles":[
+            
+         ],
+         "image_id":"1ebf3b8d-c88b-5189-0787-8198fb46a70e",
+         "alt_image_ids":[
+            
+         ],
+         "document_ids":[
+            
+         ],
+         "sound_ids":[
+            
+         ],
+         "video_ids":[
+            
+         ],
+         "text_ids":[
+            
+         ],
+         "section_ids":[
+            
+         ],
+         "section_titles":[
+            
+         ],
+         "site_ids":[
+            
+         ],
+         "suggest_autocomplete_all":[
+            {
+               "input":[
+                  "1917.628"
+               ],
+               "contexts":{
+                  "groupings":[
+                     "accession"
+                  ]
+               }
+            },
+            {
+               "input":[
+                  "Figure Study in Colors"
+               ],
+               "weight":1,
+               "contexts":{
+                  "groupings":[
+                     "title"
+                  ]
+               }
+            }
+         ],
+         "source_updated_at":"2024-02-10T00:30:13-06:00",
+         "updated_at":"2024-02-10T00:31:34-06:00",
+         "timestamp":"2024-02-10T07:20:41-06:00"
+      }
+   ],
+   "info":{
+      "license_text":"The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links":[
+         "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
+         "https:\/\/www.artic.edu\/terms"
+      ],
+      "version":"1.10"
+   },
+   "config":{
+      "iiif_url":"https:\/\/www.artic.edu\/iiif\/2",
+      "website_url":"http:\/\/www.artic.edu"
+   }
+}

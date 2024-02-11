@@ -8,7 +8,13 @@
 import Foundation
 import UIKit
 
-class ArtworkDetailViewModel: ObservableObject {
+protocol ArtworkDetailViewModelProtocl {
+    var artwork: ArtoworkDetailResponse? { get }
+    func retrieveArtoworkDetail(id: Int)
+    func retrieveImage()
+}
+
+class ArtworkDetailViewModel: ObservableObject, ArtworkDetailViewModelProtocl {
     
     enum ArtworkDetailState {
         case loading
@@ -26,17 +32,17 @@ class ArtworkDetailViewModel: ObservableObject {
     
     @Published var artworkDetailState: ArtworkDetailState = .loading
     
-    private let provider: NetworkProvider
+    private let provider: NetworkProviderProtocol
     let id: Int
     
-    init(provider: NetworkProvider, id: Int) {
+    init(provider: NetworkProviderProtocol, id: Int) {
         self.provider = provider
         self.id = id
         retrieveArtoworkDetail(id: id)
     }
     
     func retrieveArtoworkDetail(id: Int) {
-        provider.getDecodable(path: .detailArtwork(artoworkID: "\(id)"), query: .detailArtworks) { [weak self] (result: Result<ArtoworkDetailResponse, Error>) in
+        provider.getDecodable(path: .detailArtwork(artoworkID: "\(id)"), query: .detailArtworks, page: nil) { [weak self] (result: Result<ArtoworkDetailResponse, Error>) in
             switch result {
             case .success(let artwork):
                 self?.artwork = artwork

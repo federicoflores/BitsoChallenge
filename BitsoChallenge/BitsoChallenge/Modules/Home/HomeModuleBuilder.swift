@@ -11,7 +11,7 @@ class HomeModuleBuilder {
     static func build() -> UIViewController {
         let view: HomeViewController = HomeViewController()
         let presenter: HomePresenter = HomePresenter()
-        let interactor: HomeInteractor = HomeInteractor()
+        let interactor: HomeInteractor = HomeInteractor(provider: NetworkProvider())
         let router: HomeRouter = HomeRouter()
         
         view.homePresenter = presenter

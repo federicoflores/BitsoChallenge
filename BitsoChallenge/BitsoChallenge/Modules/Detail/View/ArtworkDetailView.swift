@@ -40,13 +40,13 @@ struct ArtworkDetailView: View {
                     }
                     artistDisplay
                     
-                    ArtworkDetailDataRow(keyText: "Date: ", content: Text(viewModel.artwork?.result.dateDisplay ?? ""))
+                    ArtworkDetailInfoView(keyText: "Date: ", content: Text(viewModel.artwork?.result.dateDisplay ?? ""))
                     
-                    ArtworkDetailDataRow(keyText: "Place of origin: ", content: Text(viewModel.artwork?.result.placeOfOrigin ?? ""))
+                    ArtworkDetailInfoView(keyText: "Place of origin: ", content: Text(viewModel.artwork?.result.placeOfOrigin ?? ""))
                     
-                    ArtworkDetailDataRow(keyText: "Dimensions: ", content: Text(viewModel.artwork?.result.dimensions ?? ""))
+                    ArtworkDetailInfoView(keyText: "Dimensions: ", content: Text(viewModel.artwork?.result.dimensions ?? ""))
                     
-                    ArtworkDetailDataRow(keyText: "", content: Text(viewModel.artwork?.result.provenanceText ?? ""))
+                    ArtworkDetailInfoView(keyText: "", content: Text(viewModel.artwork?.result.provenanceText ?? ""))
                         .foregroundColor(.gray).opacity(0.7)
                 }
             }
@@ -92,7 +92,7 @@ struct ArtworkDetailView: View {
     }
 }
 
-fileprivate struct ArtworkDetailDataRow<Content: View>: View
+fileprivate struct ArtworkDetailInfoView<Content: View>: View
 {
     
     let keyText: String

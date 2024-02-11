@@ -15,7 +15,6 @@ protocol HomeViewProtocols: AnyObject {
     func hideLoadingView()
     func handleErrorViewVisibility(isHidden: Bool)
     func setErrorMessage(error: String)
-    func updateCurrentPage()
 }
 
 class HomeViewController: UIViewController {
@@ -49,13 +48,13 @@ class HomeViewController: UIViewController {
     
     fileprivate var errorView: UIHostingController<ErrorView>?
     
-    var currentPage = 1
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
         setupCollectionView()
-        homePresenter?.fetchArtworks(page: currentPage)
+        homePresenter?.fetchArtworks()
     }
     
     fileprivate func setupViews() {
@@ -125,7 +124,7 @@ class HomeViewController: UIViewController {
     }
     
     private func loadData() {
-        homePresenter?.fetchArtworks(page: currentPage)
+        homePresenter?.fetchArtworks()
     }
 }
 
@@ -148,7 +147,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         if let didScrollToBottom = homePresenter?.didScrollToBottom(row: indexPath.row), didScrollToBottom, let isFetchingData = homePresenter?.isFetchingData, !isFetchingData {
-            homePresenter?.userDidScroll(page: currentPage)
+            homePresenter?.userDidScroll()
         }
     }
     
@@ -176,9 +175,7 @@ extension HomeViewController: HomeViewProtocols {
             errorView.view.isHidden = isHidden
         }
     }
-    func updateCurrentPage() {
-        currentPage += 1
-    }
+
 }
 
 

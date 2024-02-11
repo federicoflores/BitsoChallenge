@@ -8,7 +8,7 @@
 import Foundation
 
 protocol HomeInteractorProtocols: AnyObject {
-    var provider: NetworkProvider { get }
+    var provider: NetworkProviderProtocol { get }
     func retrieveArtworks(page: Int)
 }
 
@@ -16,7 +16,11 @@ class HomeInteractor: HomeInteractorProtocols {
     
     weak var homePresenter: HomePresenterProtocols?
     
-    var provider = NetworkProvider()
+    var provider: NetworkProviderProtocol
+    
+    init(provider: NetworkProviderProtocol) {
+        self.provider = provider
+    }
     
     func retrieveArtworks(page: Int) {
         provider.getDecodable(path: NetworkProvider.Path.allArtworks, query: .allArtworks, page: page) { [weak self] (result: Result<ArtworkListResponse, Error>) in

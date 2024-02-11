@@ -9,7 +9,7 @@ import UIKit
 import SwiftUI
 
 class ArtworkDetailModuleBuilder {
-    static func build(with provider: NetworkProvider, id: Int) -> UIHostingController<ArtworkDetailView> {
+    static func build(with provider: NetworkProviderProtocol, id: Int) -> UIHostingController<ArtworkDetailView> {
         let viewModel = ArtworkDetailViewModel(provider: provider, id: id)
         let view = ArtworkDetailView(viewModel: viewModel)
         return UIHostingController(rootView: view)

@@ -8,15 +8,17 @@
 import Foundation
 
 protocol HomePresenterProtocols: AnyObject {
-    var isFetchingData: Bool { get set }
-    func fetchArtworks(page: Int)
+    var artworkResponse: ArtworkListResponse { get}
+    var isFetchingData: Bool { get }
+    var responseState: HomePresenter.ResponseState { get}
+    func fetchArtworks()
     func onFetchPiecesOfArtSuccess(response: ArtworkListResponse)
     func onFetchPiecesOfArtFail(error: String)
     func numberOfItemsInSection(section: Int) -> Int
     func getArtworkViewModel(row: Int) -> ArtworkViewModel?
     func didScrollToBottom(row: Int) -> Bool
     func didSelectRow(row: Int)
-    func userDidScroll(page: Int)
+    func userDidScroll()
 }
 
 class HomePresenter: HomePresenterProtocols {
@@ -40,11 +42,12 @@ class HomePresenter: HomePresenterProtocols {
     
     var isFetchingData: Bool = false
     var responseState: ResponseState = .onEmpty
+    private var currentPage = 1
     
-    func fetchArtworks(page: Int) {
+    func fetchArtworks() {
         isFetchingData = true
         homeView?.showLoadingView()
-        homeInteractor?.retrieveArtworks(page: page)
+        homeInteractor?.retrieveArtworks(page: currentPage)
     }
     
     func onFetchPiecesOfArtSuccess(response: ArtworkListResponse) {
@@ -64,10 +67,10 @@ class HomePresenter: HomePresenterProtocols {
         responseState = .onSucceed
         isFetchingData = false
         homeView?.reloadCollectionView()
-        homeView?.updateCurrentPage()
+        currentPage += 1
     }
     
-    func userDidScroll(page: Int) {
+    func userDidScroll() {
         isFetchingData = true
         if responseState == .onSucceed {
             showLoadingViewWhileScrolling()
@@ -75,7 +78,7 @@ class HomePresenter: HomePresenterProtocols {
             auxResponse.results = []
             homeView?.reloadCollectionView()
         }
-        homeInteractor?.retrieveArtworks(page: page)
+        homeInteractor?.retrieveArtworks(page: currentPage)
     }
     
     private func showLoadingViewWhileScrolling() {
@@ -107,7 +110,7 @@ class HomePresenter: HomePresenterProtocols {
     }
     
     func didScrollToBottom(row: Int) -> Bool {
-        row == (artworkResponse.results.count) - 2
+        row == (artworkResponse.results.count) - 1
     }
     
     func didSelectRow(row: Int) {
@@ -139,7 +142,6 @@ extension HomePresenter {
             if let savedModel = UserDefaults.standard.value(forKey: "artworkResponse") as? Data {
                 if let decodedData = try? JSONDecoder().decode(ArtworkListResponse.self, from: savedModel) {
                     artworkResponse = decodedData
-                    homeView?.hideLoadingView()
                     homeView?.reloadCollectionView()
                     responseState = .onError
                     return
