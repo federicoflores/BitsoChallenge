@@ -149,16 +149,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "53B8C497-A1A3-4E04-88AF-C8B593F7A843"
+            uuid = "72F922A4-4711-48FF-8A5E-70C95E101D5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "setUserDefaultsResponse()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EC0153C-D53B-45C2-9086-B7D2E510CE63"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
-            landmarkName = "onFetchPiecesOfArtFail(error:)"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "onFetchPiecesOfArtSuccess(response:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

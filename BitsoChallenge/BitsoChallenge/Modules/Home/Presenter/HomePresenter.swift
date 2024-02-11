@@ -66,11 +66,17 @@ class HomePresenter: HomePresenterProtocols {
             artworkResponse.results = response.results
             homeView?.reloadCollectionView()
         }
-        setUserDefaultsResponseIfNeeded(isFirstCall: response.pagination?.currentPage == 1)
         responseState = .onSucceed
         isFetchingData = false
         currentPage += 1
-        if response.pagination?.currentPage == 1 {
+        
+        handleFirstCallBehaviours(isFirstCall: response.pagination?.currentPage == 1)
+    }
+    
+    private func handleFirstCallBehaviours(isFirstCall: Bool) {
+        if isFirstCall {
+            isFetchingData = true
+            setUserDefaultsResponse()
             homeInteractor?.retrieveArtworks(page: currentPage)
         }
     }
@@ -78,19 +84,16 @@ class HomePresenter: HomePresenterProtocols {
     func userDidScroll() {
         isFetchingData = true
         if responseState == .onSucceed, !auxResponse.results.isEmpty {
-            showLoadingViewWhileScrolling()
+            var rowIndexs: [Int] = []
+            
+            for index in 0..<auxResponse.results.count {
+                rowIndexs.append(artworkResponse.results.count + index)
+            }
             artworkResponse.results.append(contentsOf: auxResponse.results)
+            homeView?.updateItems(at: rowIndexs)
             auxResponse.results = []
-            homeView?.reloadCollectionView()
         }
         homeInteractor?.retrieveArtworks(page: currentPage)
-    }
-    
-    private func showLoadingViewWhileScrolling() {
-        homeView?.showLoadingView()
-        DispatchQueue.main.asyncAfter(deadline: .now() + Constant.delay, execute: { [weak self] in
-            self?.homeView?.hideLoadingView()
-        })
     }
     
     func onFetchPiecesOfArtFail(error: String) {
@@ -128,19 +131,16 @@ class HomePresenter: HomePresenterProtocols {
 }
 
 extension HomePresenter {
-    fileprivate func setUserDefaultsResponseIfNeeded(isFirstCall: Bool) {
-        if isFirstCall {
-            do {
-                let encoder = JSONEncoder()
-                let data = try encoder.encode(artworkResponse)
-                UserDefaults.standard.set(data, forKey: Constant.userDefaultsArtworksResponseKey)
-            }
-            catch {
-                print(error)
-            }
+    fileprivate func setUserDefaultsResponse() {
+        do {
+            let encoder = JSONEncoder()
+            let data = try encoder.encode(artworkResponse)
+            UserDefaults.standard.set(data, forKey: Constant.userDefaultsArtworksResponseKey)
+        }
+        catch {
+            print(error)
         }
     }
-    
     
     private func getDataFromUserDefaults() {
         if responseState == .onEmpty {

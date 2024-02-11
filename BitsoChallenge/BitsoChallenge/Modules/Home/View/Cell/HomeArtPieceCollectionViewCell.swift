@@ -42,7 +42,6 @@ class HomeArtPieceCollectionViewCell: UICollectionViewCell {
         super.prepareForReuse()
     }
 
-
     private func setup() {
         contentView.backgroundColor = UIColor(
             red: Constant.backgroundColorRedProportion,
@@ -55,8 +54,6 @@ class HomeArtPieceCollectionViewCell: UICollectionViewCell {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         subtitleLabel.translatesAutoresizingMaskIntoConstraints = false
         chevronImageView.translatesAutoresizingMaskIntoConstraints = false
-        
-        
         
         //Titlelabel
         titleLabel.numberOfLines = Constant.labelNumberOfLines

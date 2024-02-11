@@ -16,6 +16,7 @@ class HomeViewMocks: HomeViewProtocols {
     var numberOfTimesHideLoadingViewCalled: Int = 0
     var numberOfTimesHandleErrorViewVisibilityCalled: Int = 0
     var numberOfTimesSetErrorMessageCalled: Int = 0
+    var numberOfTimesUpdateItemsCalled: Int = 0
     
     func reloadCollectionView() {
         numberOfTimesReloadCollectionViewCalled += 1
@@ -41,4 +42,7 @@ class HomeViewMocks: HomeViewProtocols {
         numberOfTimesSetErrorMessageCalled += 1
     }
     
+    func updateItems(at rows: [Int]) {
+        numberOfTimesUpdateItemsCalled += 1
+    }
 }

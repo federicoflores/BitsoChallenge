@@ -21,6 +21,8 @@ class NetworkProvider: NetworkProviderProtocol {
         static let pageKey: String = "page"
         static let allArtworksFieldsValues = "id,title,artist_titles"
         static let detailArtworksFieldsValues = "id,title,artist_display,date_display,main_reference_number,provenance_text,image_id,place_of_origin,dimensions,medium_display"
+        static let limitKey: String = "limit"
+        static let limitValue: String = "50"
         static let scheme: String = "https"
     }
     
@@ -53,7 +55,8 @@ class NetworkProvider: NetworkProviderProtocol {
         func setQuery(page: Int)->  [URLQueryItem] {
             switch self {
             case .allArtworks:
-                return [URLQueryItem(name: Constant.fieldsKey, value: Constant.allArtworksFieldsValues), URLQueryItem(name: Constant.pageKey, value: "\(page)")]
+                return [URLQueryItem(name: Constant.fieldsKey, value: Constant.allArtworksFieldsValues), URLQueryItem(name: Constant.pageKey, value: "\(page)"), URLQueryItem(name: Constant.limitKey, value: Constant.limitValue)
+]
             case .detailArtworks:
                 return [URLQueryItem(name: Constant.fieldsKey, value: Constant.detailArtworksFieldsValues)]
             }

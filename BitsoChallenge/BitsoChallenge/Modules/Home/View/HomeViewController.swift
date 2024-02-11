@@ -15,6 +15,7 @@ protocol HomeViewProtocols: AnyObject {
     func hideLoadingView()
     func handleErrorViewVisibility(isHidden: Bool)
     func setErrorMessage(error: String)
+    func updateItems(at rows:[Int])
 }
 
 class HomeViewController: UIViewController {
@@ -48,8 +49,6 @@ class HomeViewController: UIViewController {
     
     fileprivate var errorView: UIHostingController<ErrorView>?
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
@@ -150,10 +149,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             homePresenter?.userDidScroll()
         }
     }
-    
-    
 }
-
 
 extension HomeViewController: HomeViewProtocols {
     
@@ -176,9 +172,16 @@ extension HomeViewController: HomeViewProtocols {
             errorView.view.isHidden = isHidden
         }
     }
-
+    
+    func updateItems(at rows:[Int]) {
+        UIView.setAnimationsEnabled(false)
+        collectionView.performBatchUpdates {
+        let indexPaths = rows.map { IndexPath(row: $0, section: 0)}
+            self.collectionView.insertItems(at: indexPaths)
+        }
+        UIView.setAnimationsEnabled(true)
+    }
 }
-
 
 final class ArtworkFlowLayout : UICollectionViewFlowLayout {
     
