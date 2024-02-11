@@ -25,6 +25,7 @@ class HomePresenter: HomePresenterProtocols {
     
     fileprivate enum Constant {
         static let delay: CGFloat = 0.33
+        static let userDefaultsArtworksResponseKey: String = "artworkResponse"
     }
     
     enum ResponseState {
@@ -56,17 +57,18 @@ class HomePresenter: HomePresenterProtocols {
             homeView?.hideLoadingView()
             homeView?.handleErrorViewVisibility(isHidden: true)
             artworkResponse.results.append(contentsOf: response.results)
+            homeView?.reloadCollectionView()
         case .onSucceed:
             auxResponse = response
         case .onError:
             homeView?.hideLoadingView()
             homeView?.handleErrorViewVisibility(isHidden: true)
             artworkResponse.results = response.results
+            homeView?.reloadCollectionView()
         }
         setUserDefaultsResponseIfNeeded(isFirstCall: response.pagination?.currentPage == 1)
         responseState = .onSucceed
         isFetchingData = false
-        homeView?.reloadCollectionView()
         currentPage += 1
     }
     
@@ -128,7 +130,7 @@ extension HomePresenter {
             do {
                 let encoder = JSONEncoder()
                 let data = try encoder.encode(artworkResponse)
-                UserDefaults.standard.set(data, forKey: "artworkResponse")
+                UserDefaults.standard.set(data, forKey: Constant.userDefaultsArtworksResponseKey)
             }
             catch {
                 print(error)
@@ -139,7 +141,7 @@ extension HomePresenter {
     
     private func getDataFromUserDefaults() {
         if responseState == .onEmpty {
-            if let savedModel = UserDefaults.standard.value(forKey: "artworkResponse") as? Data {
+            if let savedModel = UserDefaults.standard.value(forKey: Constant.userDefaultsArtworksResponseKey) as? Data {
                 if let decodedData = try? JSONDecoder().decode(ArtworkListResponse.self, from: savedModel) {
                     artworkResponse = decodedData
                     homeView?.reloadCollectionView()

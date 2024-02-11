@@ -53,84 +53,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "13482BCF-51E9-4161-AF31-F04E2BD16435"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "userDidScroll()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "13482BCF-51E9-4161-AF31-F04E2BD16435 - 946c40a155ea0a33"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "BitsoChallenge.HomePresenter.userDidScroll(page: Swift.Int) -&gt; ()"
-                  moduleName = "BitsoChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
-                  offsetFromSymbolStart = "171">
-               </Location>
-               <Location
-                  uuid = "13482BCF-51E9-4161-AF31-F04E2BD16435 - 946c40a155ea0a12"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "BitsoChallenge.HomePresenter.userDidScroll(page: Swift.Int) -&gt; ()"
-                  moduleName = "BitsoChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "114">
-               </Location>
-               <Location
-                  uuid = "13482BCF-51E9-4161-AF31-F04E2BD16435 - 763e6e129d066dcf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "BitsoChallenge.HomePresenter.userDidScroll() -&gt; ()"
-                  moduleName = "BitsoChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74"
-                  offsetFromSymbolStart = "80">
-               </Location>
-               <Location
-                  uuid = "13482BCF-51E9-4161-AF31-F04E2BD16435 - 763e6e129d066dee"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "BitsoChallenge.HomePresenter.userDidScroll() -&gt; ()"
-                  moduleName = "BitsoChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fedeflores/Documents/BitsoChallenge/BitsoChallenge/BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "75"
-                  endingLineNumber = "75"
-                  offsetFromSymbolStart = "80">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "006925B6-DB8B-40AE-8C79-AC44A234D188"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -227,16 +149,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B219D34E-0F2F-4671-AB0D-819DEB43E0D7"
+            uuid = "53B8C497-A1A3-4E04-88AF-C8B593F7A843"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BitsoChallenge/Provider/NetworkProvider.swift"
+            filePath = "BitsoChallenge/Modules/Home/Presenter/HomePresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "getDecodable(path:query:page:completion:)"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "onFetchPiecesOfArtFail(error:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -13,11 +13,6 @@ struct CacheManager {
     static let shared = CacheManager()
     
     let cache = Cache<NSString, Any>()
-    
-//    enum CacheKeys: String {
-//        case detailArtwork = "detailArtwork"
-//        case detailImage = "detailImage"
-//    }
 }
 
 final class Cache<Key: Hashable, Value> {

@@ -13,7 +13,6 @@ final class HomeViewSnapshotTests: XCTestCase {
     
     var sut: UIViewController?
     
-
     override func setUpWithError() throws {
         sut = HomeModuleBuilderStub.build()
     }
@@ -23,10 +22,8 @@ final class HomeViewSnapshotTests: XCTestCase {
         assertSnapshot(of: sut, as: .image)
     }
     
-
     override func tearDownWithError() throws {
         sut = nil
     }
 
-    
 }
