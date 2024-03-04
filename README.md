@@ -1,4 +1,6 @@
-# MuseumArtworks
+# MuseumArtworks - Art institute of Chicago API
+
+## Api info data can be found on: https://api.artic.edu/docs/
 
 ## Architecture
 The App has UIKit and SwiftUI frameworks coexisting.
