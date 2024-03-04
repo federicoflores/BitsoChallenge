@@ -11,8 +11,8 @@
 		8081E6892B71A9EA00767EB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6882B71A9EA00767EB5 /* SceneDelegate.swift */; };
 		8081E6902B71A9EE00767EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8081E68F2B71A9EE00767EB5 /* Assets.xcassets */; };
 		8081E6932B71A9EE00767EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8081E6912B71A9EE00767EB5 /* LaunchScreen.storyboard */; };
-		8081E6A82B71A9EF00767EB5 /* BitsoChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6A72B71A9EF00767EB5 /* BitsoChallengeUITests.swift */; };
-		8081E6AA2B71A9EF00767EB5 /* BitsoChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6A92B71A9EF00767EB5 /* BitsoChallengeUITestsLaunchTests.swift */; };
+		8081E6A82B71A9EF00767EB5 /* MuseumArtworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6A72B71A9EF00767EB5 /* MuseumArtworksUITests.swift */; };
+		8081E6AA2B71A9EF00767EB5 /* MuseumArtworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6A92B71A9EF00767EB5 /* MuseumArtworksUITestsLaunchTests.swift */; };
 		8081E6C12B71AAB300767EB5 /* HomeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6C02B71AAB300767EB5 /* HomeModuleBuilder.swift */; };
 		8081E6C32B71AAD000767EB5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6C22B71AAD000767EB5 /* HomeViewController.swift */; };
 		8081E6C52B71AADE00767EB5 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081E6C42B71AADE00767EB5 /* HomePresenter.swift */; };
@@ -81,8 +81,8 @@
 		8081E6942B71A9EE00767EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8081E6992B71A9EF00767EB5 /* MuseumArtworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumArtworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8081E6A32B71A9EF00767EB5 /* MuseumArtworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumArtworksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8081E6A72B71A9EF00767EB5 /* BitsoChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoChallengeUITests.swift; sourceTree = "<group>"; };
-		8081E6A92B71A9EF00767EB5 /* BitsoChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8081E6A72B71A9EF00767EB5 /* MuseumArtworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumArtworksUITests.swift; sourceTree = "<group>"; };
+		8081E6A92B71A9EF00767EB5 /* MuseumArtworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumArtworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8081E6C02B71AAB300767EB5 /* HomeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleBuilder.swift; sourceTree = "<group>"; };
 		8081E6C22B71AAD000767EB5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8081E6C42B71AADE00767EB5 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
@@ -154,8 +154,8 @@
 			children = (
 				80EAB3912B7592AB0064C11F /* Secrets.xcconfig */,
 				8081E6852B71A9EA00767EB5 /* MuseumArtworks */,
-				8081E69C2B71A9EF00767EB5 /* BitsoChallengeTests */,
-				8081E6A62B71A9EF00767EB5 /* BitsoChallengeUITests */,
+				8081E69C2B71A9EF00767EB5 /* MuseumArtworksTests */,
+				8081E6A62B71A9EF00767EB5 /* MuseumArtworksUITests */,
 				8081E6842B71A9EA00767EB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -185,22 +185,22 @@
 			path = MuseumArtworks;
 			sourceTree = "<group>";
 		};
-		8081E69C2B71A9EF00767EB5 /* BitsoChallengeTests */ = {
+		8081E69C2B71A9EF00767EB5 /* MuseumArtworksTests */ = {
 			isa = PBXGroup;
 			children = (
 				80C93E2A2B77E84500DDE120 /* Tests */,
 				80C93E1E2B77D4F800DDE120 /* Mocks */,
 			);
-			path = BitsoChallengeTests;
+			path = MuseumArtworksTests;
 			sourceTree = "<group>";
 		};
-		8081E6A62B71A9EF00767EB5 /* BitsoChallengeUITests */ = {
+		8081E6A62B71A9EF00767EB5 /* MuseumArtworksUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8081E6A72B71A9EF00767EB5 /* BitsoChallengeUITests.swift */,
-				8081E6A92B71A9EF00767EB5 /* BitsoChallengeUITestsLaunchTests.swift */,
+				8081E6A72B71A9EF00767EB5 /* MuseumArtworksUITests.swift */,
+				8081E6A92B71A9EF00767EB5 /* MuseumArtworksUITestsLaunchTests.swift */,
 			);
-			path = BitsoChallengeUITests;
+			path = MuseumArtworksUITests;
 			sourceTree = "<group>";
 		};
 		8081E6B62B71AA6000767EB5 /* Modules */ = {
@@ -641,8 +641,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8081E6AA2B71A9EF00767EB5 /* BitsoChallengeUITestsLaunchTests.swift in Sources */,
-				8081E6A82B71A9EF00767EB5 /* BitsoChallengeUITests.swift in Sources */,
+				8081E6AA2B71A9EF00767EB5 /* MuseumArtworksUITestsLaunchTests.swift in Sources */,
+				8081E6A82B71A9EF00767EB5 /* MuseumArtworksUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
