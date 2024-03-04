@@ -1,18 +1,17 @@
 //
-//  HomeModuleBuilderStub.swift
-//  MuseumArtworksTests
+//  HomeModuleBuilder.swift
+//  MuseumArtworks
 //
-//  Created by Fede Flores on 11/02/2024.
+//  Created by Fede Flores on 06/02/2024.
 //
 
 import UIKit
-@testable import MuseumArtworks
 
-class HomeModuleBuilderStub {
+class HomeModuleBuilder {
     static func build() -> UIViewController {
         let view: HomeViewController = HomeViewController()
         let presenter: HomePresenter = HomePresenter()
-        let interactor: HomeInteractor = HomeInteractor(provider: NetworkProviderStub())
+        let interactor: HomeInteractor = HomeInteractor(provider: NetworkProvider())
         let router: HomeRouter = HomeRouter()
         
         view.homePresenter = presenter
@@ -28,4 +27,3 @@ class HomeModuleBuilderStub {
         return view
     }
 }
-

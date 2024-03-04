@@ -1,17 +1,17 @@
 //
 //  HomeRouterMocks.swift
-//  BitsoChallengeTests
+//  MuseumArtworksTests
 //
 //  Created by Fede Flores on 10/02/2024.
 //
 
 import Foundation
-@testable import BitsoChallenge
+@testable import MuseumArtworks
 
 class HomeRouterMocks: HomeRouterProtocols {
     var numberOfTimesGoToDetailCalled = 0
     
-    func goToDetail(networkProvider: BitsoChallenge.NetworkProviderProtocol, id: Int) {
+    func goToDetail(networkProvider: MuseumArtworks.NetworkProviderProtocol, id: Int) {
         numberOfTimesGoToDetailCalled += 1
     }
     

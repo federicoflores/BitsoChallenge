@@ -1,12 +1,12 @@
 //
 //  JSONLoader.swift
-//  BitsoChallengeTests
+//  MuseumArtworksTests
 //
 //  Created by Fede Flores on 10/02/2024.
 //
 
 import Foundation
-@testable import BitsoChallenge
+@testable import MuseumArtworks
 
 class JSONLoader {
     

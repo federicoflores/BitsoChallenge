@@ -1,13 +1,13 @@
 //
-//  BitsoChallengeUITests.swift
-//  BitsoChallengeUITests
+//  MuseumArtworksUITests.swift
+//  MuseumArtworksUITests
 //
 //  Created by Fede Flores on 06/02/2024.
 //
 
 import XCTest
 
-final class BitsoChallengeUITests: XCTestCase {
+final class MuseumArtworksUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

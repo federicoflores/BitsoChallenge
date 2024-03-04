@@ -1,12 +1,12 @@
 //
 //  HomePresenterMocks.swift
-//  BitsoChallengeTests
+//  MuseumArtworksTests
 //
 //  Created by Fede Flores on 10/02/2024.
 //
 
 import Foundation
-@testable import BitsoChallenge
+@testable import MuseumArtworks
 
 class HomePresenterMocks: HomePresenterProtocols {
     
@@ -18,9 +18,9 @@ class HomePresenterMocks: HomePresenterProtocols {
     
     
     var isFetchingData: Bool = false
-    var responseState: BitsoChallenge.HomePresenter.ResponseState = .onEmpty
+    var responseState: MuseumArtworks.HomePresenter.ResponseState = .onEmpty
     
-    var artworkResponse: BitsoChallenge.ArtworkListResponse = JSONLoader().artworkListResponse() ?? ArtworkListResponse(results: [])
+    var artworkResponse: MuseumArtworks.ArtworkListResponse = JSONLoader().artworkListResponse() ?? ArtworkListResponse(results: [])
     
     func fetchArtworks() {
         numberOfTimesFetchArtworksCalled += 1

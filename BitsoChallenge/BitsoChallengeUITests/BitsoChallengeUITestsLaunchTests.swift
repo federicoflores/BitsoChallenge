@@ -1,13 +1,13 @@
 //
-//  BitsoChallengeUITestsLaunchTests.swift
-//  BitsoChallengeUITests
+//  MuseumArtworksUITestsLaunchTests.swift
+//  MuseumArtworks
 //
 //  Created by Fede Flores on 06/02/2024.
 //
 
 import XCTest
 
-final class BitsoChallengeUITestsLaunchTests: XCTestCase {
+final class MuseumArtworksUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,12 +1,12 @@
 //
 //  HomeViewSnapshotTests.swift
-//  BitsoChallengeTests
+//  MuseumArtworks
 //
 //  Created by Fede Flores on 11/02/2024.
 //
 
 import XCTest
-@testable import BitsoChallenge
+@testable import MuseumArtworks
 import SnapshotTesting
 
 final class HomeViewSnapshotTests: XCTestCase {

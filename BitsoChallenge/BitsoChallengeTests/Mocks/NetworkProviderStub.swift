@@ -1,16 +1,16 @@
 //
 //  BaseProviderMock.swift
-//  BitsoChallengeTests
+//  MuseumArtworksTests
 //
 //  Created by Fede Flores on 10/02/2024.
 //
 
 import Foundation
-@testable import BitsoChallenge
+@testable import MuseumArtworks
 
 class NetworkProviderStub: NetworkProviderProtocol {
     
-    func getDecodable<T>(path: BitsoChallenge.NetworkProvider.Path, query: BitsoChallenge.NetworkProvider.QueryFields, page: Int?, completion: @escaping (Result<T, Error>) -> Void) where T : Decodable {
+    func getDecodable<T>(path: MuseumArtworks.NetworkProvider.Path, query: MuseumArtworks.NetworkProvider.QueryFields, page: Int?, completion: @escaping (Result<T, Error>) -> Void) where T : Decodable {
         
         var model: Decodable?
         
@@ -33,7 +33,7 @@ class NetworkProviderStub: NetworkProviderProtocol {
         }
     }
     
-    func getData(path: BitsoChallenge.NetworkProvider.Path, completion: @escaping (Result<Data, Error>) -> Void) {}
+    func getData(path: MuseumArtworks.NetworkProvider.Path, completion: @escaping (Result<Data, Error>) -> Void) {}
     
 }
 

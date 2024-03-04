@@ -1,12 +1,12 @@
 //
 //  HomePresenterTests.swift
-//  BitsoChallengeTests
+//  MuseumArtworks
 //
 //  Created by Fede Flores on 10/02/2024.
 //
 
 import XCTest
-@testable import BitsoChallenge
+@testable import MuseumArtworks
 
 final class HomePresenterTests: XCTestCase {
     

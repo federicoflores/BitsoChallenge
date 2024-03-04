@@ -1,4 +1,4 @@
-# BitsoChallenge
+# MuseumArtworks
 
 ## Architecture
 The App has UIKit and SwiftUI frameworks coexisting.
