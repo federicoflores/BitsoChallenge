@@ -13,6 +13,9 @@ All UI is done programatically in both UIKit and SwiftUI. CollectionView layout 
 
 ## Network request:
 Combine was used for Network Api calls. This was chosen as combine reactive approach works very well along with SwiftUI and UIKIT.
+Endoiubts used:
+- List: https://api.artic.edu/api/v1/artworks
+- Detail: https://api.artic.edu/api/v1/artists/\(artistId)
 
 ## Caching:
 NSCache was used for caching the responses on memory. This helps the app performance to avoid unnecesary requests and give the user a best experience avoiding delays.
